@@ -1,0 +1,450 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: anger_lab_c
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/liuanglin/Projects/anger-lab-c -B/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/liuanglin/Projects/anger-lab-c/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target dweight
+
+
+#############################################
+# Order-only phony target for dweight
+
+build cmake_object_order_depends_target_dweight: phony || base/c-programming/ch02-language-foundation/CMakeFiles/dweight.dir
+
+build base/c-programming/ch02-language-foundation/CMakeFiles/dweight.dir/dweight.c.o: C_COMPILER__dweight_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch02-language-foundation/dweight.c || cmake_object_order_depends_target_dweight
+  DEP_FILE = base/c-programming/ch02-language-foundation/CMakeFiles/dweight.dir/dweight.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch02-language-foundation/CMakeFiles/dweight.dir
+  OBJECT_FILE_DIR = base/c-programming/ch02-language-foundation/CMakeFiles/dweight.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target dweight
+
+
+#############################################
+# Link the executable base/c-programming/ch02-language-foundation/dweight
+
+build base/c-programming/ch02-language-foundation/dweight: C_EXECUTABLE_LINKER__dweight_Debug base/c-programming/ch02-language-foundation/CMakeFiles/dweight.dir/dweight.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch02-language-foundation/CMakeFiles/dweight.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch02-language-foundation/dweight
+  TARGET_PDB = dweight.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target celsius
+
+
+#############################################
+# Order-only phony target for celsius
+
+build cmake_object_order_depends_target_celsius: phony || base/c-programming/ch02-language-foundation/CMakeFiles/celsius.dir
+
+build base/c-programming/ch02-language-foundation/CMakeFiles/celsius.dir/celsius.c.o: C_COMPILER__celsius_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch02-language-foundation/celsius.c || cmake_object_order_depends_target_celsius
+  DEP_FILE = base/c-programming/ch02-language-foundation/CMakeFiles/celsius.dir/celsius.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch02-language-foundation/CMakeFiles/celsius.dir
+  OBJECT_FILE_DIR = base/c-programming/ch02-language-foundation/CMakeFiles/celsius.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target celsius
+
+
+#############################################
+# Link the executable base/c-programming/ch02-language-foundation/celsius
+
+build base/c-programming/ch02-language-foundation/celsius: C_EXECUTABLE_LINKER__celsius_Debug base/c-programming/ch02-language-foundation/CMakeFiles/celsius.dir/celsius.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch02-language-foundation/CMakeFiles/celsius.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch02-language-foundation/celsius
+  TARGET_PDB = celsius.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build base/c-programming/ch02-language-foundation/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch02-language-foundation && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build base/c-programming/ch02-language-foundation/edit_cache: phony base/c-programming/ch02-language-foundation/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build base/c-programming/ch02-language-foundation/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch02-language-foundation && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/liuanglin/Projects/anger-lab-c -B/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build base/c-programming/ch02-language-foundation/rebuild_cache: phony base/c-programming/ch02-language-foundation/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch02-language-foundation/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target draw_hook
+
+
+#############################################
+# Order-only phony target for draw_hook
+
+build cmake_object_order_depends_target_draw_hook: phony || base/c-programming/ch02-language-foundation/exercise/CMakeFiles/draw_hook.dir
+
+build base/c-programming/ch02-language-foundation/exercise/CMakeFiles/draw_hook.dir/draw_hook.c.o: C_COMPILER__draw_hook_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch02-language-foundation/exercise/draw_hook.c || cmake_object_order_depends_target_draw_hook
+  DEP_FILE = base/c-programming/ch02-language-foundation/exercise/CMakeFiles/draw_hook.dir/draw_hook.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch02-language-foundation/exercise/CMakeFiles/draw_hook.dir
+  OBJECT_FILE_DIR = base/c-programming/ch02-language-foundation/exercise/CMakeFiles/draw_hook.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target draw_hook
+
+
+#############################################
+# Link the executable base/c-programming/ch02-language-foundation/exercise/draw_hook
+
+build base/c-programming/ch02-language-foundation/exercise/draw_hook: C_EXECUTABLE_LINKER__draw_hook_Debug base/c-programming/ch02-language-foundation/exercise/CMakeFiles/draw_hook.dir/draw_hook.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch02-language-foundation/exercise/CMakeFiles/draw_hook.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch02-language-foundation/exercise/draw_hook
+  TARGET_PDB = draw_hook.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target cal_sphere_volume
+
+
+#############################################
+# Order-only phony target for cal_sphere_volume
+
+build cmake_object_order_depends_target_cal_sphere_volume: phony || base/c-programming/ch02-language-foundation/exercise/CMakeFiles/cal_sphere_volume.dir
+
+build base/c-programming/ch02-language-foundation/exercise/CMakeFiles/cal_sphere_volume.dir/cal_sphere_volume.c.o: C_COMPILER__cal_sphere_volume_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch02-language-foundation/exercise/cal_sphere_volume.c || cmake_object_order_depends_target_cal_sphere_volume
+  DEP_FILE = base/c-programming/ch02-language-foundation/exercise/CMakeFiles/cal_sphere_volume.dir/cal_sphere_volume.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch02-language-foundation/exercise/CMakeFiles/cal_sphere_volume.dir
+  OBJECT_FILE_DIR = base/c-programming/ch02-language-foundation/exercise/CMakeFiles/cal_sphere_volume.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target cal_sphere_volume
+
+
+#############################################
+# Link the executable base/c-programming/ch02-language-foundation/exercise/cal_sphere_volume
+
+build base/c-programming/ch02-language-foundation/exercise/cal_sphere_volume: C_EXECUTABLE_LINKER__cal_sphere_volume_Debug base/c-programming/ch02-language-foundation/exercise/CMakeFiles/cal_sphere_volume.dir/cal_sphere_volume.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch02-language-foundation/exercise/CMakeFiles/cal_sphere_volume.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch02-language-foundation/exercise/cal_sphere_volume
+  TARGET_PDB = cal_sphere_volume.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target price_include_tax
+
+
+#############################################
+# Order-only phony target for price_include_tax
+
+build cmake_object_order_depends_target_price_include_tax: phony || base/c-programming/ch02-language-foundation/exercise/CMakeFiles/price_include_tax.dir
+
+build base/c-programming/ch02-language-foundation/exercise/CMakeFiles/price_include_tax.dir/price_include_tax.c.o: C_COMPILER__price_include_tax_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch02-language-foundation/exercise/price_include_tax.c || cmake_object_order_depends_target_price_include_tax
+  DEP_FILE = base/c-programming/ch02-language-foundation/exercise/CMakeFiles/price_include_tax.dir/price_include_tax.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch02-language-foundation/exercise/CMakeFiles/price_include_tax.dir
+  OBJECT_FILE_DIR = base/c-programming/ch02-language-foundation/exercise/CMakeFiles/price_include_tax.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target price_include_tax
+
+
+#############################################
+# Link the executable base/c-programming/ch02-language-foundation/exercise/price_include_tax
+
+build base/c-programming/ch02-language-foundation/exercise/price_include_tax: C_EXECUTABLE_LINKER__price_include_tax_Debug base/c-programming/ch02-language-foundation/exercise/CMakeFiles/price_include_tax.dir/price_include_tax.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch02-language-foundation/exercise/CMakeFiles/price_include_tax.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch02-language-foundation/exercise/price_include_tax
+  TARGET_PDB = price_include_tax.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target multinomial
+
+
+#############################################
+# Order-only phony target for multinomial
+
+build cmake_object_order_depends_target_multinomial: phony || base/c-programming/ch02-language-foundation/exercise/CMakeFiles/multinomial.dir
+
+build base/c-programming/ch02-language-foundation/exercise/CMakeFiles/multinomial.dir/multinomial.c.o: C_COMPILER__multinomial_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch02-language-foundation/exercise/multinomial.c || cmake_object_order_depends_target_multinomial
+  DEP_FILE = base/c-programming/ch02-language-foundation/exercise/CMakeFiles/multinomial.dir/multinomial.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch02-language-foundation/exercise/CMakeFiles/multinomial.dir
+  OBJECT_FILE_DIR = base/c-programming/ch02-language-foundation/exercise/CMakeFiles/multinomial.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target multinomial
+
+
+#############################################
+# Link the executable base/c-programming/ch02-language-foundation/exercise/multinomial
+
+build base/c-programming/ch02-language-foundation/exercise/multinomial: C_EXECUTABLE_LINKER__multinomial_Debug base/c-programming/ch02-language-foundation/exercise/CMakeFiles/multinomial.dir/multinomial.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch02-language-foundation/exercise/CMakeFiles/multinomial.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch02-language-foundation/exercise/multinomial
+  TARGET_PDB = multinomial.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target minimum_note
+
+
+#############################################
+# Order-only phony target for minimum_note
+
+build cmake_object_order_depends_target_minimum_note: phony || base/c-programming/ch02-language-foundation/exercise/CMakeFiles/minimum_note.dir
+
+build base/c-programming/ch02-language-foundation/exercise/CMakeFiles/minimum_note.dir/minimum_note.c.o: C_COMPILER__minimum_note_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch02-language-foundation/exercise/minimum_note.c || cmake_object_order_depends_target_minimum_note
+  DEP_FILE = base/c-programming/ch02-language-foundation/exercise/CMakeFiles/minimum_note.dir/minimum_note.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch02-language-foundation/exercise/CMakeFiles/minimum_note.dir
+  OBJECT_FILE_DIR = base/c-programming/ch02-language-foundation/exercise/CMakeFiles/minimum_note.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target minimum_note
+
+
+#############################################
+# Link the executable base/c-programming/ch02-language-foundation/exercise/minimum_note
+
+build base/c-programming/ch02-language-foundation/exercise/minimum_note: C_EXECUTABLE_LINKER__minimum_note_Debug base/c-programming/ch02-language-foundation/exercise/CMakeFiles/minimum_note.dir/minimum_note.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch02-language-foundation/exercise/CMakeFiles/minimum_note.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch02-language-foundation/exercise/minimum_note
+  TARGET_PDB = minimum_note.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target loan_calculator
+
+
+#############################################
+# Order-only phony target for loan_calculator
+
+build cmake_object_order_depends_target_loan_calculator: phony || base/c-programming/ch02-language-foundation/exercise/CMakeFiles/loan_calculator.dir
+
+build base/c-programming/ch02-language-foundation/exercise/CMakeFiles/loan_calculator.dir/loan_calculator.c.o: C_COMPILER__loan_calculator_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch02-language-foundation/exercise/loan_calculator.c || cmake_object_order_depends_target_loan_calculator
+  DEP_FILE = base/c-programming/ch02-language-foundation/exercise/CMakeFiles/loan_calculator.dir/loan_calculator.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch02-language-foundation/exercise/CMakeFiles/loan_calculator.dir
+  OBJECT_FILE_DIR = base/c-programming/ch02-language-foundation/exercise/CMakeFiles/loan_calculator.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target loan_calculator
+
+
+#############################################
+# Link the executable base/c-programming/ch02-language-foundation/exercise/loan_calculator
+
+build base/c-programming/ch02-language-foundation/exercise/loan_calculator: C_EXECUTABLE_LINKER__loan_calculator_Debug base/c-programming/ch02-language-foundation/exercise/CMakeFiles/loan_calculator.dir/loan_calculator.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch02-language-foundation/exercise/CMakeFiles/loan_calculator.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch02-language-foundation/exercise/loan_calculator
+  TARGET_PDB = loan_calculator.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build base/c-programming/ch02-language-foundation/exercise/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch02-language-foundation/exercise && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build base/c-programming/ch02-language-foundation/exercise/edit_cache: phony base/c-programming/ch02-language-foundation/exercise/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build base/c-programming/ch02-language-foundation/exercise/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch02-language-foundation/exercise && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/liuanglin/Projects/anger-lab-c -B/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build base/c-programming/ch02-language-foundation/exercise/rebuild_cache: phony base/c-programming/ch02-language-foundation/exercise/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+build cal_sphere_volume: phony base/c-programming/ch02-language-foundation/exercise/cal_sphere_volume
+
+build celsius: phony base/c-programming/ch02-language-foundation/celsius
+
+build draw_hook: phony base/c-programming/ch02-language-foundation/exercise/draw_hook
+
+build dweight: phony base/c-programming/ch02-language-foundation/dweight
+
+build loan_calculator: phony base/c-programming/ch02-language-foundation/exercise/loan_calculator
+
+build minimum_note: phony base/c-programming/ch02-language-foundation/exercise/minimum_note
+
+build multinomial: phony base/c-programming/ch02-language-foundation/exercise/multinomial
+
+build price_include_tax: phony base/c-programming/ch02-language-foundation/exercise/price_include_tax
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug
+
+build all: phony base/c-programming/ch02-language-foundation/all
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch02-language-foundation
+
+build base/c-programming/ch02-language-foundation/all: phony base/c-programming/ch02-language-foundation/dweight base/c-programming/ch02-language-foundation/celsius base/c-programming/ch02-language-foundation/exercise/all
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch02-language-foundation/exercise
+
+build base/c-programming/ch02-language-foundation/exercise/all: phony base/c-programming/ch02-language-foundation/exercise/draw_hook base/c-programming/ch02-language-foundation/exercise/cal_sphere_volume base/c-programming/ch02-language-foundation/exercise/price_include_tax base/c-programming/ch02-language-foundation/exercise/multinomial base/c-programming/ch02-language-foundation/exercise/minimum_note base/c-programming/ch02-language-foundation/exercise/loan_calculator
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../base/c-programming/ch02-language-foundation/CMakeLists.txt ../base/c-programming/ch02-language-foundation/exercise/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build ../CMakeLists.txt ../base/c-programming/ch02-language-foundation/CMakeLists.txt ../base/c-programming/ch02-language-foundation/exercise/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

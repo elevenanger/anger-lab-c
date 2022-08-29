@@ -1,0 +1,6 @@
+add_executable(draw_hook draw_hook.c)
+add_executable(cal_sphere_volume cal_sphere_volume.c)
+add_executable(price_include_tax price_include_tax.c)
+add_executable(multinomial multinomial.c)
+add_executable(minimum_note minimum_note.c)
+add_executable(loan_calculator loan_calculator.c)

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "base/c-programming/ch02-language-foundation",
+		"source" : "base/c-programming/ch02-language-foundation"
+	}
+}

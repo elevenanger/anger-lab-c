@@ -1,0 +1,14 @@
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch02-language-foundation/CMakeFiles/dweight.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch02-language-foundation/CMakeFiles/celsius.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch02-language-foundation/CMakeFiles/edit_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch02-language-foundation/CMakeFiles/rebuild_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch02-language-foundation/exercise/CMakeFiles/draw_hook.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch02-language-foundation/exercise/CMakeFiles/cal_sphere_volume.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch02-language-foundation/exercise/CMakeFiles/price_include_tax.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch02-language-foundation/exercise/CMakeFiles/multinomial.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch02-language-foundation/exercise/CMakeFiles/minimum_note.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch02-language-foundation/exercise/CMakeFiles/loan_calculator.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch02-language-foundation/exercise/CMakeFiles/edit_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch02-language-foundation/exercise/CMakeFiles/rebuild_cache.dir
