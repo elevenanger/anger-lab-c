@@ -6,4 +6,4 @@ set(CMAKE_C_STANDARD 11)
 include_directories(.)
 include_directories(base)
 
-ADD_SUBDIRECTORY(base/c-programming/ch02-language-foundation)
+ADD_SUBDIRECTORY(base)

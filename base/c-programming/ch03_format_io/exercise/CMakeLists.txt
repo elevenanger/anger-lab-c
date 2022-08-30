@@ -1,0 +1,6 @@
+add_executable(float_format float_format.c)
+add_executable(format_date format_date.c)
+add_executable(format_product_info format_product_info.c)
+add_executable(analysis_isbn analysis_isbn.c)
+add_executable(analysis_phone_number analysis_phone_number.c)
+add_executable(cube_number_summation cube_number_summation.c)
