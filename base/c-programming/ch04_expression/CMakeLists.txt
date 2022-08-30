@@ -1,2 +1,4 @@
+ADD_SUBDIRECTORY(exercise)
+
 add_executable(arithmatic_operator arithmatic_operator.c)
 add_executable(assignment_operator assignment_operator.c)

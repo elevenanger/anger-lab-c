@@ -1,0 +1,3 @@
+add_executable(reverse_number reverse_number.c)
+add_executable(octonary_number octonary_number.c)
+add_executable(ean_check_digit ean_check_digit.c)
