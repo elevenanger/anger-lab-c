@@ -1,0 +1,1 @@
+add_executable(selection_statement selection_statement.c)
