@@ -113,6 +113,13 @@ void if_statement() {
  */
 void conditional_operator() {
     printf("i == 0 ? i + 10 : i * 10  -> %d\n", i == 0 ? i + 10 : i * 10);
+    /*
+     * 如果条件表达式中 int 和 float 型混合在一起时
+     * 表达式的类型是 float 型
+     * 如果 1 != 0 为真
+     * 那么变量 i 转换为 float 型后的值就是表达式的值
+     */
+    printf("i != 0 ? i : f -> %.2f\n", i != 0 ? i : f);
 }
 
 /**
@@ -132,6 +139,96 @@ void bool_value() {
     printf("bool_flag is : %d\n", bool_flag);
 }
 
+/**
+ * switch 语句
+ * switch (控制表达式) {
+ *    case 常量表达式: 语句;
+ *    default : 语句;
+ * }
+ * switch 后面必须跟着圆括号括起来的整型控制表达式
+ * c 语言把字符当做整型来处理
+ * 所以 switch 语句可以对字符进行判定
+ * 但是不能对浮点数和字符串进行判定
+ * 常量表达式很像普通的表达式
+ * 只是不能包含变量和函数调用
+ * 常量表达式的值必须是整数
+ * 每个分支标号后面都可以跟任意数量的语句
+ * 不需要使用花括号括起来
+ * 没组语句最后一般是 break 语句
+ * c 语言不允许有重复的分支标号
+ * 但是对于分支顺序没有要求
+ * default 不一样要放在最后
+ * switch 语句是基于计算的跳转
+ * 对控制表达式求值时
+ * 控制会跳转到与 switch 语句表达式相匹配的分支处
+ * 在执行完分支标号的最后一条语句之后
+ * 程序控制向下跳转到下一个分支标号
+ * 如果没有 break 语句
+ * 控制将会从一个分支继续到下一个分支
+ */
+void switch_statement(int ops) {
+    switch (ops) {
+        case 1:
+            puts("one");
+        case 2:
+            puts("two");
+        case 3:
+            puts("three");
+            break;
+        default:
+            puts("everything!");
+    }
+}
+
+void legal_date_format() {
+    int year, month, day;
+
+    puts("Enter Date (mm/dd/yyyy) : ");
+    scanf("%2d%2d%4d", &month, &day, &year);
+
+    printf("Dated this : %d", day);
+
+    switch (day) {
+        case 1:
+        case 11:
+        case 21:
+        case 31:
+            printf("st");
+            break;
+        case 2:
+        case 12:
+        case 22:
+            printf("nd");
+            break;
+        case 3:
+        case 13:
+        case 23:
+            printf("rd");
+            break;
+        default:
+            printf("th");
+    }
+
+    printf(" day of ");
+    switch (month) {
+        case 1: printf("Jan"); break;
+        case 2: printf("Feb"); break;
+        case 3: printf("Mar"); break;
+        case 4: printf("Apr"); break;
+        case 5: printf("May"); break;
+        case 6: printf("Jun"); break;
+        case 7: printf("Jul"); break;
+        case 8: printf("Aug"); break;
+        case 9: printf("Sep"); break;
+        case 10: printf("Oct"); break;
+        case 11: printf("Nov"); break;
+        case 12: printf("Dec"); break;
+        default: printf("Error !");
+    }
+
+    printf(", %d", year);
+}
+
 int main(void) {
     printf("i = %d, j = %d, f = %.2f\n", i, j, f);
 
@@ -146,6 +243,10 @@ int main(void) {
     conditional_operator();
 
     bool_value();
+
+    switch_statement(1);
+
+    legal_date_format();
 
     return 0;
 }

@@ -1,0 +1,5 @@
+add_executable(output_number_digits output_number_digits.c)
+add_executable(twelve_hour_clock twelve_hour_clock.c)
+add_executable(find_the_minium_number find_the_minium_number.c)
+add_executable(early_date early_date.c)
+add_executable(score_to_grade score_to_grade.c)
