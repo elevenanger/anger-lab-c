@@ -15,10 +15,10 @@ int main(void) {
     puts("Enter score : ");
     scanf("%d", &score);
 
-    ten_digit = score / 10;
-
     if (score < 0 || score > 100)
         return 1;
+
+    ten_digit = score / 10;
 
     printf("Letter grade : ");
 

@@ -47,3 +47,16 @@
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch05_select_statement/exercise/CMakeFiles/score_to_grade.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch05_select_statement/exercise/CMakeFiles/edit_cache.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch05_select_statement/exercise/CMakeFiles/rebuild_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch06_loop/CMakeFiles/loop_base.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch06_loop/CMakeFiles/edit_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch06_loop/CMakeFiles/rebuild_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch06_loop/exercise/CMakeFiles/exercise_1_find_the_largest_number.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch06_loop/exercise/CMakeFiles/exercise_2_greatest_common_divisor.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch06_loop/exercise/CMakeFiles/exercise_3_lowest_terms.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch06_loop/exercise/CMakeFiles/exercise_5_reverse_number.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch06_loop/exercise/CMakeFiles/exercise_6_even_square.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch06_loop/exercise/CMakeFiles/exercise_8_month_calendar.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch06_loop/exercise/CMakeFiles/exercise_10_earliest_date.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch06_loop/exercise/CMakeFiles/exercise_11_eval.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch06_loop/exercise/CMakeFiles/edit_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch06_loop/exercise/CMakeFiles/rebuild_cache.dir
