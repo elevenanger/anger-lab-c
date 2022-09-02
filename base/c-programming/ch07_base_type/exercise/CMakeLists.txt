@@ -1,0 +1,3 @@
+add_executable(exercise_1_square exercise_1_square.c)
+add_executable(exercise_3_sum2 exercise_3_sum2.c)
+add_executable(exercise_4_transfer_phone_number exercise_4_transfer_phone_number.c)
