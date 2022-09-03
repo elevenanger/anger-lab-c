@@ -1876,6 +1876,294 @@ build base/c-programming/ch07_base_type/exercise/exercise_4_transfer_phone_numbe
   TARGET_FILE = base/c-programming/ch07_base_type/exercise/exercise_4_transfer_phone_number
   TARGET_PDB = exercise_4_transfer_phone_number.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_5_crosswords_puzzle
+
+
+#############################################
+# Order-only phony target for exercise_5_crosswords_puzzle
+
+build cmake_object_order_depends_target_exercise_5_crosswords_puzzle: phony || base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_5_crosswords_puzzle.dir
+
+build base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_5_crosswords_puzzle.dir/exercise_5_crosswords_puzzle.c.o: C_COMPILER__exercise_5_crosswords_puzzle_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch07_base_type/exercise/exercise_5_crosswords_puzzle.c || cmake_object_order_depends_target_exercise_5_crosswords_puzzle
+  DEP_FILE = base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_5_crosswords_puzzle.dir/exercise_5_crosswords_puzzle.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_5_crosswords_puzzle.dir
+  OBJECT_FILE_DIR = base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_5_crosswords_puzzle.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_5_crosswords_puzzle
+
+
+#############################################
+# Link the executable base/c-programming/ch07_base_type/exercise/exercise_5_crosswords_puzzle
+
+build base/c-programming/ch07_base_type/exercise/exercise_5_crosswords_puzzle: C_EXECUTABLE_LINKER__exercise_5_crosswords_puzzle_Debug base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_5_crosswords_puzzle.dir/exercise_5_crosswords_puzzle.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_5_crosswords_puzzle.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch07_base_type/exercise/exercise_5_crosswords_puzzle
+  TARGET_PDB = exercise_5_crosswords_puzzle.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_6_sizeof_base_type
+
+
+#############################################
+# Order-only phony target for exercise_6_sizeof_base_type
+
+build cmake_object_order_depends_target_exercise_6_sizeof_base_type: phony || base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_6_sizeof_base_type.dir
+
+build base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_6_sizeof_base_type.dir/exercise_6_sizeof_base_type.c.o: C_COMPILER__exercise_6_sizeof_base_type_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch07_base_type/exercise/exercise_6_sizeof_base_type.c || cmake_object_order_depends_target_exercise_6_sizeof_base_type
+  DEP_FILE = base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_6_sizeof_base_type.dir/exercise_6_sizeof_base_type.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_6_sizeof_base_type.dir
+  OBJECT_FILE_DIR = base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_6_sizeof_base_type.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_6_sizeof_base_type
+
+
+#############################################
+# Link the executable base/c-programming/ch07_base_type/exercise/exercise_6_sizeof_base_type
+
+build base/c-programming/ch07_base_type/exercise/exercise_6_sizeof_base_type: C_EXECUTABLE_LINKER__exercise_6_sizeof_base_type_Debug base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_6_sizeof_base_type.dir/exercise_6_sizeof_base_type.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_6_sizeof_base_type.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch07_base_type/exercise/exercise_6_sizeof_base_type
+  TARGET_PDB = exercise_6_sizeof_base_type.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_8_twelve_clock
+
+
+#############################################
+# Order-only phony target for exercise_8_twelve_clock
+
+build cmake_object_order_depends_target_exercise_8_twelve_clock: phony || base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_8_twelve_clock.dir
+
+build base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_8_twelve_clock.dir/exercise_8_twelve_clock.c.o: C_COMPILER__exercise_8_twelve_clock_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch07_base_type/exercise/exercise_8_twelve_clock.c || cmake_object_order_depends_target_exercise_8_twelve_clock
+  DEP_FILE = base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_8_twelve_clock.dir/exercise_8_twelve_clock.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_8_twelve_clock.dir
+  OBJECT_FILE_DIR = base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_8_twelve_clock.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_8_twelve_clock
+
+
+#############################################
+# Link the executable base/c-programming/ch07_base_type/exercise/exercise_8_twelve_clock
+
+build base/c-programming/ch07_base_type/exercise/exercise_8_twelve_clock: C_EXECUTABLE_LINKER__exercise_8_twelve_clock_Debug base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_8_twelve_clock.dir/exercise_8_twelve_clock.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_8_twelve_clock.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch07_base_type/exercise/exercise_8_twelve_clock
+  TARGET_PDB = exercise_8_twelve_clock.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_10_count_vowels
+
+
+#############################################
+# Order-only phony target for exercise_10_count_vowels
+
+build cmake_object_order_depends_target_exercise_10_count_vowels: phony || base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_10_count_vowels.dir
+
+build base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_10_count_vowels.dir/exercise_10_count_vowels.c.o: C_COMPILER__exercise_10_count_vowels_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch07_base_type/exercise/exercise_10_count_vowels.c || cmake_object_order_depends_target_exercise_10_count_vowels
+  DEP_FILE = base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_10_count_vowels.dir/exercise_10_count_vowels.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_10_count_vowels.dir
+  OBJECT_FILE_DIR = base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_10_count_vowels.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_10_count_vowels
+
+
+#############################################
+# Link the executable base/c-programming/ch07_base_type/exercise/exercise_10_count_vowels
+
+build base/c-programming/ch07_base_type/exercise/exercise_10_count_vowels: C_EXECUTABLE_LINKER__exercise_10_count_vowels_Debug base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_10_count_vowels.dir/exercise_10_count_vowels.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_10_count_vowels.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch07_base_type/exercise/exercise_10_count_vowels
+  TARGET_PDB = exercise_10_count_vowels.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_11_name_abbr
+
+
+#############################################
+# Order-only phony target for exercise_11_name_abbr
+
+build cmake_object_order_depends_target_exercise_11_name_abbr: phony || base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_11_name_abbr.dir
+
+build base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_11_name_abbr.dir/exercise_11_name_abbr.c.o: C_COMPILER__exercise_11_name_abbr_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch07_base_type/exercise/exercise_11_name_abbr.c || cmake_object_order_depends_target_exercise_11_name_abbr
+  DEP_FILE = base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_11_name_abbr.dir/exercise_11_name_abbr.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_11_name_abbr.dir
+  OBJECT_FILE_DIR = base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_11_name_abbr.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_11_name_abbr
+
+
+#############################################
+# Link the executable base/c-programming/ch07_base_type/exercise/exercise_11_name_abbr
+
+build base/c-programming/ch07_base_type/exercise/exercise_11_name_abbr: C_EXECUTABLE_LINKER__exercise_11_name_abbr_Debug base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_11_name_abbr.dir/exercise_11_name_abbr.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_11_name_abbr.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch07_base_type/exercise/exercise_11_name_abbr
+  TARGET_PDB = exercise_11_name_abbr.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_12_expression_evaluation
+
+
+#############################################
+# Order-only phony target for exercise_12_expression_evaluation
+
+build cmake_object_order_depends_target_exercise_12_expression_evaluation: phony || base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_12_expression_evaluation.dir
+
+build base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_12_expression_evaluation.dir/exercise_12_expression_evaluation.c.o: C_COMPILER__exercise_12_expression_evaluation_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch07_base_type/exercise/exercise_12_expression_evaluation.c || cmake_object_order_depends_target_exercise_12_expression_evaluation
+  DEP_FILE = base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_12_expression_evaluation.dir/exercise_12_expression_evaluation.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_12_expression_evaluation.dir
+  OBJECT_FILE_DIR = base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_12_expression_evaluation.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_12_expression_evaluation
+
+
+#############################################
+# Link the executable base/c-programming/ch07_base_type/exercise/exercise_12_expression_evaluation
+
+build base/c-programming/ch07_base_type/exercise/exercise_12_expression_evaluation: C_EXECUTABLE_LINKER__exercise_12_expression_evaluation_Debug base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_12_expression_evaluation.dir/exercise_12_expression_evaluation.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_12_expression_evaluation.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch07_base_type/exercise/exercise_12_expression_evaluation
+  TARGET_PDB = exercise_12_expression_evaluation.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_13_average_word_length
+
+
+#############################################
+# Order-only phony target for exercise_13_average_word_length
+
+build cmake_object_order_depends_target_exercise_13_average_word_length: phony || base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_13_average_word_length.dir
+
+build base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_13_average_word_length.dir/exercise_13_average_word_length.c.o: C_COMPILER__exercise_13_average_word_length_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch07_base_type/exercise/exercise_13_average_word_length.c || cmake_object_order_depends_target_exercise_13_average_word_length
+  DEP_FILE = base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_13_average_word_length.dir/exercise_13_average_word_length.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_13_average_word_length.dir
+  OBJECT_FILE_DIR = base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_13_average_word_length.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_13_average_word_length
+
+
+#############################################
+# Link the executable base/c-programming/ch07_base_type/exercise/exercise_13_average_word_length
+
+build base/c-programming/ch07_base_type/exercise/exercise_13_average_word_length: C_EXECUTABLE_LINKER__exercise_13_average_word_length_Debug base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_13_average_word_length.dir/exercise_13_average_word_length.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_13_average_word_length.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch07_base_type/exercise/exercise_13_average_word_length
+  TARGET_PDB = exercise_13_average_word_length.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_14_newton
+
+
+#############################################
+# Order-only phony target for exercise_14_newton
+
+build cmake_object_order_depends_target_exercise_14_newton: phony || base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_14_newton.dir
+
+build base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_14_newton.dir/exercise_14_newton.c.o: C_COMPILER__exercise_14_newton_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch07_base_type/exercise/exercise_14_newton.c || cmake_object_order_depends_target_exercise_14_newton
+  DEP_FILE = base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_14_newton.dir/exercise_14_newton.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_14_newton.dir
+  OBJECT_FILE_DIR = base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_14_newton.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_14_newton
+
+
+#############################################
+# Link the executable base/c-programming/ch07_base_type/exercise/exercise_14_newton
+
+build base/c-programming/ch07_base_type/exercise/exercise_14_newton: C_EXECUTABLE_LINKER__exercise_14_newton_Debug base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_14_newton.dir/exercise_14_newton.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_14_newton.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch07_base_type/exercise/exercise_14_newton
+  TARGET_PDB = exercise_14_newton.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_15_factorial
+
+
+#############################################
+# Order-only phony target for exercise_15_factorial
+
+build cmake_object_order_depends_target_exercise_15_factorial: phony || base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_15_factorial.dir
+
+build base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_15_factorial.dir/exercise_15_factorial.c.o: C_COMPILER__exercise_15_factorial_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch07_base_type/exercise/exercise_15_factorial.c || cmake_object_order_depends_target_exercise_15_factorial
+  DEP_FILE = base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_15_factorial.dir/exercise_15_factorial.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_15_factorial.dir
+  OBJECT_FILE_DIR = base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_15_factorial.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_15_factorial
+
+
+#############################################
+# Link the executable base/c-programming/ch07_base_type/exercise/exercise_15_factorial
+
+build base/c-programming/ch07_base_type/exercise/exercise_15_factorial: C_EXECUTABLE_LINKER__exercise_15_factorial_Debug base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_15_factorial.dir/exercise_15_factorial.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_15_factorial.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch07_base_type/exercise/exercise_15_factorial
+  TARGET_PDB = exercise_15_factorial.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1926,9 +2214,21 @@ build ean_check_digit: phony base/c-programming/ch04_expression/exercise/ean_che
 
 build early_date: phony base/c-programming/ch05_select_statement/exercise/early_date
 
+build exercise_10_count_vowels: phony base/c-programming/ch07_base_type/exercise/exercise_10_count_vowels
+
 build exercise_10_earliest_date: phony base/c-programming/ch06_loop/exercise/exercise_10_earliest_date
 
 build exercise_11_eval: phony base/c-programming/ch06_loop/exercise/exercise_11_eval
+
+build exercise_11_name_abbr: phony base/c-programming/ch07_base_type/exercise/exercise_11_name_abbr
+
+build exercise_12_expression_evaluation: phony base/c-programming/ch07_base_type/exercise/exercise_12_expression_evaluation
+
+build exercise_13_average_word_length: phony base/c-programming/ch07_base_type/exercise/exercise_13_average_word_length
+
+build exercise_14_newton: phony base/c-programming/ch07_base_type/exercise/exercise_14_newton
+
+build exercise_15_factorial: phony base/c-programming/ch07_base_type/exercise/exercise_15_factorial
 
 build exercise_1_find_the_largest_number: phony base/c-programming/ch06_loop/exercise/exercise_1_find_the_largest_number
 
@@ -1942,11 +2242,17 @@ build exercise_3_sum2: phony base/c-programming/ch07_base_type/exercise/exercise
 
 build exercise_4_transfer_phone_number: phony base/c-programming/ch07_base_type/exercise/exercise_4_transfer_phone_number
 
+build exercise_5_crosswords_puzzle: phony base/c-programming/ch07_base_type/exercise/exercise_5_crosswords_puzzle
+
 build exercise_5_reverse_number: phony base/c-programming/ch06_loop/exercise/exercise_5_reverse_number
 
 build exercise_6_even_square: phony base/c-programming/ch06_loop/exercise/exercise_6_even_square
 
+build exercise_6_sizeof_base_type: phony base/c-programming/ch07_base_type/exercise/exercise_6_sizeof_base_type
+
 build exercise_8_month_calendar: phony base/c-programming/ch06_loop/exercise/exercise_8_month_calendar
+
+build exercise_8_twelve_clock: phony base/c-programming/ch07_base_type/exercise/exercise_8_twelve_clock
 
 build find_the_minium_number: phony base/c-programming/ch05_select_statement/exercise/find_the_minium_number
 
@@ -2098,7 +2404,7 @@ build base/c-programming/ch07_base_type/all: phony base/c-programming/ch07_base_
 #############################################
 # Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch07_base_type/exercise
 
-build base/c-programming/ch07_base_type/exercise/all: phony base/c-programming/ch07_base_type/exercise/exercise_1_square base/c-programming/ch07_base_type/exercise/exercise_3_sum2 base/c-programming/ch07_base_type/exercise/exercise_4_transfer_phone_number
+build base/c-programming/ch07_base_type/exercise/all: phony base/c-programming/ch07_base_type/exercise/exercise_1_square base/c-programming/ch07_base_type/exercise/exercise_3_sum2 base/c-programming/ch07_base_type/exercise/exercise_4_transfer_phone_number base/c-programming/ch07_base_type/exercise/exercise_5_crosswords_puzzle base/c-programming/ch07_base_type/exercise/exercise_6_sizeof_base_type base/c-programming/ch07_base_type/exercise/exercise_8_twelve_clock base/c-programming/ch07_base_type/exercise/exercise_10_count_vowels base/c-programming/ch07_base_type/exercise/exercise_11_name_abbr base/c-programming/ch07_base_type/exercise/exercise_12_expression_evaluation base/c-programming/ch07_base_type/exercise/exercise_13_average_word_length base/c-programming/ch07_base_type/exercise/exercise_14_newton base/c-programming/ch07_base_type/exercise/exercise_15_factorial
 
 # =============================================================================
 # Built-in targets

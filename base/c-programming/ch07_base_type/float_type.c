@@ -72,7 +72,7 @@ void read_and_write_float() {
      * 读写 long double 类型值
      * 加上大写 L
      */
-    long double ld = 1.22l;
+    long double ld = 1.22e3l;
     printf("long double ld : %Lf", ld);
 }
 

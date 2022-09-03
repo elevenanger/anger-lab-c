@@ -71,5 +71,14 @@
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_1_square.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_3_sum2.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_4_transfer_phone_number.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_5_crosswords_puzzle.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_6_sizeof_base_type.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_8_twelve_clock.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_10_count_vowels.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_11_name_abbr.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_12_expression_evaluation.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_13_average_word_length.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_14_newton.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch07_base_type/exercise/CMakeFiles/exercise_15_factorial.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch07_base_type/exercise/CMakeFiles/edit_cache.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch07_base_type/exercise/CMakeFiles/rebuild_cache.dir
