@@ -1,11 +1,11 @@
 # ninja log v5
 0	24	1661830022135363360	base/c-programming/ch03_format_io/exercise/CMakeFiles/cube_number_summation.dir/cube_number_summation.c.o	a80009e9527d48b
 25	55	1661849544299253515	base/c-programming/ch04_expression/assignment_operator	ba6abaa568102be3
+25	58	1661844092598768365	base/c-programming/ch04_expression/arithmatic_operator	c82d7a9098471a19
 0	25	1661826162939170930	base/c-programming/ch03_format_io/exercise/CMakeFiles/format_product_info.dir/format_product_info.c.o	a453fcbdbd5de8e6
 26	56	1661999958846769559	base/c-programming/ch05_select_statement/exercise/early_date	5e86d9cc1a4cbc1e
 1	28	1661824112312386248	base/c-programming/ch03_format_io/exercise/CMakeFiles/float_format.dir/float_format.c.o	8e3c60689aae2d96
 24	54	1661773476108423604	base/c-programming/ch02-language-foundation/exercise/loan_calculator	26f757c47b2d10a6
-25	58	1661844092598768365	base/c-programming/ch04_expression/arithmatic_operator	c82d7a9098471a19
 29	59	1661823292388083558	base/c-programming/ch03_format_io/tscanf	bea254b7f742773f
 28	56	1661828960285424529	base/c-programming/ch03_format_io/exercise/analysis_phone_number	3031253e2d8f749b
 0	22	1661764899990353682	base/c-programming/ch02-language-foundation/exercise/CMakeFiles/cal_sphere_volume.dir/cal_sphere_volume.c.o	22b1d0b47474c040

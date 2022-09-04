@@ -1,0 +1,1 @@
+add_executable(one_dimensional_array one_dimensional_array.c)
