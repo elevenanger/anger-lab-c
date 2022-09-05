@@ -1,1 +1,5 @@
+ADD_SUBDIRECTORY(exercise)
+
 add_executable(one_dimensional_array one_dimensional_array.c)
+add_executable(multi_dimensional_array multi_dimensional_array.c)
+add_executable(constant_array constant_array.c)

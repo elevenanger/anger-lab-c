@@ -10,6 +10,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 #define ARR_NUMBER 3
+#define SIZE(a) (int) sizeof(a) / sizeof(a[0])
 
 void declare_array() {
     /*
@@ -161,11 +162,80 @@ void repeat_element() {
         printf("No repeat digit\n");
 }
 
+/**
+ * 对数组使用 sizeof() 运算符
+ * 运算符 sizeof() 可以确定数组的大小
+ * 数组 int a[10]
+ * 那么 sizeof(a) 为 40
+ * 也可以使用 sizeof 计算数组元素的大小
+ * 使用 数组大小 / 元素大小 可以得到数组的长度
+ */
+void sizeof_array() {
+    int a[10] = {};
+    printf("sizeof(a) 数组的长度 : %d\n", sizeof(a));
+
+    /*
+     * 使用数组的大小除以单个元素的大小
+     * 来确定数组的长度
+     * 然后循环对数组中的每个元素进行赋值
+     * 使用这种方法，如果以后数组的长度变化也不需要修改循环代码
+     * sizeof() 运算符得到的是一个 size_t 类型的元素
+     * 一般使用 int 类型对值进行转换
+     * 但是这个写法比较冗长
+     * 可以定义一个宏来实现会比较方便
+     * #define SIZE(a) (int) sizeof(a) / sizeof(a[0])
+     *
+     */
+    for (int i = 0; i < (int) (sizeof(a) / sizeof(a[0])); ++i)
+        a[i] = 1;
+
+    for (int i = 0; i < SIZE(a); ++i)
+        printf("%d ", a[i]);
+
+    puts("");
+}
+
+void calculate_interest() {
+
+    int interest, year, initial_value = 100;
+    double values[5];
+
+    printf("Enter interest rate : ");
+    scanf("%d", &interest);
+    puts("");
+
+    printf("Enter number of years : ");
+    scanf("%d", &year);
+    puts("");
+
+    for (int i = 0; i < SIZE(values); ++i)
+        values[i] = initial_value;
+
+    printf("\nYears   ");
+    for (int i = 0; i < SIZE(values); ++i)
+        printf("%5d%%  ", interest + i);
+    puts("");
+
+    for (int i = 1; i <= year ; ++i) {
+        printf("%3d     ", i);
+        for (int j = 0; j < SIZE(values); ++j) {
+            values[j] += (double)(interest + j) / 100 * values[j];
+            printf("%7.2f ", values[j]);
+        }
+        puts("");
+    }
+    puts("");
+}
+
 int main(void) {
 
     array_index();
 
     array_initialize();
+
+    sizeof_array();
+
+    calculate_interest();
 
     repeat_element();
 
