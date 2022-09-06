@@ -2636,6 +2636,198 @@ build base/c-programming/ch08_array/exercise/exercise_11_transfer_phone_number: 
   TARGET_FILE = base/c-programming/ch08_array/exercise/exercise_11_transfer_phone_number
   TARGET_PDB = exercise_11_transfer_phone_number.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_12_crosswords_puzzle
+
+
+#############################################
+# Order-only phony target for exercise_12_crosswords_puzzle
+
+build cmake_object_order_depends_target_exercise_12_crosswords_puzzle: phony || base/c-programming/ch08_array/exercise/CMakeFiles/exercise_12_crosswords_puzzle.dir
+
+build base/c-programming/ch08_array/exercise/CMakeFiles/exercise_12_crosswords_puzzle.dir/exercise_12_crosswords_puzzle.c.o: C_COMPILER__exercise_12_crosswords_puzzle_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch08_array/exercise/exercise_12_crosswords_puzzle.c || cmake_object_order_depends_target_exercise_12_crosswords_puzzle
+  DEP_FILE = base/c-programming/ch08_array/exercise/CMakeFiles/exercise_12_crosswords_puzzle.dir/exercise_12_crosswords_puzzle.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch08_array/exercise/CMakeFiles/exercise_12_crosswords_puzzle.dir
+  OBJECT_FILE_DIR = base/c-programming/ch08_array/exercise/CMakeFiles/exercise_12_crosswords_puzzle.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_12_crosswords_puzzle
+
+
+#############################################
+# Link the executable base/c-programming/ch08_array/exercise/exercise_12_crosswords_puzzle
+
+build base/c-programming/ch08_array/exercise/exercise_12_crosswords_puzzle: C_EXECUTABLE_LINKER__exercise_12_crosswords_puzzle_Debug base/c-programming/ch08_array/exercise/CMakeFiles/exercise_12_crosswords_puzzle.dir/exercise_12_crosswords_puzzle.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch08_array/exercise/CMakeFiles/exercise_12_crosswords_puzzle.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch08_array/exercise/exercise_12_crosswords_puzzle
+  TARGET_PDB = exercise_12_crosswords_puzzle.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_13_name_abbr
+
+
+#############################################
+# Order-only phony target for exercise_13_name_abbr
+
+build cmake_object_order_depends_target_exercise_13_name_abbr: phony || base/c-programming/ch08_array/exercise/CMakeFiles/exercise_13_name_abbr.dir
+
+build base/c-programming/ch08_array/exercise/CMakeFiles/exercise_13_name_abbr.dir/exercise_13_name_abbr.c.o: C_COMPILER__exercise_13_name_abbr_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch08_array/exercise/exercise_13_name_abbr.c || cmake_object_order_depends_target_exercise_13_name_abbr
+  DEP_FILE = base/c-programming/ch08_array/exercise/CMakeFiles/exercise_13_name_abbr.dir/exercise_13_name_abbr.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch08_array/exercise/CMakeFiles/exercise_13_name_abbr.dir
+  OBJECT_FILE_DIR = base/c-programming/ch08_array/exercise/CMakeFiles/exercise_13_name_abbr.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_13_name_abbr
+
+
+#############################################
+# Link the executable base/c-programming/ch08_array/exercise/exercise_13_name_abbr
+
+build base/c-programming/ch08_array/exercise/exercise_13_name_abbr: C_EXECUTABLE_LINKER__exercise_13_name_abbr_Debug base/c-programming/ch08_array/exercise/CMakeFiles/exercise_13_name_abbr.dir/exercise_13_name_abbr.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch08_array/exercise/CMakeFiles/exercise_13_name_abbr.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch08_array/exercise/exercise_13_name_abbr
+  TARGET_PDB = exercise_13_name_abbr.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_14_reverse_sentence
+
+
+#############################################
+# Order-only phony target for exercise_14_reverse_sentence
+
+build cmake_object_order_depends_target_exercise_14_reverse_sentence: phony || base/c-programming/ch08_array/exercise/CMakeFiles/exercise_14_reverse_sentence.dir
+
+build base/c-programming/ch08_array/exercise/CMakeFiles/exercise_14_reverse_sentence.dir/exercise_14_reverse_sentence.c.o: C_COMPILER__exercise_14_reverse_sentence_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch08_array/exercise/exercise_14_reverse_sentence.c || cmake_object_order_depends_target_exercise_14_reverse_sentence
+  DEP_FILE = base/c-programming/ch08_array/exercise/CMakeFiles/exercise_14_reverse_sentence.dir/exercise_14_reverse_sentence.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch08_array/exercise/CMakeFiles/exercise_14_reverse_sentence.dir
+  OBJECT_FILE_DIR = base/c-programming/ch08_array/exercise/CMakeFiles/exercise_14_reverse_sentence.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_14_reverse_sentence
+
+
+#############################################
+# Link the executable base/c-programming/ch08_array/exercise/exercise_14_reverse_sentence
+
+build base/c-programming/ch08_array/exercise/exercise_14_reverse_sentence: C_EXECUTABLE_LINKER__exercise_14_reverse_sentence_Debug base/c-programming/ch08_array/exercise/CMakeFiles/exercise_14_reverse_sentence.dir/exercise_14_reverse_sentence.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch08_array/exercise/CMakeFiles/exercise_14_reverse_sentence.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch08_array/exercise/exercise_14_reverse_sentence
+  TARGET_PDB = exercise_14_reverse_sentence.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_15_caesar
+
+
+#############################################
+# Order-only phony target for exercise_15_caesar
+
+build cmake_object_order_depends_target_exercise_15_caesar: phony || base/c-programming/ch08_array/exercise/CMakeFiles/exercise_15_caesar.dir
+
+build base/c-programming/ch08_array/exercise/CMakeFiles/exercise_15_caesar.dir/exercise_15_caesar.c.o: C_COMPILER__exercise_15_caesar_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch08_array/exercise/exercise_15_caesar.c || cmake_object_order_depends_target_exercise_15_caesar
+  DEP_FILE = base/c-programming/ch08_array/exercise/CMakeFiles/exercise_15_caesar.dir/exercise_15_caesar.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch08_array/exercise/CMakeFiles/exercise_15_caesar.dir
+  OBJECT_FILE_DIR = base/c-programming/ch08_array/exercise/CMakeFiles/exercise_15_caesar.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_15_caesar
+
+
+#############################################
+# Link the executable base/c-programming/ch08_array/exercise/exercise_15_caesar
+
+build base/c-programming/ch08_array/exercise/exercise_15_caesar: C_EXECUTABLE_LINKER__exercise_15_caesar_Debug base/c-programming/ch08_array/exercise/CMakeFiles/exercise_15_caesar.dir/exercise_15_caesar.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch08_array/exercise/CMakeFiles/exercise_15_caesar.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch08_array/exercise/exercise_15_caesar
+  TARGET_PDB = exercise_15_caesar.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_16_anagram
+
+
+#############################################
+# Order-only phony target for exercise_16_anagram
+
+build cmake_object_order_depends_target_exercise_16_anagram: phony || base/c-programming/ch08_array/exercise/CMakeFiles/exercise_16_anagram.dir
+
+build base/c-programming/ch08_array/exercise/CMakeFiles/exercise_16_anagram.dir/exercise_16_anagram.c.o: C_COMPILER__exercise_16_anagram_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch08_array/exercise/exercise_16_anagram.c || cmake_object_order_depends_target_exercise_16_anagram
+  DEP_FILE = base/c-programming/ch08_array/exercise/CMakeFiles/exercise_16_anagram.dir/exercise_16_anagram.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch08_array/exercise/CMakeFiles/exercise_16_anagram.dir
+  OBJECT_FILE_DIR = base/c-programming/ch08_array/exercise/CMakeFiles/exercise_16_anagram.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_16_anagram
+
+
+#############################################
+# Link the executable base/c-programming/ch08_array/exercise/exercise_16_anagram
+
+build base/c-programming/ch08_array/exercise/exercise_16_anagram: C_EXECUTABLE_LINKER__exercise_16_anagram_Debug base/c-programming/ch08_array/exercise/CMakeFiles/exercise_16_anagram.dir/exercise_16_anagram.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch08_array/exercise/CMakeFiles/exercise_16_anagram.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch08_array/exercise/exercise_16_anagram
+  TARGET_PDB = exercise_16_anagram.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_17_phantom_cube
+
+
+#############################################
+# Order-only phony target for exercise_17_phantom_cube
+
+build cmake_object_order_depends_target_exercise_17_phantom_cube: phony || base/c-programming/ch08_array/exercise/CMakeFiles/exercise_17_phantom_cube.dir
+
+build base/c-programming/ch08_array/exercise/CMakeFiles/exercise_17_phantom_cube.dir/exercise_17_phantom_cube.c.o: C_COMPILER__exercise_17_phantom_cube_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch08_array/exercise/exercise_17_phantom_cube.c || cmake_object_order_depends_target_exercise_17_phantom_cube
+  DEP_FILE = base/c-programming/ch08_array/exercise/CMakeFiles/exercise_17_phantom_cube.dir/exercise_17_phantom_cube.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch08_array/exercise/CMakeFiles/exercise_17_phantom_cube.dir
+  OBJECT_FILE_DIR = base/c-programming/ch08_array/exercise/CMakeFiles/exercise_17_phantom_cube.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_17_phantom_cube
+
+
+#############################################
+# Link the executable base/c-programming/ch08_array/exercise/exercise_17_phantom_cube
+
+build base/c-programming/ch08_array/exercise/exercise_17_phantom_cube: C_EXECUTABLE_LINKER__exercise_17_phantom_cube_Debug base/c-programming/ch08_array/exercise/CMakeFiles/exercise_17_phantom_cube.dir/exercise_17_phantom_cube.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch08_array/exercise/CMakeFiles/exercise_17_phantom_cube.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch08_array/exercise/exercise_17_phantom_cube
+  TARGET_PDB = exercise_17_phantom_cube.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -2658,6 +2850,66 @@ build base/c-programming/ch08_array/exercise/CMakeFiles/rebuild_cache.util: CUST
   restat = 1
 
 build base/c-programming/ch08_array/exercise/rebuild_cache: phony base/c-programming/ch08_array/exercise/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/liuanglin/Projects/anger-lab-c/base/c-programming/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target function_define
+
+
+#############################################
+# Order-only phony target for function_define
+
+build cmake_object_order_depends_target_function_define: phony || base/c-programming/ch09_function/CMakeFiles/function_define.dir
+
+build base/c-programming/ch09_function/CMakeFiles/function_define.dir/function_define.c.o: C_COMPILER__function_define_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch09_function/function_define.c || cmake_object_order_depends_target_function_define
+  DEP_FILE = base/c-programming/ch09_function/CMakeFiles/function_define.dir/function_define.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch09_function/CMakeFiles/function_define.dir
+  OBJECT_FILE_DIR = base/c-programming/ch09_function/CMakeFiles/function_define.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target function_define
+
+
+#############################################
+# Link the executable base/c-programming/ch09_function/function_define
+
+build base/c-programming/ch09_function/function_define: C_EXECUTABLE_LINKER__function_define_Debug base/c-programming/ch09_function/CMakeFiles/function_define.dir/function_define.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch09_function/CMakeFiles/function_define.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch09_function/function_define
+  TARGET_PDB = function_define.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build base/c-programming/ch09_function/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch09_function && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build base/c-programming/ch09_function/edit_cache: phony base/c-programming/ch09_function/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build base/c-programming/ch09_function/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch09_function && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/liuanglin/Projects/anger-lab-c -B/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build base/c-programming/ch09_function/rebuild_cache: phony base/c-programming/ch09_function/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
@@ -2698,13 +2950,25 @@ build exercise_11_name_abbr: phony base/c-programming/ch07_base_type/exercise/ex
 
 build exercise_11_transfer_phone_number: phony base/c-programming/ch08_array/exercise/exercise_11_transfer_phone_number
 
+build exercise_12_crosswords_puzzle: phony base/c-programming/ch08_array/exercise/exercise_12_crosswords_puzzle
+
 build exercise_12_expression_evaluation: phony base/c-programming/ch07_base_type/exercise/exercise_12_expression_evaluation
 
 build exercise_13_average_word_length: phony base/c-programming/ch07_base_type/exercise/exercise_13_average_word_length
 
+build exercise_13_name_abbr: phony base/c-programming/ch08_array/exercise/exercise_13_name_abbr
+
 build exercise_14_newton: phony base/c-programming/ch07_base_type/exercise/exercise_14_newton
 
+build exercise_14_reverse_sentence: phony base/c-programming/ch08_array/exercise/exercise_14_reverse_sentence
+
+build exercise_15_caesar: phony base/c-programming/ch08_array/exercise/exercise_15_caesar
+
 build exercise_15_factorial: phony base/c-programming/ch07_base_type/exercise/exercise_15_factorial
+
+build exercise_16_anagram: phony base/c-programming/ch08_array/exercise/exercise_16_anagram
+
+build exercise_17_phantom_cube: phony base/c-programming/ch08_array/exercise/exercise_17_phantom_cube
 
 build exercise_1_find_the_largest_number: phony base/c-programming/ch06_loop/exercise/exercise_1_find_the_largest_number
 
@@ -2757,6 +3021,8 @@ build float_type: phony base/c-programming/ch07_base_type/float_type
 build format_date: phony base/c-programming/ch03_format_io/exercise/format_date
 
 build format_product_info: phony base/c-programming/ch03_format_io/exercise/format_product_info
+
+build function_define: phony base/c-programming/ch09_function/function_define
 
 build integer_type: phony base/c-programming/ch07_base_type/integer_type
 
@@ -2818,7 +3084,7 @@ build base/all: phony base/c-programming/all
 #############################################
 # Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming
 
-build base/c-programming/all: phony base/c-programming/ch02-language-foundation/all base/c-programming/ch03_format_io/all base/c-programming/ch04_expression/all base/c-programming/ch05_select_statement/all base/c-programming/ch06_loop/all base/c-programming/ch07_base_type/all base/c-programming/ch08_array/all
+build base/c-programming/all: phony base/c-programming/ch02-language-foundation/all base/c-programming/ch03_format_io/all base/c-programming/ch04_expression/all base/c-programming/ch05_select_statement/all base/c-programming/ch06_loop/all base/c-programming/ch07_base_type/all base/c-programming/ch08_array/all base/c-programming/ch09_function/all
 
 # =============================================================================
 
@@ -2916,7 +3182,14 @@ build base/c-programming/ch08_array/all: phony base/c-programming/ch08_array/one
 #############################################
 # Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch08_array/exercise
 
-build base/c-programming/ch08_array/exercise/all: phony base/c-programming/ch08_array/exercise/exercise_1_rep_digit base/c-programming/ch08_array/exercise/exercise_2_rep_digit_2 base/c-programming/ch08_array/exercise/exercise_3_rep_digit_3.c base/c-programming/ch08_array/exercise/exercise_4_reverse base/c-programming/ch08_array/exercise/exercise_5_interest base/c-programming/ch08_array/exercise/exercise_6_b1ff base/c-programming/ch08_array/exercise/exercise_7_matrix_summation base/c-programming/ch08_array/exercise/exercise_8_score_statistics base/c-programming/ch08_array/exercise/exercise_9_random_walk base/c-programming/ch08_array/exercise/exercise_11_transfer_phone_number
+build base/c-programming/ch08_array/exercise/all: phony base/c-programming/ch08_array/exercise/exercise_1_rep_digit base/c-programming/ch08_array/exercise/exercise_2_rep_digit_2 base/c-programming/ch08_array/exercise/exercise_3_rep_digit_3.c base/c-programming/ch08_array/exercise/exercise_4_reverse base/c-programming/ch08_array/exercise/exercise_5_interest base/c-programming/ch08_array/exercise/exercise_6_b1ff base/c-programming/ch08_array/exercise/exercise_7_matrix_summation base/c-programming/ch08_array/exercise/exercise_8_score_statistics base/c-programming/ch08_array/exercise/exercise_9_random_walk base/c-programming/ch08_array/exercise/exercise_11_transfer_phone_number base/c-programming/ch08_array/exercise/exercise_12_crosswords_puzzle base/c-programming/ch08_array/exercise/exercise_13_name_abbr base/c-programming/ch08_array/exercise/exercise_14_reverse_sentence base/c-programming/ch08_array/exercise/exercise_15_caesar base/c-programming/ch08_array/exercise/exercise_16_anagram base/c-programming/ch08_array/exercise/exercise_17_phantom_cube
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch09_function
+
+build base/c-programming/ch09_function/all: phony base/c-programming/ch09_function/function_define
 
 # =============================================================================
 # Built-in targets
@@ -2925,14 +3198,14 @@ build base/c-programming/ch08_array/exercise/all: phony base/c-programming/ch08_
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../base/CMakeLists.txt ../base/c-programming/CMakeLists.txt ../base/c-programming/ch02-language-foundation/CMakeLists.txt ../base/c-programming/ch02-language-foundation/exercise/CMakeLists.txt ../base/c-programming/ch03_format_io/CMakeLists.txt ../base/c-programming/ch03_format_io/exercise/CMakeLists.txt ../base/c-programming/ch04_expression/CMakeLists.txt ../base/c-programming/ch04_expression/exercise/CMakeLists.txt ../base/c-programming/ch05_select_statement/CMakeLists.txt ../base/c-programming/ch05_select_statement/exercise/CMakeLists.txt ../base/c-programming/ch06_loop/CMakeLists.txt ../base/c-programming/ch06_loop/exercise/CMakeLists.txt ../base/c-programming/ch07_base_type/CMakeLists.txt ../base/c-programming/ch07_base_type/exercise/CMakeLists.txt ../base/c-programming/ch08_array/CMakeLists.txt ../base/c-programming/ch08_array/exercise/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../base/CMakeLists.txt ../base/c-programming/CMakeLists.txt ../base/c-programming/ch02-language-foundation/CMakeLists.txt ../base/c-programming/ch02-language-foundation/exercise/CMakeLists.txt ../base/c-programming/ch03_format_io/CMakeLists.txt ../base/c-programming/ch03_format_io/exercise/CMakeLists.txt ../base/c-programming/ch04_expression/CMakeLists.txt ../base/c-programming/ch04_expression/exercise/CMakeLists.txt ../base/c-programming/ch05_select_statement/CMakeLists.txt ../base/c-programming/ch05_select_statement/exercise/CMakeLists.txt ../base/c-programming/ch06_loop/CMakeLists.txt ../base/c-programming/ch06_loop/exercise/CMakeLists.txt ../base/c-programming/ch07_base_type/CMakeLists.txt ../base/c-programming/ch07_base_type/exercise/CMakeLists.txt ../base/c-programming/ch08_array/CMakeLists.txt ../base/c-programming/ch08_array/exercise/CMakeLists.txt ../base/c-programming/ch09_function/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt ../base/CMakeLists.txt ../base/c-programming/CMakeLists.txt ../base/c-programming/ch02-language-foundation/CMakeLists.txt ../base/c-programming/ch02-language-foundation/exercise/CMakeLists.txt ../base/c-programming/ch03_format_io/CMakeLists.txt ../base/c-programming/ch03_format_io/exercise/CMakeLists.txt ../base/c-programming/ch04_expression/CMakeLists.txt ../base/c-programming/ch04_expression/exercise/CMakeLists.txt ../base/c-programming/ch05_select_statement/CMakeLists.txt ../base/c-programming/ch05_select_statement/exercise/CMakeLists.txt ../base/c-programming/ch06_loop/CMakeLists.txt ../base/c-programming/ch06_loop/exercise/CMakeLists.txt ../base/c-programming/ch07_base_type/CMakeLists.txt ../base/c-programming/ch07_base_type/exercise/CMakeLists.txt ../base/c-programming/ch08_array/CMakeLists.txt ../base/c-programming/ch08_array/exercise/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+build ../CMakeLists.txt ../base/CMakeLists.txt ../base/c-programming/CMakeLists.txt ../base/c-programming/ch02-language-foundation/CMakeLists.txt ../base/c-programming/ch02-language-foundation/exercise/CMakeLists.txt ../base/c-programming/ch03_format_io/CMakeLists.txt ../base/c-programming/ch03_format_io/exercise/CMakeLists.txt ../base/c-programming/ch04_expression/CMakeLists.txt ../base/c-programming/ch04_expression/exercise/CMakeLists.txt ../base/c-programming/ch05_select_statement/CMakeLists.txt ../base/c-programming/ch05_select_statement/exercise/CMakeLists.txt ../base/c-programming/ch06_loop/CMakeLists.txt ../base/c-programming/ch06_loop/exercise/CMakeLists.txt ../base/c-programming/ch07_base_type/CMakeLists.txt ../base/c-programming/ch07_base_type/exercise/CMakeLists.txt ../base/c-programming/ch08_array/CMakeLists.txt ../base/c-programming/ch08_array/exercise/CMakeLists.txt ../base/c-programming/ch09_function/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
 
 
 #############################################

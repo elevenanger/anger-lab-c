@@ -11,3 +11,6 @@ add_executable(exercise_11_transfer_phone_number exercise_11_transfer_phone_numb
 add_executable(exercise_12_crosswords_puzzle exercise_12_crosswords_puzzle.c)
 add_executable(exercise_13_name_abbr exercise_13_name_abbr.c)
 add_executable(exercise_14_reverse_sentence exercise_14_reverse_sentence.c)
+add_executable(exercise_15_caesar exercise_15_caesar.c)
+add_executable(exercise_16_anagram exercise_16_anagram.c)
+add_executable(exercise_17_phantom_cube exercise_17_phantom_cube.c)

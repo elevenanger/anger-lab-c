@@ -26,10 +26,16 @@ int main(void) {
         }
     }
 
-    for (int j = i - 1, k = 0; j >= 0; j--, k++) {
-        if (sentence[j] == ' ' || j == 0) {
-            for (int l = 0; k >= 0; l++, k--)
-                printf("%c", sentence[j + l]);
+    for (int j = i - 1; j >= 0; j--) {
+        if (sentence[j] == ' ') {
+            for (int l = j + 1; l < i; l++)
+                printf("%c", sentence[l]);
+            i = j;
+            printf(" ");
+        }
+        if (j == 0) {
+            for (int l = j; l < i; l++)
+                printf("%c", sentence[l]);
         }
     }
 
