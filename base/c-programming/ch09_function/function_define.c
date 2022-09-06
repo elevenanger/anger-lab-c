@@ -4,6 +4,18 @@
  * @brief 函数定义
  */
 #include <stdio.h>
+#include <stdbool.h>
+
+/* 函数声明 返回值类型 函数名(形参);
+ * 这种声明也称之为函数原型*/
+void implicit_invoke(int i);
+/* 函数声明也可以省略形参名，只保留形参类型
+ * 但是最好不要省略这些信息
+ * 这说明了函数参数的意义
+ * C99 遵循调用函数前必须先进行声明或者定义的原则
+ * 调用函数时如果没有见到函数的声明或者定义
+ * 会导致出错*/
+double average(double , double);
 
 /**
  * 计算平均值的函数
@@ -97,6 +109,50 @@ void countdown(void) {
         print_count(i);
 }
 
+/**
+ * 判断一个数是不是素数
+ * 给定数 n 后
+ * 函数将 n 除以 2 到 n 的平方根的每一个数
+ * 只要有一个余数为 0
+ * n 就不是素数
+ * @param n 需要检查的数值
+ * @return true 是素数 false 不是素数
+ */
+bool is_prime(int n) {
+
+    int divisor;
+
+    if (n <= 1) return false;
+
+    for (divisor = 2; divisor * divisor < n; ++divisor)
+        if (n % divisor == 0)
+            return false;
+    return true;
+}
+
+/**
+ * 用户输入一个数
+ * 调用 is_prime() 函数检查是不是素数
+ */
+void check_prime_number() {
+    /*
+     * 这里有一个名为 n 的变量
+     * 函数 is_prime() 中也有一个名为 n 的变量
+     * 一般来说在一个函数中可以声明一个和另一个函数中的变量同名的变量
+     * 这两个变量的内存地址不同
+     */
+    int n;
+
+    printf("Enter a number : ");
+
+    scanf("%d", &n);
+
+    if (is_prime(n))
+        printf("%d is a prime number .\n", n);
+    else
+        printf("%d is not a prime number .\n", n);
+}
+
 int main(void) {
 
     countdown();
@@ -105,5 +161,35 @@ int main(void) {
 
     multi_average();
 
+    check_prime_number();
+
+    /*
+     * 遇到 implicit_invoke() 时
+     * 编译器没有函数任何相关的信息
+     * 不知道函数的形参数量和类型，也不知道函数的返回值类型
+     * 但是编译器不会给出错误信息
+     * 而是假定函数会返回 int 类型的值
+     * 可以说编译器为函数创建了一个隐式声明
+     * 编译器无法检查传递给函数的实参个数了类型
+     * 只能进行默认的实参提升
+     * 当编译器后面遇到implicit_invoke() 函数的定义时
+     * 可能会发现实参的类型和函数定义的形参类型不一致
+     * 得到一条错误信息
+     *
+     * 为了避免类似的问题
+     * 一种方式是使每个函数的定义在其调用之前
+     * c 语言还提供了一种更好的解决办法
+     * 在调用前声明每个函数
+     * 函数声明使得编译器可以先对函数的概要进行浏览
+     * 而函数完整的定义可以在之后给出
+     * 函数声明类似函数定义的第一行不同之处在于其结尾处有分号
+     */
+    implicit_invoke(2);
+
     return 0;
+}
+
+
+void implicit_invoke(int i) {
+    printf("implicit invoke %d\n", i * 2);
 }

@@ -1,1 +1,2 @@
 add_executable(function_define function_define.c)
+add_executable(function_argument function_argument.c)
