@@ -2888,6 +2888,134 @@ build base/c-programming/ch09_function/function_define: C_EXECUTABLE_LINKER__fun
   TARGET_FILE = base/c-programming/ch09_function/function_define
   TARGET_PDB = function_define.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target function_argument
+
+
+#############################################
+# Order-only phony target for function_argument
+
+build cmake_object_order_depends_target_function_argument: phony || base/c-programming/ch09_function/CMakeFiles/function_argument.dir
+
+build base/c-programming/ch09_function/CMakeFiles/function_argument.dir/function_argument.c.o: C_COMPILER__function_argument_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch09_function/function_argument.c || cmake_object_order_depends_target_function_argument
+  DEP_FILE = base/c-programming/ch09_function/CMakeFiles/function_argument.dir/function_argument.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch09_function/CMakeFiles/function_argument.dir
+  OBJECT_FILE_DIR = base/c-programming/ch09_function/CMakeFiles/function_argument.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target function_argument
+
+
+#############################################
+# Link the executable base/c-programming/ch09_function/function_argument
+
+build base/c-programming/ch09_function/function_argument: C_EXECUTABLE_LINKER__function_argument_Debug base/c-programming/ch09_function/CMakeFiles/function_argument.dir/function_argument.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch09_function/CMakeFiles/function_argument.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch09_function/function_argument
+  TARGET_PDB = function_argument.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target function_return_statement
+
+
+#############################################
+# Order-only phony target for function_return_statement
+
+build cmake_object_order_depends_target_function_return_statement: phony || base/c-programming/ch09_function/CMakeFiles/function_return_statement.dir
+
+build base/c-programming/ch09_function/CMakeFiles/function_return_statement.dir/function_return_statement.c.o: C_COMPILER__function_return_statement_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch09_function/function_return_statement.c || cmake_object_order_depends_target_function_return_statement
+  DEP_FILE = base/c-programming/ch09_function/CMakeFiles/function_return_statement.dir/function_return_statement.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch09_function/CMakeFiles/function_return_statement.dir
+  OBJECT_FILE_DIR = base/c-programming/ch09_function/CMakeFiles/function_return_statement.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target function_return_statement
+
+
+#############################################
+# Link the executable base/c-programming/ch09_function/function_return_statement
+
+build base/c-programming/ch09_function/function_return_statement: C_EXECUTABLE_LINKER__function_return_statement_Debug base/c-programming/ch09_function/CMakeFiles/function_return_statement.dir/function_return_statement.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch09_function/CMakeFiles/function_return_statement.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch09_function/function_return_statement
+  TARGET_PDB = function_return_statement.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target function_termination
+
+
+#############################################
+# Order-only phony target for function_termination
+
+build cmake_object_order_depends_target_function_termination: phony || base/c-programming/ch09_function/CMakeFiles/function_termination.dir
+
+build base/c-programming/ch09_function/CMakeFiles/function_termination.dir/function_termination.c.o: C_COMPILER__function_termination_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch09_function/function_termination.c || cmake_object_order_depends_target_function_termination
+  DEP_FILE = base/c-programming/ch09_function/CMakeFiles/function_termination.dir/function_termination.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch09_function/CMakeFiles/function_termination.dir
+  OBJECT_FILE_DIR = base/c-programming/ch09_function/CMakeFiles/function_termination.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target function_termination
+
+
+#############################################
+# Link the executable base/c-programming/ch09_function/function_termination
+
+build base/c-programming/ch09_function/function_termination: C_EXECUTABLE_LINKER__function_termination_Debug base/c-programming/ch09_function/CMakeFiles/function_termination.dir/function_termination.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch09_function/CMakeFiles/function_termination.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch09_function/function_termination
+  TARGET_PDB = function_termination.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target function_recursive
+
+
+#############################################
+# Order-only phony target for function_recursive
+
+build cmake_object_order_depends_target_function_recursive: phony || base/c-programming/ch09_function/CMakeFiles/function_recursive.dir
+
+build base/c-programming/ch09_function/CMakeFiles/function_recursive.dir/function_recursive.c.o: C_COMPILER__function_recursive_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch09_function/function_recursive.c || cmake_object_order_depends_target_function_recursive
+  DEP_FILE = base/c-programming/ch09_function/CMakeFiles/function_recursive.dir/function_recursive.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch09_function/CMakeFiles/function_recursive.dir
+  OBJECT_FILE_DIR = base/c-programming/ch09_function/CMakeFiles/function_recursive.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target function_recursive
+
+
+#############################################
+# Link the executable base/c-programming/ch09_function/function_recursive
+
+build base/c-programming/ch09_function/function_recursive: C_EXECUTABLE_LINKER__function_recursive_Debug base/c-programming/ch09_function/CMakeFiles/function_recursive.dir/function_recursive.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch09_function/CMakeFiles/function_recursive.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch09_function/function_recursive
+  TARGET_PDB = function_recursive.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -3022,7 +3150,15 @@ build format_date: phony base/c-programming/ch03_format_io/exercise/format_date
 
 build format_product_info: phony base/c-programming/ch03_format_io/exercise/format_product_info
 
+build function_argument: phony base/c-programming/ch09_function/function_argument
+
 build function_define: phony base/c-programming/ch09_function/function_define
+
+build function_recursive: phony base/c-programming/ch09_function/function_recursive
+
+build function_return_statement: phony base/c-programming/ch09_function/function_return_statement
+
+build function_termination: phony base/c-programming/ch09_function/function_termination
 
 build integer_type: phony base/c-programming/ch07_base_type/integer_type
 
@@ -3189,7 +3325,7 @@ build base/c-programming/ch08_array/exercise/all: phony base/c-programming/ch08_
 #############################################
 # Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch09_function
 
-build base/c-programming/ch09_function/all: phony base/c-programming/ch09_function/function_define
+build base/c-programming/ch09_function/all: phony base/c-programming/ch09_function/function_define base/c-programming/ch09_function/function_argument base/c-programming/ch09_function/function_return_statement base/c-programming/ch09_function/function_termination base/c-programming/ch09_function/function_recursive
 
 # =============================================================================
 # Built-in targets
