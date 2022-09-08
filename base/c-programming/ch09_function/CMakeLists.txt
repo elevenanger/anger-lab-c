@@ -1,3 +1,5 @@
+ADD_SUBDIRECTORY(exercise)
+
 add_executable(function_define function_define.c)
 add_executable(function_argument function_argument.c)
 add_executable(function_return_statement function_return_statement.c)

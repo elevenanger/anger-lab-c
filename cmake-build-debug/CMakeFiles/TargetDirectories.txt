@@ -112,3 +112,13 @@
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch09_function/CMakeFiles/function_recursive.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch09_function/CMakeFiles/edit_cache.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch09_function/CMakeFiles/rebuild_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch09_function/exercise/CMakeFiles/exercise_01_selection_sort.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch09_function/exercise/CMakeFiles/exercise_02_tax.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch09_function/exercise/CMakeFiles/exercise_03_random_walk.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch09_function/exercise/CMakeFiles/exercise_04_b1ff.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch09_function/exercise/CMakeFiles/exercise_05_phantom_cube.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch09_function/exercise/CMakeFiles/exercise_06_polynomial_evaluation.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch09_function/exercise/CMakeFiles/exercise_07_power_recursion.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch09_function/exercise/CMakeFiles/exercise_08_roll_the_dice.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch09_function/exercise/CMakeFiles/edit_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch09_function/exercise/CMakeFiles/rebuild_cache.dir

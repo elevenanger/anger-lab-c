@@ -1,0 +1,8 @@
+add_executable(exercise_01_selection_sort exercise_01_selection_sort.c)
+add_executable(exercise_02_tax exercise_02_tax.c)
+add_executable(exercise_03_random_walk exercise_03_random_walk.c)
+add_executable(exercise_04_b1ff exercise_04_equal_array.c)
+add_executable(exercise_05_phantom_cube exercise_05_phantom_cube.c)
+add_executable(exercise_06_polynomial_evaluation exercise_06_polynomial_evaluation.c)
+add_executable(exercise_07_power_recursion exercise_07_power_recursion.c)
+add_executable(exercise_08_roll_the_dice exercise_08_roll_the_dice.c)
