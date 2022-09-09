@@ -122,3 +122,6 @@
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch09_function/exercise/CMakeFiles/exercise_08_roll_the_dice.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch09_function/exercise/CMakeFiles/edit_cache.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch09_function/exercise/CMakeFiles/rebuild_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch10_program_structure/CMakeFiles/local_variable.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch10_program_structure/CMakeFiles/edit_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch10_program_structure/CMakeFiles/rebuild_cache.dir

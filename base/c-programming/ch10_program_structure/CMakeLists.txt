@@ -1,0 +1,1 @@
+add_executable(local_variable local_variable.c)
