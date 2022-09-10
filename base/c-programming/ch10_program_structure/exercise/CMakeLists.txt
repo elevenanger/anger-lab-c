@@ -1,0 +1,1 @@
+add_executable(exercise_01_check_brackets exercise_01_check_brackets.c)
