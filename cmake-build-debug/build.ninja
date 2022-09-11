@@ -3548,6 +3548,134 @@ build base/c-programming/ch10_program_structure/exercise/exercise_01_check_brack
   TARGET_FILE = base/c-programming/ch10_program_structure/exercise/exercise_01_check_brackets
   TARGET_PDB = exercise_01_check_brackets.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_2_poker
+
+
+#############################################
+# Order-only phony target for exercise_2_poker
+
+build cmake_object_order_depends_target_exercise_2_poker: phony || base/c-programming/ch10_program_structure/exercise/CMakeFiles/exercise_2_poker.dir
+
+build base/c-programming/ch10_program_structure/exercise/CMakeFiles/exercise_2_poker.dir/exercise_2_poker.c.o: C_COMPILER__exercise_2_poker_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch10_program_structure/exercise/exercise_2_poker.c || cmake_object_order_depends_target_exercise_2_poker
+  DEP_FILE = base/c-programming/ch10_program_structure/exercise/CMakeFiles/exercise_2_poker.dir/exercise_2_poker.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch10_program_structure/exercise/CMakeFiles/exercise_2_poker.dir
+  OBJECT_FILE_DIR = base/c-programming/ch10_program_structure/exercise/CMakeFiles/exercise_2_poker.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_2_poker
+
+
+#############################################
+# Link the executable base/c-programming/ch10_program_structure/exercise/exercise_2_poker
+
+build base/c-programming/ch10_program_structure/exercise/exercise_2_poker: C_EXECUTABLE_LINKER__exercise_2_poker_Debug base/c-programming/ch10_program_structure/exercise/CMakeFiles/exercise_2_poker.dir/exercise_2_poker.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch10_program_structure/exercise/CMakeFiles/exercise_2_poker.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch10_program_structure/exercise/exercise_2_poker
+  TARGET_PDB = exercise_2_poker.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_3_4_5_poker
+
+
+#############################################
+# Order-only phony target for exercise_3_4_5_poker
+
+build cmake_object_order_depends_target_exercise_3_4_5_poker: phony || base/c-programming/ch10_program_structure/exercise/CMakeFiles/exercise_3_4_5_poker.dir
+
+build base/c-programming/ch10_program_structure/exercise/CMakeFiles/exercise_3_4_5_poker.dir/exercise_3_4_5_poker.c.o: C_COMPILER__exercise_3_4_5_poker_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch10_program_structure/exercise/exercise_3_4_5_poker.c || cmake_object_order_depends_target_exercise_3_4_5_poker
+  DEP_FILE = base/c-programming/ch10_program_structure/exercise/CMakeFiles/exercise_3_4_5_poker.dir/exercise_3_4_5_poker.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch10_program_structure/exercise/CMakeFiles/exercise_3_4_5_poker.dir
+  OBJECT_FILE_DIR = base/c-programming/ch10_program_structure/exercise/CMakeFiles/exercise_3_4_5_poker.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_3_4_5_poker
+
+
+#############################################
+# Link the executable base/c-programming/ch10_program_structure/exercise/exercise_3_4_5_poker
+
+build base/c-programming/ch10_program_structure/exercise/exercise_3_4_5_poker: C_EXECUTABLE_LINKER__exercise_3_4_5_poker_Debug base/c-programming/ch10_program_structure/exercise/CMakeFiles/exercise_3_4_5_poker.dir/exercise_3_4_5_poker.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch10_program_structure/exercise/CMakeFiles/exercise_3_4_5_poker.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch10_program_structure/exercise/exercise_3_4_5_poker
+  TARGET_PDB = exercise_3_4_5_poker.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_6_rpn
+
+
+#############################################
+# Order-only phony target for exercise_6_rpn
+
+build cmake_object_order_depends_target_exercise_6_rpn: phony || base/c-programming/ch10_program_structure/exercise/CMakeFiles/exercise_6_rpn.dir
+
+build base/c-programming/ch10_program_structure/exercise/CMakeFiles/exercise_6_rpn.dir/exercise_6_rpn.c.o: C_COMPILER__exercise_6_rpn_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch10_program_structure/exercise/exercise_6_rpn.c || cmake_object_order_depends_target_exercise_6_rpn
+  DEP_FILE = base/c-programming/ch10_program_structure/exercise/CMakeFiles/exercise_6_rpn.dir/exercise_6_rpn.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch10_program_structure/exercise/CMakeFiles/exercise_6_rpn.dir
+  OBJECT_FILE_DIR = base/c-programming/ch10_program_structure/exercise/CMakeFiles/exercise_6_rpn.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_6_rpn
+
+
+#############################################
+# Link the executable base/c-programming/ch10_program_structure/exercise/exercise_6_rpn
+
+build base/c-programming/ch10_program_structure/exercise/exercise_6_rpn: C_EXECUTABLE_LINKER__exercise_6_rpn_Debug base/c-programming/ch10_program_structure/exercise/CMakeFiles/exercise_6_rpn.dir/exercise_6_rpn.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch10_program_structure/exercise/CMakeFiles/exercise_6_rpn.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch10_program_structure/exercise/exercise_6_rpn
+  TARGET_PDB = exercise_6_rpn.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_7_seven_segment_displayer
+
+
+#############################################
+# Order-only phony target for exercise_7_seven_segment_displayer
+
+build cmake_object_order_depends_target_exercise_7_seven_segment_displayer: phony || base/c-programming/ch10_program_structure/exercise/CMakeFiles/exercise_7_seven_segment_displayer.dir
+
+build base/c-programming/ch10_program_structure/exercise/CMakeFiles/exercise_7_seven_segment_displayer.dir/exercise_7_seven_segment_displayer.c.o: C_COMPILER__exercise_7_seven_segment_displayer_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch10_program_structure/exercise/exercise_7_seven_segment_displayer.c || cmake_object_order_depends_target_exercise_7_seven_segment_displayer
+  DEP_FILE = base/c-programming/ch10_program_structure/exercise/CMakeFiles/exercise_7_seven_segment_displayer.dir/exercise_7_seven_segment_displayer.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch10_program_structure/exercise/CMakeFiles/exercise_7_seven_segment_displayer.dir
+  OBJECT_FILE_DIR = base/c-programming/ch10_program_structure/exercise/CMakeFiles/exercise_7_seven_segment_displayer.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_7_seven_segment_displayer
+
+
+#############################################
+# Link the executable base/c-programming/ch10_program_structure/exercise/exercise_7_seven_segment_displayer
+
+build base/c-programming/ch10_program_structure/exercise/exercise_7_seven_segment_displayer: C_EXECUTABLE_LINKER__exercise_7_seven_segment_displayer_Debug base/c-programming/ch10_program_structure/exercise/CMakeFiles/exercise_7_seven_segment_displayer.dir/exercise_7_seven_segment_displayer.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch10_program_structure/exercise/CMakeFiles/exercise_7_seven_segment_displayer.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch10_program_structure/exercise/exercise_7_seven_segment_displayer
+  TARGET_PDB = exercise_7_seven_segment_displayer.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -3656,7 +3784,11 @@ build exercise_1_square: phony base/c-programming/ch07_base_type/exercise/exerci
 
 build exercise_2_greatest_common_divisor: phony base/c-programming/ch06_loop/exercise/exercise_2_greatest_common_divisor
 
+build exercise_2_poker: phony base/c-programming/ch10_program_structure/exercise/exercise_2_poker
+
 build exercise_2_rep_digit_2: phony base/c-programming/ch08_array/exercise/exercise_2_rep_digit_2
+
+build exercise_3_4_5_poker: phony base/c-programming/ch10_program_structure/exercise/exercise_3_4_5_poker
 
 build exercise_3_lowest_terms: phony base/c-programming/ch06_loop/exercise/exercise_3_lowest_terms
 
@@ -3678,9 +3810,13 @@ build exercise_6_b1ff: phony base/c-programming/ch08_array/exercise/exercise_6_b
 
 build exercise_6_even_square: phony base/c-programming/ch06_loop/exercise/exercise_6_even_square
 
+build exercise_6_rpn: phony base/c-programming/ch10_program_structure/exercise/exercise_6_rpn
+
 build exercise_6_sizeof_base_type: phony base/c-programming/ch07_base_type/exercise/exercise_6_sizeof_base_type
 
 build exercise_7_matrix_summation: phony base/c-programming/ch08_array/exercise/exercise_7_matrix_summation
+
+build exercise_7_seven_segment_displayer: phony base/c-programming/ch10_program_structure/exercise/exercise_7_seven_segment_displayer
 
 build exercise_8_month_calendar: phony base/c-programming/ch06_loop/exercise/exercise_8_month_calendar
 
@@ -3906,7 +4042,7 @@ build base/c-programming/ch10_program_structure/all: phony base/c-programming/ch
 #############################################
 # Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch10_program_structure/exercise
 
-build base/c-programming/ch10_program_structure/exercise/all: phony base/c-programming/ch10_program_structure/exercise/exercise_01_check_brackets
+build base/c-programming/ch10_program_structure/exercise/all: phony base/c-programming/ch10_program_structure/exercise/exercise_01_check_brackets base/c-programming/ch10_program_structure/exercise/exercise_2_poker base/c-programming/ch10_program_structure/exercise/exercise_3_4_5_poker base/c-programming/ch10_program_structure/exercise/exercise_6_rpn base/c-programming/ch10_program_structure/exercise/exercise_7_seven_segment_displayer
 
 # =============================================================================
 # Built-in targets

@@ -1,1 +1,5 @@
 add_executable(exercise_01_check_brackets exercise_01_check_brackets.c)
+add_executable(exercise_2_poker exercise_2_poker.c)
+add_executable(exercise_3_4_5_poker exercise_3_4_5_poker.c)
+add_executable(exercise_6_rpn exercise_6_rpn.c)
+add_executable(exercise_7_seven_segment_displayer exercise_7_seven_segment_displayer.c)

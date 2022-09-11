@@ -19,8 +19,6 @@ void selection_sort(int n, int a[]) {
     a[n - 1] = max;
     if (--n > 0)
         selection_sort(n, a);
-    else
-        return;
 }
 
 int main(void) {
