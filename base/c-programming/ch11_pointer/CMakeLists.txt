@@ -1,0 +1,3 @@
+ADD_SUBDIRECTORY(exercise)
+
+add_executable(pointer_variable pointer_variable.c)

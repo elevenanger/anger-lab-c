@@ -1,0 +1,4 @@
+add_executable(exercise_01_minimum_note exercise_01_minimum_note.c)
+add_executable(exercise_02_find_flight exercise_02_find_flight.c)
+add_executable(exercise_03_lowest_term exercise_03_lowest_term.c)
+add_executable(exercise_04_poker exercise_04_poker.c)
