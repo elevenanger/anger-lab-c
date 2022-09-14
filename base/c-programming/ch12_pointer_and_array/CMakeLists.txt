@@ -1,4 +1,7 @@
+ADD_SUBDIRECTORY(exercise)
+
 add_executable(pointer_arithmetic_operation pointer_arithmetic_operation.c)
 add_executable(pointer_for_array pointer_for_array.c)
 add_executable(array_name_as_pointer array_name_as_pointer.c)
 add_executable(pointer_with_multi_dimensional_array pointer_with_multi_dimensional_array.c)
+add_executable(pointer_with_variable_length_array pointer_with_variable_length_array.c)
