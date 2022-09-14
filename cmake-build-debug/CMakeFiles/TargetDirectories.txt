@@ -156,5 +156,6 @@
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch12_pointer_and_array/exercise/CMakeFiles/exercise_02_palindrome.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch12_pointer_and_array/exercise/CMakeFiles/exercise_05_reverse_sentence.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch12_pointer_and_array/exercise/CMakeFiles/exercise_06_qsort.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch12_pointer_and_array/exercise/CMakeFiles/exercise_07_max_min.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch12_pointer_and_array/exercise/CMakeFiles/edit_cache.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch12_pointer_and_array/exercise/CMakeFiles/rebuild_cache.dir
