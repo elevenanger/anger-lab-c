@@ -1,0 +1,5 @@
+add_executable(string_literal string_literal.c)
+add_executable(string_variable string_variable.c)
+add_executable(string_read_write string_read_write.c)
+add_executable(access_char_in_string access_char_in_string.c)
+add_executable(string_c_lib string_c_lib.c)

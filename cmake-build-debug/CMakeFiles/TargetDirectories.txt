@@ -159,3 +159,10 @@
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch12_pointer_and_array/exercise/CMakeFiles/exercise_07_max_min.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch12_pointer_and_array/exercise/CMakeFiles/edit_cache.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch12_pointer_and_array/exercise/CMakeFiles/rebuild_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch13_string/CMakeFiles/string_literal.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch13_string/CMakeFiles/string_variable.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch13_string/CMakeFiles/string_read_write.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch13_string/CMakeFiles/access_char_in_string.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch13_string/CMakeFiles/string_c_lib.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch13_string/CMakeFiles/edit_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch13_string/CMakeFiles/rebuild_cache.dir

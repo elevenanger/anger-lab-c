@@ -4236,6 +4236,38 @@ build base/c-programming/ch12_pointer_and_array/exercise/exercise_06_qsort: C_EX
   TARGET_FILE = base/c-programming/ch12_pointer_and_array/exercise/exercise_06_qsort
   TARGET_PDB = exercise_06_qsort.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_07_max_min
+
+
+#############################################
+# Order-only phony target for exercise_07_max_min
+
+build cmake_object_order_depends_target_exercise_07_max_min: phony || base/c-programming/ch12_pointer_and_array/exercise/CMakeFiles/exercise_07_max_min.dir
+
+build base/c-programming/ch12_pointer_and_array/exercise/CMakeFiles/exercise_07_max_min.dir/exercise_07_max_min.c.o: C_COMPILER__exercise_07_max_min_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch12_pointer_and_array/exercise/exercise_07_max_min.c || cmake_object_order_depends_target_exercise_07_max_min
+  DEP_FILE = base/c-programming/ch12_pointer_and_array/exercise/CMakeFiles/exercise_07_max_min.dir/exercise_07_max_min.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch12_pointer_and_array/exercise/CMakeFiles/exercise_07_max_min.dir
+  OBJECT_FILE_DIR = base/c-programming/ch12_pointer_and_array/exercise/CMakeFiles/exercise_07_max_min.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_07_max_min
+
+
+#############################################
+# Link the executable base/c-programming/ch12_pointer_and_array/exercise/exercise_07_max_min
+
+build base/c-programming/ch12_pointer_and_array/exercise/exercise_07_max_min: C_EXECUTABLE_LINKER__exercise_07_max_min_Debug base/c-programming/ch12_pointer_and_array/exercise/CMakeFiles/exercise_07_max_min.dir/exercise_07_max_min.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch12_pointer_and_array/exercise/CMakeFiles/exercise_07_max_min.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch12_pointer_and_array/exercise/exercise_07_max_min
+  TARGET_PDB = exercise_07_max_min.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -4260,7 +4292,197 @@ build base/c-programming/ch12_pointer_and_array/exercise/CMakeFiles/rebuild_cach
 build base/c-programming/ch12_pointer_and_array/exercise/rebuild_cache: phony base/c-programming/ch12_pointer_and_array/exercise/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/liuanglin/Projects/anger-lab-c/base/c-programming/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target string_literal
+
+
+#############################################
+# Order-only phony target for string_literal
+
+build cmake_object_order_depends_target_string_literal: phony || base/c-programming/ch13_string/CMakeFiles/string_literal.dir
+
+build base/c-programming/ch13_string/CMakeFiles/string_literal.dir/string_literal.c.o: C_COMPILER__string_literal_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch13_string/string_literal.c || cmake_object_order_depends_target_string_literal
+  DEP_FILE = base/c-programming/ch13_string/CMakeFiles/string_literal.dir/string_literal.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch13_string/CMakeFiles/string_literal.dir
+  OBJECT_FILE_DIR = base/c-programming/ch13_string/CMakeFiles/string_literal.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target string_literal
+
+
+#############################################
+# Link the executable base/c-programming/ch13_string/string_literal
+
+build base/c-programming/ch13_string/string_literal: C_EXECUTABLE_LINKER__string_literal_Debug base/c-programming/ch13_string/CMakeFiles/string_literal.dir/string_literal.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch13_string/CMakeFiles/string_literal.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch13_string/string_literal
+  TARGET_PDB = string_literal.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target string_variable
+
+
+#############################################
+# Order-only phony target for string_variable
+
+build cmake_object_order_depends_target_string_variable: phony || base/c-programming/ch13_string/CMakeFiles/string_variable.dir
+
+build base/c-programming/ch13_string/CMakeFiles/string_variable.dir/string_variable.c.o: C_COMPILER__string_variable_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch13_string/string_variable.c || cmake_object_order_depends_target_string_variable
+  DEP_FILE = base/c-programming/ch13_string/CMakeFiles/string_variable.dir/string_variable.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch13_string/CMakeFiles/string_variable.dir
+  OBJECT_FILE_DIR = base/c-programming/ch13_string/CMakeFiles/string_variable.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target string_variable
+
+
+#############################################
+# Link the executable base/c-programming/ch13_string/string_variable
+
+build base/c-programming/ch13_string/string_variable: C_EXECUTABLE_LINKER__string_variable_Debug base/c-programming/ch13_string/CMakeFiles/string_variable.dir/string_variable.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch13_string/CMakeFiles/string_variable.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch13_string/string_variable
+  TARGET_PDB = string_variable.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target string_read_write
+
+
+#############################################
+# Order-only phony target for string_read_write
+
+build cmake_object_order_depends_target_string_read_write: phony || base/c-programming/ch13_string/CMakeFiles/string_read_write.dir
+
+build base/c-programming/ch13_string/CMakeFiles/string_read_write.dir/string_read_write.c.o: C_COMPILER__string_read_write_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch13_string/string_read_write.c || cmake_object_order_depends_target_string_read_write
+  DEP_FILE = base/c-programming/ch13_string/CMakeFiles/string_read_write.dir/string_read_write.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch13_string/CMakeFiles/string_read_write.dir
+  OBJECT_FILE_DIR = base/c-programming/ch13_string/CMakeFiles/string_read_write.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target string_read_write
+
+
+#############################################
+# Link the executable base/c-programming/ch13_string/string_read_write
+
+build base/c-programming/ch13_string/string_read_write: C_EXECUTABLE_LINKER__string_read_write_Debug base/c-programming/ch13_string/CMakeFiles/string_read_write.dir/string_read_write.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch13_string/CMakeFiles/string_read_write.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch13_string/string_read_write
+  TARGET_PDB = string_read_write.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target access_char_in_string
+
+
+#############################################
+# Order-only phony target for access_char_in_string
+
+build cmake_object_order_depends_target_access_char_in_string: phony || base/c-programming/ch13_string/CMakeFiles/access_char_in_string.dir
+
+build base/c-programming/ch13_string/CMakeFiles/access_char_in_string.dir/access_char_in_string.c.o: C_COMPILER__access_char_in_string_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch13_string/access_char_in_string.c || cmake_object_order_depends_target_access_char_in_string
+  DEP_FILE = base/c-programming/ch13_string/CMakeFiles/access_char_in_string.dir/access_char_in_string.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch13_string/CMakeFiles/access_char_in_string.dir
+  OBJECT_FILE_DIR = base/c-programming/ch13_string/CMakeFiles/access_char_in_string.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target access_char_in_string
+
+
+#############################################
+# Link the executable base/c-programming/ch13_string/access_char_in_string
+
+build base/c-programming/ch13_string/access_char_in_string: C_EXECUTABLE_LINKER__access_char_in_string_Debug base/c-programming/ch13_string/CMakeFiles/access_char_in_string.dir/access_char_in_string.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch13_string/CMakeFiles/access_char_in_string.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch13_string/access_char_in_string
+  TARGET_PDB = access_char_in_string.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target string_c_lib
+
+
+#############################################
+# Order-only phony target for string_c_lib
+
+build cmake_object_order_depends_target_string_c_lib: phony || base/c-programming/ch13_string/CMakeFiles/string_c_lib.dir
+
+build base/c-programming/ch13_string/CMakeFiles/string_c_lib.dir/string_c_lib.c.o: C_COMPILER__string_c_lib_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch13_string/string_c_lib.c || cmake_object_order_depends_target_string_c_lib
+  DEP_FILE = base/c-programming/ch13_string/CMakeFiles/string_c_lib.dir/string_c_lib.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch13_string/CMakeFiles/string_c_lib.dir
+  OBJECT_FILE_DIR = base/c-programming/ch13_string/CMakeFiles/string_c_lib.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target string_c_lib
+
+
+#############################################
+# Link the executable base/c-programming/ch13_string/string_c_lib
+
+build base/c-programming/ch13_string/string_c_lib: C_EXECUTABLE_LINKER__string_c_lib_Debug base/c-programming/ch13_string/CMakeFiles/string_c_lib.dir/string_c_lib.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch13_string/CMakeFiles/string_c_lib.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch13_string/string_c_lib
+  TARGET_PDB = string_c_lib.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build base/c-programming/ch13_string/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch13_string && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build base/c-programming/ch13_string/edit_cache: phony base/c-programming/ch13_string/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build base/c-programming/ch13_string/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch13_string && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/liuanglin/Projects/anger-lab-c -B/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build base/c-programming/ch13_string/rebuild_cache: phony base/c-programming/ch13_string/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
+
+build access_char_in_string: phony base/c-programming/ch13_string/access_char_in_string
 
 build analysis_isbn: phony base/c-programming/ch03_format_io/exercise/analysis_isbn
 
@@ -4319,6 +4541,8 @@ build exercise_05_reverse_sentence: phony base/c-programming/ch12_pointer_and_ar
 build exercise_06_polynomial_evaluation: phony base/c-programming/ch09_function/exercise/exercise_06_polynomial_evaluation
 
 build exercise_06_qsort: phony base/c-programming/ch12_pointer_and_array/exercise/exercise_06_qsort
+
+build exercise_07_max_min: phony base/c-programming/ch12_pointer_and_array/exercise/exercise_07_max_min
 
 build exercise_07_power_recursion: phony base/c-programming/ch09_function/exercise/exercise_07_power_recursion
 
@@ -4472,6 +4696,14 @@ build selection_statement: phony base/c-programming/ch05_select_statement/select
 
 build sizeof_operator: phony base/c-programming/ch07_base_type/sizeof_operator
 
+build string_c_lib: phony base/c-programming/ch13_string/string_c_lib
+
+build string_literal: phony base/c-programming/ch13_string/string_literal
+
+build string_read_write: phony base/c-programming/ch13_string/string_read_write
+
+build string_variable: phony base/c-programming/ch13_string/string_variable
+
 build tprintf: phony base/c-programming/ch03_format_io/tprintf
 
 build tscanf: phony base/c-programming/ch03_format_io/tscanf
@@ -4504,7 +4736,7 @@ build base/all: phony base/c-programming/all
 #############################################
 # Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming
 
-build base/c-programming/all: phony base/c-programming/ch02-language-foundation/all base/c-programming/ch03_format_io/all base/c-programming/ch04_expression/all base/c-programming/ch05_select_statement/all base/c-programming/ch06_loop/all base/c-programming/ch07_base_type/all base/c-programming/ch08_array/all base/c-programming/ch09_function/all base/c-programming/ch10_program_structure/all base/c-programming/ch11_pointer/all base/c-programming/ch12_pointer_and_array/all
+build base/c-programming/all: phony base/c-programming/ch02-language-foundation/all base/c-programming/ch03_format_io/all base/c-programming/ch04_expression/all base/c-programming/ch05_select_statement/all base/c-programming/ch06_loop/all base/c-programming/ch07_base_type/all base/c-programming/ch08_array/all base/c-programming/ch09_function/all base/c-programming/ch10_program_structure/all base/c-programming/ch11_pointer/all base/c-programming/ch12_pointer_and_array/all base/c-programming/ch13_string/all
 
 # =============================================================================
 
@@ -4658,7 +4890,14 @@ build base/c-programming/ch12_pointer_and_array/all: phony base/c-programming/ch
 #############################################
 # Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch12_pointer_and_array/exercise
 
-build base/c-programming/ch12_pointer_and_array/exercise/all: phony base/c-programming/ch12_pointer_and_array/exercise/exercise_01_reverse_message base/c-programming/ch12_pointer_and_array/exercise/exercise_02_palindrome base/c-programming/ch12_pointer_and_array/exercise/exercise_05_reverse_sentence base/c-programming/ch12_pointer_and_array/exercise/exercise_06_qsort
+build base/c-programming/ch12_pointer_and_array/exercise/all: phony base/c-programming/ch12_pointer_and_array/exercise/exercise_01_reverse_message base/c-programming/ch12_pointer_and_array/exercise/exercise_02_palindrome base/c-programming/ch12_pointer_and_array/exercise/exercise_05_reverse_sentence base/c-programming/ch12_pointer_and_array/exercise/exercise_06_qsort base/c-programming/ch12_pointer_and_array/exercise/exercise_07_max_min
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch13_string
+
+build base/c-programming/ch13_string/all: phony base/c-programming/ch13_string/string_literal base/c-programming/ch13_string/string_variable base/c-programming/ch13_string/string_read_write base/c-programming/ch13_string/access_char_in_string base/c-programming/ch13_string/string_c_lib
 
 # =============================================================================
 # Built-in targets
@@ -4667,14 +4906,14 @@ build base/c-programming/ch12_pointer_and_array/exercise/all: phony base/c-progr
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../base/CMakeLists.txt ../base/c-programming/CMakeLists.txt ../base/c-programming/ch02-language-foundation/CMakeLists.txt ../base/c-programming/ch02-language-foundation/exercise/CMakeLists.txt ../base/c-programming/ch03_format_io/CMakeLists.txt ../base/c-programming/ch03_format_io/exercise/CMakeLists.txt ../base/c-programming/ch04_expression/CMakeLists.txt ../base/c-programming/ch04_expression/exercise/CMakeLists.txt ../base/c-programming/ch05_select_statement/CMakeLists.txt ../base/c-programming/ch05_select_statement/exercise/CMakeLists.txt ../base/c-programming/ch06_loop/CMakeLists.txt ../base/c-programming/ch06_loop/exercise/CMakeLists.txt ../base/c-programming/ch07_base_type/CMakeLists.txt ../base/c-programming/ch07_base_type/exercise/CMakeLists.txt ../base/c-programming/ch08_array/CMakeLists.txt ../base/c-programming/ch08_array/exercise/CMakeLists.txt ../base/c-programming/ch09_function/CMakeLists.txt ../base/c-programming/ch09_function/exercise/CMakeLists.txt ../base/c-programming/ch10_program_structure/CMakeLists.txt ../base/c-programming/ch10_program_structure/exercise/CMakeLists.txt ../base/c-programming/ch11_pointer/CMakeLists.txt ../base/c-programming/ch11_pointer/exercise/CMakeLists.txt ../base/c-programming/ch12_pointer_and_array/CMakeLists.txt ../base/c-programming/ch12_pointer_and_array/exercise/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../base/CMakeLists.txt ../base/c-programming/CMakeLists.txt ../base/c-programming/ch02-language-foundation/CMakeLists.txt ../base/c-programming/ch02-language-foundation/exercise/CMakeLists.txt ../base/c-programming/ch03_format_io/CMakeLists.txt ../base/c-programming/ch03_format_io/exercise/CMakeLists.txt ../base/c-programming/ch04_expression/CMakeLists.txt ../base/c-programming/ch04_expression/exercise/CMakeLists.txt ../base/c-programming/ch05_select_statement/CMakeLists.txt ../base/c-programming/ch05_select_statement/exercise/CMakeLists.txt ../base/c-programming/ch06_loop/CMakeLists.txt ../base/c-programming/ch06_loop/exercise/CMakeLists.txt ../base/c-programming/ch07_base_type/CMakeLists.txt ../base/c-programming/ch07_base_type/exercise/CMakeLists.txt ../base/c-programming/ch08_array/CMakeLists.txt ../base/c-programming/ch08_array/exercise/CMakeLists.txt ../base/c-programming/ch09_function/CMakeLists.txt ../base/c-programming/ch09_function/exercise/CMakeLists.txt ../base/c-programming/ch10_program_structure/CMakeLists.txt ../base/c-programming/ch10_program_structure/exercise/CMakeLists.txt ../base/c-programming/ch11_pointer/CMakeLists.txt ../base/c-programming/ch11_pointer/exercise/CMakeLists.txt ../base/c-programming/ch12_pointer_and_array/CMakeLists.txt ../base/c-programming/ch12_pointer_and_array/exercise/CMakeLists.txt ../base/c-programming/ch13_string/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt ../base/CMakeLists.txt ../base/c-programming/CMakeLists.txt ../base/c-programming/ch02-language-foundation/CMakeLists.txt ../base/c-programming/ch02-language-foundation/exercise/CMakeLists.txt ../base/c-programming/ch03_format_io/CMakeLists.txt ../base/c-programming/ch03_format_io/exercise/CMakeLists.txt ../base/c-programming/ch04_expression/CMakeLists.txt ../base/c-programming/ch04_expression/exercise/CMakeLists.txt ../base/c-programming/ch05_select_statement/CMakeLists.txt ../base/c-programming/ch05_select_statement/exercise/CMakeLists.txt ../base/c-programming/ch06_loop/CMakeLists.txt ../base/c-programming/ch06_loop/exercise/CMakeLists.txt ../base/c-programming/ch07_base_type/CMakeLists.txt ../base/c-programming/ch07_base_type/exercise/CMakeLists.txt ../base/c-programming/ch08_array/CMakeLists.txt ../base/c-programming/ch08_array/exercise/CMakeLists.txt ../base/c-programming/ch09_function/CMakeLists.txt ../base/c-programming/ch09_function/exercise/CMakeLists.txt ../base/c-programming/ch10_program_structure/CMakeLists.txt ../base/c-programming/ch10_program_structure/exercise/CMakeLists.txt ../base/c-programming/ch11_pointer/CMakeLists.txt ../base/c-programming/ch11_pointer/exercise/CMakeLists.txt ../base/c-programming/ch12_pointer_and_array/CMakeLists.txt ../base/c-programming/ch12_pointer_and_array/exercise/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+build ../CMakeLists.txt ../base/CMakeLists.txt ../base/c-programming/CMakeLists.txt ../base/c-programming/ch02-language-foundation/CMakeLists.txt ../base/c-programming/ch02-language-foundation/exercise/CMakeLists.txt ../base/c-programming/ch03_format_io/CMakeLists.txt ../base/c-programming/ch03_format_io/exercise/CMakeLists.txt ../base/c-programming/ch04_expression/CMakeLists.txt ../base/c-programming/ch04_expression/exercise/CMakeLists.txt ../base/c-programming/ch05_select_statement/CMakeLists.txt ../base/c-programming/ch05_select_statement/exercise/CMakeLists.txt ../base/c-programming/ch06_loop/CMakeLists.txt ../base/c-programming/ch06_loop/exercise/CMakeLists.txt ../base/c-programming/ch07_base_type/CMakeLists.txt ../base/c-programming/ch07_base_type/exercise/CMakeLists.txt ../base/c-programming/ch08_array/CMakeLists.txt ../base/c-programming/ch08_array/exercise/CMakeLists.txt ../base/c-programming/ch09_function/CMakeLists.txt ../base/c-programming/ch09_function/exercise/CMakeLists.txt ../base/c-programming/ch10_program_structure/CMakeLists.txt ../base/c-programming/ch10_program_structure/exercise/CMakeLists.txt ../base/c-programming/ch11_pointer/CMakeLists.txt ../base/c-programming/ch11_pointer/exercise/CMakeLists.txt ../base/c-programming/ch12_pointer_and_array/CMakeLists.txt ../base/c-programming/ch12_pointer_and_array/exercise/CMakeLists.txt ../base/c-programming/ch13_string/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
 
 
 #############################################
