@@ -4456,6 +4456,102 @@ build base/c-programming/ch13_string/string_c_lib: C_EXECUTABLE_LINKER__string_c
   TARGET_FILE = base/c-programming/ch13_string/string_c_lib
   TARGET_PDB = string_c_lib.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target reminder
+
+
+#############################################
+# Order-only phony target for reminder
+
+build cmake_object_order_depends_target_reminder: phony || base/c-programming/ch13_string/CMakeFiles/reminder.dir
+
+build base/c-programming/ch13_string/CMakeFiles/reminder.dir/reminder.c.o: C_COMPILER__reminder_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch13_string/reminder.c || cmake_object_order_depends_target_reminder
+  DEP_FILE = base/c-programming/ch13_string/CMakeFiles/reminder.dir/reminder.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch13_string/CMakeFiles/reminder.dir
+  OBJECT_FILE_DIR = base/c-programming/ch13_string/CMakeFiles/reminder.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target reminder
+
+
+#############################################
+# Link the executable base/c-programming/ch13_string/reminder
+
+build base/c-programming/ch13_string/reminder: C_EXECUTABLE_LINKER__reminder_Debug base/c-programming/ch13_string/CMakeFiles/reminder.dir/reminder.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch13_string/CMakeFiles/reminder.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch13_string/reminder
+  TARGET_PDB = reminder.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target string_usages
+
+
+#############################################
+# Order-only phony target for string_usages
+
+build cmake_object_order_depends_target_string_usages: phony || base/c-programming/ch13_string/CMakeFiles/string_usages.dir
+
+build base/c-programming/ch13_string/CMakeFiles/string_usages.dir/string_usages.c.o: C_COMPILER__string_usages_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch13_string/string_usages.c || cmake_object_order_depends_target_string_usages
+  DEP_FILE = base/c-programming/ch13_string/CMakeFiles/string_usages.dir/string_usages.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch13_string/CMakeFiles/string_usages.dir
+  OBJECT_FILE_DIR = base/c-programming/ch13_string/CMakeFiles/string_usages.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target string_usages
+
+
+#############################################
+# Link the executable base/c-programming/ch13_string/string_usages
+
+build base/c-programming/ch13_string/string_usages: C_EXECUTABLE_LINKER__string_usages_Debug base/c-programming/ch13_string/CMakeFiles/string_usages.dir/string_usages.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch13_string/CMakeFiles/string_usages.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch13_string/string_usages
+  TARGET_PDB = string_usages.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target string_array
+
+
+#############################################
+# Order-only phony target for string_array
+
+build cmake_object_order_depends_target_string_array: phony || base/c-programming/ch13_string/CMakeFiles/string_array.dir
+
+build base/c-programming/ch13_string/CMakeFiles/string_array.dir/string_array.c.o: C_COMPILER__string_array_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch13_string/string_array.c || cmake_object_order_depends_target_string_array
+  DEP_FILE = base/c-programming/ch13_string/CMakeFiles/string_array.dir/string_array.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch13_string/CMakeFiles/string_array.dir
+  OBJECT_FILE_DIR = base/c-programming/ch13_string/CMakeFiles/string_array.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target string_array
+
+
+#############################################
+# Link the executable base/c-programming/ch13_string/string_array
+
+build base/c-programming/ch13_string/string_array: C_EXECUTABLE_LINKER__string_array_Debug base/c-programming/ch13_string/CMakeFiles/string_array.dir/string_array.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch13_string/CMakeFiles/string_array.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch13_string/string_array
+  TARGET_PDB = string_array.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -4686,6 +4782,8 @@ build program_block: phony base/c-programming/ch10_program_structure/program_blo
 
 build program_structure: phony base/c-programming/ch10_program_structure/program_structure
 
+build reminder: phony base/c-programming/ch13_string/reminder
+
 build reverse_number: phony base/c-programming/ch04_expression/exercise/reverse_number
 
 build scope: phony base/c-programming/ch10_program_structure/scope
@@ -4696,11 +4794,15 @@ build selection_statement: phony base/c-programming/ch05_select_statement/select
 
 build sizeof_operator: phony base/c-programming/ch07_base_type/sizeof_operator
 
+build string_array: phony base/c-programming/ch13_string/string_array
+
 build string_c_lib: phony base/c-programming/ch13_string/string_c_lib
 
 build string_literal: phony base/c-programming/ch13_string/string_literal
 
 build string_read_write: phony base/c-programming/ch13_string/string_read_write
+
+build string_usages: phony base/c-programming/ch13_string/string_usages
 
 build string_variable: phony base/c-programming/ch13_string/string_variable
 
@@ -4897,7 +4999,7 @@ build base/c-programming/ch12_pointer_and_array/exercise/all: phony base/c-progr
 #############################################
 # Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch13_string
 
-build base/c-programming/ch13_string/all: phony base/c-programming/ch13_string/string_literal base/c-programming/ch13_string/string_variable base/c-programming/ch13_string/string_read_write base/c-programming/ch13_string/access_char_in_string base/c-programming/ch13_string/string_c_lib
+build base/c-programming/ch13_string/all: phony base/c-programming/ch13_string/string_literal base/c-programming/ch13_string/string_variable base/c-programming/ch13_string/string_read_write base/c-programming/ch13_string/access_char_in_string base/c-programming/ch13_string/string_c_lib base/c-programming/ch13_string/reminder base/c-programming/ch13_string/string_usages base/c-programming/ch13_string/string_array
 
 # =============================================================================
 # Built-in targets
