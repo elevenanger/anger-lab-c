@@ -9,7 +9,7 @@
 int main(void) {
 
     /* 变量 ch 用于存储当前字符，first_name 用于存储 first_name 第一个字符 */
-    unsigned int ch, first_name = 0;
+    int ch, first_name = 0;
 
     printf("Enter a name : ");
     /* 字符不为空格之前输入的都是 first_name */

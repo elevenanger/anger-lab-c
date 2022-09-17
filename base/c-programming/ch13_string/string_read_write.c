@@ -67,8 +67,9 @@ void read_string_by_scanf(void) {
  */
 int read_line(char str[], int n) {
     int ch, i = 0;
-    /* 遇到换行符则停止读取 */
-    while ((ch = getchar()) != '\n')
+    /* 遇到换行符则停止读取
+     * EOF 表示读取到文件末尾或者错误不能继续读取字符 */
+    while ((ch = getchar()) != '\n' && ch != EOF)
         if (i < n)
             str[i++] = ch;
     /* 终止字符 */

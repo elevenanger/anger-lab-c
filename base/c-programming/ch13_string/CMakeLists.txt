@@ -1,3 +1,5 @@
+ADD_SUBDIRECTORY(exercise)
+
 add_executable(string_literal string_literal.c)
 add_executable(string_variable string_variable.c)
 add_executable(string_read_write string_read_write.c)
@@ -6,3 +8,5 @@ add_executable(string_c_lib string_c_lib.c)
 add_executable(reminder reminder.c)
 add_executable(string_usages string_usages.c)
 add_executable(string_array string_array.c)
+add_executable(command_line_args command_line_args.c)
+add_executable(planet planet.c)
