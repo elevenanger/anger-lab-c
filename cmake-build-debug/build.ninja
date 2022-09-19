@@ -4996,6 +4996,230 @@ build base/c-programming/ch13_string/exercise/exercise_11_average_word_length: C
   TARGET_FILE = base/c-programming/ch13_string/exercise/exercise_11_average_word_length
   TARGET_PDB = exercise_11_average_word_length.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_12_reverse
+
+
+#############################################
+# Order-only phony target for exercise_12_reverse
+
+build cmake_object_order_depends_target_exercise_12_reverse: phony || base/c-programming/ch13_string/exercise/CMakeFiles/exercise_12_reverse.dir
+
+build base/c-programming/ch13_string/exercise/CMakeFiles/exercise_12_reverse.dir/exercise_12_reverse.c.o: C_COMPILER__exercise_12_reverse_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch13_string/exercise/exercise_12_reverse.c || cmake_object_order_depends_target_exercise_12_reverse
+  DEP_FILE = base/c-programming/ch13_string/exercise/CMakeFiles/exercise_12_reverse.dir/exercise_12_reverse.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch13_string/exercise/CMakeFiles/exercise_12_reverse.dir
+  OBJECT_FILE_DIR = base/c-programming/ch13_string/exercise/CMakeFiles/exercise_12_reverse.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_12_reverse
+
+
+#############################################
+# Link the executable base/c-programming/ch13_string/exercise/exercise_12_reverse
+
+build base/c-programming/ch13_string/exercise/exercise_12_reverse: C_EXECUTABLE_LINKER__exercise_12_reverse_Debug base/c-programming/ch13_string/exercise/CMakeFiles/exercise_12_reverse.dir/exercise_12_reverse.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch13_string/exercise/CMakeFiles/exercise_12_reverse.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch13_string/exercise/exercise_12_reverse
+  TARGET_PDB = exercise_12_reverse.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_13_caesar
+
+
+#############################################
+# Order-only phony target for exercise_13_caesar
+
+build cmake_object_order_depends_target_exercise_13_caesar: phony || base/c-programming/ch13_string/exercise/CMakeFiles/exercise_13_caesar.dir
+
+build base/c-programming/ch13_string/exercise/CMakeFiles/exercise_13_caesar.dir/exercise_13_caesar.c.o: C_COMPILER__exercise_13_caesar_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch13_string/exercise/exercise_13_caesar.c || cmake_object_order_depends_target_exercise_13_caesar
+  DEP_FILE = base/c-programming/ch13_string/exercise/CMakeFiles/exercise_13_caesar.dir/exercise_13_caesar.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch13_string/exercise/CMakeFiles/exercise_13_caesar.dir
+  OBJECT_FILE_DIR = base/c-programming/ch13_string/exercise/CMakeFiles/exercise_13_caesar.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_13_caesar
+
+
+#############################################
+# Link the executable base/c-programming/ch13_string/exercise/exercise_13_caesar
+
+build base/c-programming/ch13_string/exercise/exercise_13_caesar: C_EXECUTABLE_LINKER__exercise_13_caesar_Debug base/c-programming/ch13_string/exercise/CMakeFiles/exercise_13_caesar.dir/exercise_13_caesar.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch13_string/exercise/CMakeFiles/exercise_13_caesar.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch13_string/exercise/exercise_13_caesar
+  TARGET_PDB = exercise_13_caesar.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_14_anagram
+
+
+#############################################
+# Order-only phony target for exercise_14_anagram
+
+build cmake_object_order_depends_target_exercise_14_anagram: phony || base/c-programming/ch13_string/exercise/CMakeFiles/exercise_14_anagram.dir
+
+build base/c-programming/ch13_string/exercise/CMakeFiles/exercise_14_anagram.dir/exercise_14_anagram.c.o: C_COMPILER__exercise_14_anagram_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch13_string/exercise/exercise_14_anagram.c || cmake_object_order_depends_target_exercise_14_anagram
+  DEP_FILE = base/c-programming/ch13_string/exercise/CMakeFiles/exercise_14_anagram.dir/exercise_14_anagram.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch13_string/exercise/CMakeFiles/exercise_14_anagram.dir
+  OBJECT_FILE_DIR = base/c-programming/ch13_string/exercise/CMakeFiles/exercise_14_anagram.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_14_anagram
+
+
+#############################################
+# Link the executable base/c-programming/ch13_string/exercise/exercise_14_anagram
+
+build base/c-programming/ch13_string/exercise/exercise_14_anagram: C_EXECUTABLE_LINKER__exercise_14_anagram_Debug base/c-programming/ch13_string/exercise/CMakeFiles/exercise_14_anagram.dir/exercise_14_anagram.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch13_string/exercise/CMakeFiles/exercise_14_anagram.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch13_string/exercise/exercise_14_anagram
+  TARGET_PDB = exercise_14_anagram.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_15_rpn
+
+
+#############################################
+# Order-only phony target for exercise_15_rpn
+
+build cmake_object_order_depends_target_exercise_15_rpn: phony || base/c-programming/ch13_string/exercise/CMakeFiles/exercise_15_rpn.dir
+
+build base/c-programming/ch13_string/exercise/CMakeFiles/exercise_15_rpn.dir/exercise_15_rpn.c.o: C_COMPILER__exercise_15_rpn_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch13_string/exercise/exercise_15_rpn.c || cmake_object_order_depends_target_exercise_15_rpn
+  DEP_FILE = base/c-programming/ch13_string/exercise/CMakeFiles/exercise_15_rpn.dir/exercise_15_rpn.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch13_string/exercise/CMakeFiles/exercise_15_rpn.dir
+  OBJECT_FILE_DIR = base/c-programming/ch13_string/exercise/CMakeFiles/exercise_15_rpn.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_15_rpn
+
+
+#############################################
+# Link the executable base/c-programming/ch13_string/exercise/exercise_15_rpn
+
+build base/c-programming/ch13_string/exercise/exercise_15_rpn: C_EXECUTABLE_LINKER__exercise_15_rpn_Debug base/c-programming/ch13_string/exercise/CMakeFiles/exercise_15_rpn.dir/exercise_15_rpn.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch13_string/exercise/CMakeFiles/exercise_15_rpn.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch13_string/exercise/exercise_15_rpn
+  TARGET_PDB = exercise_15_rpn.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_16_reverse_message
+
+
+#############################################
+# Order-only phony target for exercise_16_reverse_message
+
+build cmake_object_order_depends_target_exercise_16_reverse_message: phony || base/c-programming/ch13_string/exercise/CMakeFiles/exercise_16_reverse_message.dir
+
+build base/c-programming/ch13_string/exercise/CMakeFiles/exercise_16_reverse_message.dir/exercise_16_reverse_message.c.o: C_COMPILER__exercise_16_reverse_message_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch13_string/exercise/exercise_16_reverse_message.c || cmake_object_order_depends_target_exercise_16_reverse_message
+  DEP_FILE = base/c-programming/ch13_string/exercise/CMakeFiles/exercise_16_reverse_message.dir/exercise_16_reverse_message.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch13_string/exercise/CMakeFiles/exercise_16_reverse_message.dir
+  OBJECT_FILE_DIR = base/c-programming/ch13_string/exercise/CMakeFiles/exercise_16_reverse_message.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_16_reverse_message
+
+
+#############################################
+# Link the executable base/c-programming/ch13_string/exercise/exercise_16_reverse_message
+
+build base/c-programming/ch13_string/exercise/exercise_16_reverse_message: C_EXECUTABLE_LINKER__exercise_16_reverse_message_Debug base/c-programming/ch13_string/exercise/CMakeFiles/exercise_16_reverse_message.dir/exercise_16_reverse_message.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch13_string/exercise/CMakeFiles/exercise_16_reverse_message.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch13_string/exercise/exercise_16_reverse_message
+  TARGET_PDB = exercise_16_reverse_message.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_17_palindrome
+
+
+#############################################
+# Order-only phony target for exercise_17_palindrome
+
+build cmake_object_order_depends_target_exercise_17_palindrome: phony || base/c-programming/ch13_string/exercise/CMakeFiles/exercise_17_palindrome.dir
+
+build base/c-programming/ch13_string/exercise/CMakeFiles/exercise_17_palindrome.dir/exercise_17_palindrome.c.o: C_COMPILER__exercise_17_palindrome_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch13_string/exercise/exercise_17_palindrome.c || cmake_object_order_depends_target_exercise_17_palindrome
+  DEP_FILE = base/c-programming/ch13_string/exercise/CMakeFiles/exercise_17_palindrome.dir/exercise_17_palindrome.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch13_string/exercise/CMakeFiles/exercise_17_palindrome.dir
+  OBJECT_FILE_DIR = base/c-programming/ch13_string/exercise/CMakeFiles/exercise_17_palindrome.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_17_palindrome
+
+
+#############################################
+# Link the executable base/c-programming/ch13_string/exercise/exercise_17_palindrome
+
+build base/c-programming/ch13_string/exercise/exercise_17_palindrome: C_EXECUTABLE_LINKER__exercise_17_palindrome_Debug base/c-programming/ch13_string/exercise/CMakeFiles/exercise_17_palindrome.dir/exercise_17_palindrome.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch13_string/exercise/CMakeFiles/exercise_17_palindrome.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch13_string/exercise/exercise_17_palindrome
+  TARGET_PDB = exercise_17_palindrome.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_18_format_date
+
+
+#############################################
+# Order-only phony target for exercise_18_format_date
+
+build cmake_object_order_depends_target_exercise_18_format_date: phony || base/c-programming/ch13_string/exercise/CMakeFiles/exercise_18_format_date.dir
+
+build base/c-programming/ch13_string/exercise/CMakeFiles/exercise_18_format_date.dir/exercise_18_format_date.c.o: C_COMPILER__exercise_18_format_date_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch13_string/exercise/exercise_18_format_date.c || cmake_object_order_depends_target_exercise_18_format_date
+  DEP_FILE = base/c-programming/ch13_string/exercise/CMakeFiles/exercise_18_format_date.dir/exercise_18_format_date.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch13_string/exercise/CMakeFiles/exercise_18_format_date.dir
+  OBJECT_FILE_DIR = base/c-programming/ch13_string/exercise/CMakeFiles/exercise_18_format_date.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_18_format_date
+
+
+#############################################
+# Link the executable base/c-programming/ch13_string/exercise/exercise_18_format_date
+
+build base/c-programming/ch13_string/exercise/exercise_18_format_date: C_EXECUTABLE_LINKER__exercise_18_format_date_Debug base/c-programming/ch13_string/exercise/CMakeFiles/exercise_18_format_date.dir/exercise_18_format_date.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch13_string/exercise/CMakeFiles/exercise_18_format_date.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch13_string/exercise/exercise_18_format_date
+  TARGET_PDB = exercise_18_format_date.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -5126,9 +5350,15 @@ build exercise_12_crosswords_puzzle: phony base/c-programming/ch08_array/exercis
 
 build exercise_12_expression_evaluation: phony base/c-programming/ch07_base_type/exercise/exercise_12_expression_evaluation
 
+build exercise_12_reverse: phony base/c-programming/ch13_string/exercise/exercise_12_reverse
+
 build exercise_13_average_word_length: phony base/c-programming/ch07_base_type/exercise/exercise_13_average_word_length
 
+build exercise_13_caesar: phony base/c-programming/ch13_string/exercise/exercise_13_caesar
+
 build exercise_13_name_abbr: phony base/c-programming/ch08_array/exercise/exercise_13_name_abbr
+
+build exercise_14_anagram: phony base/c-programming/ch13_string/exercise/exercise_14_anagram
 
 build exercise_14_newton: phony base/c-programming/ch07_base_type/exercise/exercise_14_newton
 
@@ -5138,9 +5368,17 @@ build exercise_15_caesar: phony base/c-programming/ch08_array/exercise/exercise_
 
 build exercise_15_factorial: phony base/c-programming/ch07_base_type/exercise/exercise_15_factorial
 
+build exercise_15_rpn: phony base/c-programming/ch13_string/exercise/exercise_15_rpn
+
 build exercise_16_anagram: phony base/c-programming/ch08_array/exercise/exercise_16_anagram
 
+build exercise_16_reverse_message: phony base/c-programming/ch13_string/exercise/exercise_16_reverse_message
+
+build exercise_17_palindrome: phony base/c-programming/ch13_string/exercise/exercise_17_palindrome
+
 build exercise_17_phantom_cube: phony base/c-programming/ch08_array/exercise/exercise_17_phantom_cube
+
+build exercise_18_format_date: phony base/c-programming/ch13_string/exercise/exercise_18_format_date
 
 build exercise_1_find_the_largest_number: phony base/c-programming/ch06_loop/exercise/exercise_1_find_the_largest_number
 
@@ -5476,7 +5714,7 @@ build base/c-programming/ch13_string/all: phony base/c-programming/ch13_string/s
 #############################################
 # Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch13_string/exercise
 
-build base/c-programming/ch13_string/exercise/all: phony base/c-programming/ch13_string/exercise/exercise_01_max_min_words base/c-programming/ch13_string/exercise/exercise_02_remind base/c-programming/ch13_string/exercise/exercise_03_deal base/c-programming/ch13_string/exercise/exercise_04_reverse base/c-programming/ch13_string/exercise/exercise_05_sum base/c-programming/ch13_string/exercise/exercise_06_planet base/c-programming/ch13_string/exercise/exercise_07_number_to_words base/c-programming/ch13_string/exercise/exercise_08_crosswords_puzzle base/c-programming/ch13_string/exercise/exercise_09_count_vowels base/c-programming/ch13_string/exercise/exercise_10_reverse_name base/c-programming/ch13_string/exercise/exercise_11_average_word_length
+build base/c-programming/ch13_string/exercise/all: phony base/c-programming/ch13_string/exercise/exercise_01_max_min_words base/c-programming/ch13_string/exercise/exercise_02_remind base/c-programming/ch13_string/exercise/exercise_03_deal base/c-programming/ch13_string/exercise/exercise_04_reverse base/c-programming/ch13_string/exercise/exercise_05_sum base/c-programming/ch13_string/exercise/exercise_06_planet base/c-programming/ch13_string/exercise/exercise_07_number_to_words base/c-programming/ch13_string/exercise/exercise_08_crosswords_puzzle base/c-programming/ch13_string/exercise/exercise_09_count_vowels base/c-programming/ch13_string/exercise/exercise_10_reverse_name base/c-programming/ch13_string/exercise/exercise_11_average_word_length base/c-programming/ch13_string/exercise/exercise_12_reverse base/c-programming/ch13_string/exercise/exercise_13_caesar base/c-programming/ch13_string/exercise/exercise_14_anagram base/c-programming/ch13_string/exercise/exercise_15_rpn base/c-programming/ch13_string/exercise/exercise_16_reverse_message base/c-programming/ch13_string/exercise/exercise_17_palindrome base/c-programming/ch13_string/exercise/exercise_18_format_date
 
 # =============================================================================
 # Built-in targets

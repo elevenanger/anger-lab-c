@@ -9,21 +9,28 @@ double compute_average_word_length(const char *sentence);
 
 int main(void) {
 
-    int len = 0, words_count = 1, ch;
+    char sentence[100], *ch = sentence;
 
     printf("Enter a sentence : ");
+    while ((*ch++ = getchar()) != '\n');
+    *(ch - 1) = '\0';
 
-    while ((ch = getchar()) != '\n') {
-        if (ch == ' ') {
-            words_count++;
-        } else {
-            len++;
-        }
-    }
+    printf("Average word length : %.2lf", compute_average_word_length(sentence));
 
-    printf("Average word length : %lf", (double)len / words_count);
+    return 0;
 }
 
 double compute_average_word_length(const char *sentence) {
-    double avg_len = 0.0;
+    int words_count = 0, len = 0;
+    do {
+        printf("%c", *sentence);
+        if (*sentence == ' ')
+            words_count++;
+        else
+            len++;
+    } while (*++sentence != '\0');
+    words_count++;
+    printf("words_count => %d, len => %d\n", words_count, len);
+
+    return (double) len / words_count;
 }
