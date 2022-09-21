@@ -1,0 +1,3 @@
+add_executable(preprocessor_working_theory preprocessor_working_theory.c)
+add_executable(macro_definition macro_definition.c)
+add_executable(conditional_compilation conditional_compilation.c)
