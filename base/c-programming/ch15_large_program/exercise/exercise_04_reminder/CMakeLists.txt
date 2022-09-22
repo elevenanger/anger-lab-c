@@ -1,0 +1,1 @@
+add_executable(exercise_04_remind remind.c read_line.c)

@@ -1,0 +1,2 @@
+ADD_SUBDIRECTORY(justify)
+ADD_SUBDIRECTORY(exercise)

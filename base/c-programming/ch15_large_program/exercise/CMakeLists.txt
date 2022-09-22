@@ -1,0 +1,4 @@
+ADD_SUBDIRECTORY(exercise_01_02_justify)
+ADD_SUBDIRECTORY(exercise_03_quicksort)
+ADD_SUBDIRECTORY(exercise_04_reminder)
+ADD_SUBDIRECTORY(exercise_05_stack)

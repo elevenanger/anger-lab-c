@@ -1,0 +1,1 @@
+add_executable(cal cal.c stack.c)

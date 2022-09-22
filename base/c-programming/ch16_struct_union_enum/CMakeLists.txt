@@ -1,0 +1,1 @@
+add_executable(01_struct_variable 01_struct_variable.c)

@@ -1,0 +1,1 @@
+add_executable(exercise_01_justify justify.c line.c word.c)
