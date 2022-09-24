@@ -4,6 +4,7 @@
  * @brief 结构变量
  */
 #include <stdio.h>
+#include <string.h>
 
 #define NAME_LEN 20
 
@@ -20,7 +21,7 @@ struct part {
     int number;
     char name[NAME_LEN + 1];
     int on_hand;
-}  part_1 = {100, "shot_gun", 20},
+}   part_1 = {100, "shot_gun", 20},
     /* 结构的初始化器
      * 初始化器中的值必须按照结构的顺序来显示
      * 用于结构的初始化器必须是常量 */
@@ -31,12 +32,22 @@ struct part {
 
 void struct_operation(void);
 void declare_struct_variable(void);
+void print_part(struct part p);
+struct part build_part(int number, int on_hand, char *name);
+void compound_literal(void);
+void anonymous_struct(void);
 
 int main(void) {
 
     struct_operation();
 
     declare_struct_variable();
+
+    print_part(part_1);
+
+    print_part(build_part(101, 21, "cross_nut"));
+
+    compound_literal();
 
     return 0;
 }
@@ -70,4 +81,70 @@ void declare_struct_variable(void) {
      * 如果没有 struct 关键字，它就没有任何意义 */
     struct part part_5 = {.number = 100, .name = "Five", .on_hand = 5};
     printf("part_5.name => %s\n", part_5.name);
+}
+
+/**
+ * 将 struct 作为参数
+ * @param p struct part 类型参数
+ */
+void print_part(struct part p) {
+    printf("part.name => %s\n", p.name);
+    printf("part.number => %d\n", p.number);
+    printf("part.on_hand => %d\n", p.on_hand);
+}
+
+/**
+ * struct 类型作为返回值
+ * 给函数传递结构和返回结构都要求生成结构中所有成员的副本
+ * 为了避免这类的系统开销
+ * 使用指向结构的指针来代替结构本身是明智的做法
+ * 类似的使用函数返回指向结构的指针来替代返回实际的结构
+ */
+struct part build_part(int number, int on_hand, char *name) {
+    struct part part;
+    part.number = number;
+    part.on_hand = on_hand;
+    strcpy(part.name, name);
+    return part;
+}
+
+/**
+ * C99 特性
+ * 使用复合字面量创建结构
+ */
+void compound_literal(void) {
+    print_part((struct part) {102, "compound", 12});
+}
+
+struct t {
+    int i;
+    struct {
+        char c;
+        float f;};
+};
+
+union u {
+    int i;
+    struct {
+        char c;
+        float f;
+    };
+};
+
+/**
+ * 匿名结构
+ * C1X 特性
+ * 在结构和联合中的成员可以是另一个没有名字的结构
+ * 如果一个结构或者联合包含这样的成员：
+ * 1、没有名称
+ * 2、被声明为结构类型，但是只有成员列表没有标记
+ * 这个成员就是一个匿名结构
+ */
+void anonymous_struct(void) {
+    /* 结构中的匿名结构
+     * 匿名结构的成员被认为是包含它的结构的成员 */
+    struct t t_1;
+    t_1.i = 1;
+    t_1.c = 'c';
+    t_1.f = 2.22f;
 }
