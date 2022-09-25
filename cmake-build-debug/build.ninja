@@ -5880,6 +5880,70 @@ build base/c-programming/ch16_struct_union_enum/inventory: C_EXECUTABLE_LINKER__
   TARGET_FILE = base/c-programming/ch16_struct_union_enum/inventory
   TARGET_PDB = inventory.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 03_union
+
+
+#############################################
+# Order-only phony target for 03_union
+
+build cmake_object_order_depends_target_03_union: phony || base/c-programming/ch16_struct_union_enum/CMakeFiles/03_union.dir
+
+build base/c-programming/ch16_struct_union_enum/CMakeFiles/03_union.dir/03_union.c.o: C_COMPILER__03_union_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch16_struct_union_enum/03_union.c || cmake_object_order_depends_target_03_union
+  DEP_FILE = base/c-programming/ch16_struct_union_enum/CMakeFiles/03_union.dir/03_union.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch16_struct_union_enum/CMakeFiles/03_union.dir
+  OBJECT_FILE_DIR = base/c-programming/ch16_struct_union_enum/CMakeFiles/03_union.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03_union
+
+
+#############################################
+# Link the executable base/c-programming/ch16_struct_union_enum/03_union
+
+build base/c-programming/ch16_struct_union_enum/03_union: C_EXECUTABLE_LINKER__03_union_Debug base/c-programming/ch16_struct_union_enum/CMakeFiles/03_union.dir/03_union.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch16_struct_union_enum/CMakeFiles/03_union.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch16_struct_union_enum/03_union
+  TARGET_PDB = 03_union.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 04_enum
+
+
+#############################################
+# Order-only phony target for 04_enum
+
+build cmake_object_order_depends_target_04_enum: phony || base/c-programming/ch16_struct_union_enum/CMakeFiles/04_enum.dir
+
+build base/c-programming/ch16_struct_union_enum/CMakeFiles/04_enum.dir/04_enum.c.o: C_COMPILER__04_enum_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch16_struct_union_enum/04_enum.c || cmake_object_order_depends_target_04_enum
+  DEP_FILE = base/c-programming/ch16_struct_union_enum/CMakeFiles/04_enum.dir/04_enum.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch16_struct_union_enum/CMakeFiles/04_enum.dir
+  OBJECT_FILE_DIR = base/c-programming/ch16_struct_union_enum/CMakeFiles/04_enum.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 04_enum
+
+
+#############################################
+# Link the executable base/c-programming/ch16_struct_union_enum/04_enum
+
+build base/c-programming/ch16_struct_union_enum/04_enum: C_EXECUTABLE_LINKER__04_enum_Debug base/c-programming/ch16_struct_union_enum/CMakeFiles/04_enum.dir/04_enum.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch16_struct_union_enum/CMakeFiles/04_enum.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch16_struct_union_enum/04_enum
+  TARGET_PDB = 04_enum.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -5909,6 +5973,10 @@ build base/c-programming/ch16_struct_union_enum/rebuild_cache: phony base/c-prog
 build 01_struct_variable: phony base/c-programming/ch16_struct_union_enum/01_struct_variable
 
 build 02_nested_structure: phony base/c-programming/ch16_struct_union_enum/02_nested_structure
+
+build 03_union: phony base/c-programming/ch16_struct_union_enum/03_union
+
+build 04_enum: phony base/c-programming/ch16_struct_union_enum/04_enum
 
 build access_char_in_string: phony base/c-programming/ch13_string/access_char_in_string
 
@@ -6459,7 +6527,7 @@ build base/c-programming/ch15_large_program/justify/all: phony base/c-programmin
 #############################################
 # Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch16_struct_union_enum
 
-build base/c-programming/ch16_struct_union_enum/all: phony base/c-programming/ch16_struct_union_enum/01_struct_variable base/c-programming/ch16_struct_union_enum/02_nested_structure base/c-programming/ch16_struct_union_enum/inventory
+build base/c-programming/ch16_struct_union_enum/all: phony base/c-programming/ch16_struct_union_enum/01_struct_variable base/c-programming/ch16_struct_union_enum/02_nested_structure base/c-programming/ch16_struct_union_enum/inventory base/c-programming/ch16_struct_union_enum/03_union base/c-programming/ch16_struct_union_enum/04_enum
 
 # =============================================================================
 # Built-in targets
