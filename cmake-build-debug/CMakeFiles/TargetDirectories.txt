@@ -222,3 +222,17 @@
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch16_struct_union_enum/CMakeFiles/04_enum.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch16_struct_union_enum/CMakeFiles/edit_cache.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch16_struct_union_enum/CMakeFiles/rebuild_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch16_struct_union_enum/exercise/CMakeFiles/exercise_01_international_phone_number.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch16_struct_union_enum/exercise/CMakeFiles/exercise_05_flight.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch16_struct_union_enum/exercise/CMakeFiles/exercise_06_compare_date.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch16_struct_union_enum/exercise/CMakeFiles/edit_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch16_struct_union_enum/exercise/CMakeFiles/rebuild_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch16_struct_union_enum/exercise/exercise_02_inventory_src/CMakeFiles/exercise_02_inventory.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch16_struct_union_enum/exercise/exercise_02_inventory_src/CMakeFiles/edit_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch16_struct_union_enum/exercise/exercise_02_inventory_src/CMakeFiles/rebuild_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch16_struct_union_enum/exercise/exercise_03_inventory_src/CMakeFiles/exercise_03_inventory.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch16_struct_union_enum/exercise/exercise_03_inventory_src/CMakeFiles/edit_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch16_struct_union_enum/exercise/exercise_03_inventory_src/CMakeFiles/rebuild_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch16_struct_union_enum/exercise/exercise_04_inventory_src/CMakeFiles/exercise_04_inventory.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch16_struct_union_enum/exercise/exercise_04_inventory_src/CMakeFiles/edit_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch16_struct_union_enum/exercise/exercise_04_inventory_src/CMakeFiles/rebuild_cache.dir

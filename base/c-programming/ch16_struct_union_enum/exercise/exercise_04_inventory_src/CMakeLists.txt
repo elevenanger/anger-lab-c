@@ -1,0 +1,1 @@
+add_executable(exercise_04_inventory exercise_04_inventory.c read_line.c quick_sort.c)

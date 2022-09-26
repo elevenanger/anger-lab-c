@@ -1,0 +1,7 @@
+ADD_SUBDIRECTORY(exercise_02_inventory_src)
+ADD_SUBDIRECTORY(exercise_03_inventory_src)
+ADD_SUBDIRECTORY(exercise_04_inventory_src)
+
+add_executable(exercise_01_international_phone_number exercise_01_international_phone_number.c)
+add_executable(exercise_05_flight exercise_05_flight.c)
+add_executable(exercise_06_compare_date exercise_06_compare_date.c)
