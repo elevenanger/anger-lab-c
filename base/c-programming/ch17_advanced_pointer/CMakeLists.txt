@@ -1,0 +1,3 @@
+add_executable(01_dynamic_memory_allocation 01_dynamic_memory_allocation.c)
+add_executable(reminder_improved_version reminder_improved_version.c)
+add_executable(02_dynamic_array_allocation 02_dynamic_array_allocation.c)
