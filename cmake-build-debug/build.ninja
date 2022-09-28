@@ -6414,6 +6414,237 @@ build base/c-programming/ch17_advanced_pointer/02_dynamic_array_allocation: C_EX
   TARGET_FILE = base/c-programming/ch17_advanced_pointer/02_dynamic_array_allocation
   TARGET_PDB = 02_dynamic_array_allocation.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 03_free_memory
+
+
+#############################################
+# Order-only phony target for 03_free_memory
+
+build cmake_object_order_depends_target_03_free_memory: phony || base/c-programming/ch17_advanced_pointer/CMakeFiles/03_free_memory.dir
+
+build base/c-programming/ch17_advanced_pointer/CMakeFiles/03_free_memory.dir/03_free_memory.c.o: C_COMPILER__03_free_memory_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/03_free_memory.c || cmake_object_order_depends_target_03_free_memory
+  DEP_FILE = base/c-programming/ch17_advanced_pointer/CMakeFiles/03_free_memory.dir/03_free_memory.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch17_advanced_pointer/CMakeFiles/03_free_memory.dir
+  OBJECT_FILE_DIR = base/c-programming/ch17_advanced_pointer/CMakeFiles/03_free_memory.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03_free_memory
+
+
+#############################################
+# Link the executable base/c-programming/ch17_advanced_pointer/03_free_memory
+
+build base/c-programming/ch17_advanced_pointer/03_free_memory: C_EXECUTABLE_LINKER__03_free_memory_Debug base/c-programming/ch17_advanced_pointer/CMakeFiles/03_free_memory.dir/03_free_memory.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch17_advanced_pointer/CMakeFiles/03_free_memory.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch17_advanced_pointer/03_free_memory
+  TARGET_PDB = 03_free_memory.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 04_linked_list
+
+
+#############################################
+# Order-only phony target for 04_linked_list
+
+build cmake_object_order_depends_target_04_linked_list: phony || base/c-programming/ch17_advanced_pointer/CMakeFiles/04_linked_list.dir
+
+build base/c-programming/ch17_advanced_pointer/CMakeFiles/04_linked_list.dir/04_linked_list.c.o: C_COMPILER__04_linked_list_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/04_linked_list.c || cmake_object_order_depends_target_04_linked_list
+  DEP_FILE = base/c-programming/ch17_advanced_pointer/CMakeFiles/04_linked_list.dir/04_linked_list.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch17_advanced_pointer/CMakeFiles/04_linked_list.dir
+  OBJECT_FILE_DIR = base/c-programming/ch17_advanced_pointer/CMakeFiles/04_linked_list.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 04_linked_list
+
+
+#############################################
+# Link the executable base/c-programming/ch17_advanced_pointer/04_linked_list
+
+build base/c-programming/ch17_advanced_pointer/04_linked_list: C_EXECUTABLE_LINKER__04_linked_list_Debug base/c-programming/ch17_advanced_pointer/CMakeFiles/04_linked_list.dir/04_linked_list.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch17_advanced_pointer/CMakeFiles/04_linked_list.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch17_advanced_pointer/04_linked_list
+  TARGET_PDB = 04_linked_list.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 05_ordered_linked_list
+
+
+#############################################
+# Order-only phony target for 05_ordered_linked_list
+
+build cmake_object_order_depends_target_05_ordered_linked_list: phony || base/c-programming/ch17_advanced_pointer/CMakeFiles/05_ordered_linked_list.dir
+
+build base/c-programming/ch17_advanced_pointer/CMakeFiles/05_ordered_linked_list.dir/05_ordered_linked_list.c.o: C_COMPILER__05_ordered_linked_list_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/05_ordered_linked_list.c || cmake_object_order_depends_target_05_ordered_linked_list
+  DEP_FILE = base/c-programming/ch17_advanced_pointer/CMakeFiles/05_ordered_linked_list.dir/05_ordered_linked_list.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch17_advanced_pointer/CMakeFiles/05_ordered_linked_list.dir
+  OBJECT_FILE_DIR = base/c-programming/ch17_advanced_pointer/CMakeFiles/05_ordered_linked_list.dir
+
+build base/c-programming/ch17_advanced_pointer/CMakeFiles/05_ordered_linked_list.dir/read_line.c.o: C_COMPILER__05_ordered_linked_list_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/read_line.c || cmake_object_order_depends_target_05_ordered_linked_list
+  DEP_FILE = base/c-programming/ch17_advanced_pointer/CMakeFiles/05_ordered_linked_list.dir/read_line.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch17_advanced_pointer/CMakeFiles/05_ordered_linked_list.dir
+  OBJECT_FILE_DIR = base/c-programming/ch17_advanced_pointer/CMakeFiles/05_ordered_linked_list.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 05_ordered_linked_list
+
+
+#############################################
+# Link the executable base/c-programming/ch17_advanced_pointer/05_ordered_linked_list
+
+build base/c-programming/ch17_advanced_pointer/05_ordered_linked_list: C_EXECUTABLE_LINKER__05_ordered_linked_list_Debug base/c-programming/ch17_advanced_pointer/CMakeFiles/05_ordered_linked_list.dir/05_ordered_linked_list.c.o base/c-programming/ch17_advanced_pointer/CMakeFiles/05_ordered_linked_list.dir/read_line.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch17_advanced_pointer/CMakeFiles/05_ordered_linked_list.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch17_advanced_pointer/05_ordered_linked_list
+  TARGET_PDB = 05_ordered_linked_list.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 06_pointer_to_pointer
+
+
+#############################################
+# Order-only phony target for 06_pointer_to_pointer
+
+build cmake_object_order_depends_target_06_pointer_to_pointer: phony || base/c-programming/ch17_advanced_pointer/CMakeFiles/06_pointer_to_pointer.dir
+
+build base/c-programming/ch17_advanced_pointer/CMakeFiles/06_pointer_to_pointer.dir/06_pointer_to_pointer.c.o: C_COMPILER__06_pointer_to_pointer_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/06_pointer_to_pointer.c || cmake_object_order_depends_target_06_pointer_to_pointer
+  DEP_FILE = base/c-programming/ch17_advanced_pointer/CMakeFiles/06_pointer_to_pointer.dir/06_pointer_to_pointer.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch17_advanced_pointer/CMakeFiles/06_pointer_to_pointer.dir
+  OBJECT_FILE_DIR = base/c-programming/ch17_advanced_pointer/CMakeFiles/06_pointer_to_pointer.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 06_pointer_to_pointer
+
+
+#############################################
+# Link the executable base/c-programming/ch17_advanced_pointer/06_pointer_to_pointer
+
+build base/c-programming/ch17_advanced_pointer/06_pointer_to_pointer: C_EXECUTABLE_LINKER__06_pointer_to_pointer_Debug base/c-programming/ch17_advanced_pointer/CMakeFiles/06_pointer_to_pointer.dir/06_pointer_to_pointer.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch17_advanced_pointer/CMakeFiles/06_pointer_to_pointer.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch17_advanced_pointer/06_pointer_to_pointer
+  TARGET_PDB = 06_pointer_to_pointer.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 07_pointer_to_function
+
+
+#############################################
+# Order-only phony target for 07_pointer_to_function
+
+build cmake_object_order_depends_target_07_pointer_to_function: phony || base/c-programming/ch17_advanced_pointer/CMakeFiles/07_pointer_to_function.dir
+
+build base/c-programming/ch17_advanced_pointer/CMakeFiles/07_pointer_to_function.dir/07_pointer_to_function.c.o: C_COMPILER__07_pointer_to_function_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/07_pointer_to_function.c || cmake_object_order_depends_target_07_pointer_to_function
+  DEP_FILE = base/c-programming/ch17_advanced_pointer/CMakeFiles/07_pointer_to_function.dir/07_pointer_to_function.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch17_advanced_pointer/CMakeFiles/07_pointer_to_function.dir
+  OBJECT_FILE_DIR = base/c-programming/ch17_advanced_pointer/CMakeFiles/07_pointer_to_function.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 07_pointer_to_function
+
+
+#############################################
+# Link the executable base/c-programming/ch17_advanced_pointer/07_pointer_to_function
+
+build base/c-programming/ch17_advanced_pointer/07_pointer_to_function: C_EXECUTABLE_LINKER__07_pointer_to_function_Debug base/c-programming/ch17_advanced_pointer/CMakeFiles/07_pointer_to_function.dir/07_pointer_to_function.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch17_advanced_pointer/CMakeFiles/07_pointer_to_function.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch17_advanced_pointer/07_pointer_to_function
+  TARGET_PDB = 07_pointer_to_function.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target tabulate
+
+
+#############################################
+# Order-only phony target for tabulate
+
+build cmake_object_order_depends_target_tabulate: phony || base/c-programming/ch17_advanced_pointer/CMakeFiles/tabulate.dir
+
+build base/c-programming/ch17_advanced_pointer/CMakeFiles/tabulate.dir/tabulate.c.o: C_COMPILER__tabulate_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/tabulate.c || cmake_object_order_depends_target_tabulate
+  DEP_FILE = base/c-programming/ch17_advanced_pointer/CMakeFiles/tabulate.dir/tabulate.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch17_advanced_pointer/CMakeFiles/tabulate.dir
+  OBJECT_FILE_DIR = base/c-programming/ch17_advanced_pointer/CMakeFiles/tabulate.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target tabulate
+
+
+#############################################
+# Link the executable base/c-programming/ch17_advanced_pointer/tabulate
+
+build base/c-programming/ch17_advanced_pointer/tabulate: C_EXECUTABLE_LINKER__tabulate_Debug base/c-programming/ch17_advanced_pointer/CMakeFiles/tabulate.dir/tabulate.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch17_advanced_pointer/CMakeFiles/tabulate.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch17_advanced_pointer/tabulate
+  TARGET_PDB = tabulate.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 08_restrict_pointer
+
+
+#############################################
+# Order-only phony target for 08_restrict_pointer
+
+build cmake_object_order_depends_target_08_restrict_pointer: phony || base/c-programming/ch17_advanced_pointer/CMakeFiles/08_restrict_pointer.dir
+
+build base/c-programming/ch17_advanced_pointer/CMakeFiles/08_restrict_pointer.dir/08_restrict_pointer.c.o: C_COMPILER__08_restrict_pointer_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/08_restrict_pointer.c || cmake_object_order_depends_target_08_restrict_pointer
+  DEP_FILE = base/c-programming/ch17_advanced_pointer/CMakeFiles/08_restrict_pointer.dir/08_restrict_pointer.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch17_advanced_pointer/CMakeFiles/08_restrict_pointer.dir
+  OBJECT_FILE_DIR = base/c-programming/ch17_advanced_pointer/CMakeFiles/08_restrict_pointer.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 08_restrict_pointer
+
+
+#############################################
+# Link the executable base/c-programming/ch17_advanced_pointer/08_restrict_pointer
+
+build base/c-programming/ch17_advanced_pointer/08_restrict_pointer: C_EXECUTABLE_LINKER__08_restrict_pointer_Debug base/c-programming/ch17_advanced_pointer/CMakeFiles/08_restrict_pointer.dir/08_restrict_pointer.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch17_advanced_pointer/CMakeFiles/08_restrict_pointer.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch17_advanced_pointer/08_restrict_pointer
+  TARGET_PDB = 08_restrict_pointer.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -6448,9 +6679,21 @@ build 02_dynamic_array_allocation: phony base/c-programming/ch17_advanced_pointe
 
 build 02_nested_structure: phony base/c-programming/ch16_struct_union_enum/02_nested_structure
 
+build 03_free_memory: phony base/c-programming/ch17_advanced_pointer/03_free_memory
+
 build 03_union: phony base/c-programming/ch16_struct_union_enum/03_union
 
 build 04_enum: phony base/c-programming/ch16_struct_union_enum/04_enum
+
+build 04_linked_list: phony base/c-programming/ch17_advanced_pointer/04_linked_list
+
+build 05_ordered_linked_list: phony base/c-programming/ch17_advanced_pointer/05_ordered_linked_list
+
+build 06_pointer_to_pointer: phony base/c-programming/ch17_advanced_pointer/06_pointer_to_pointer
+
+build 07_pointer_to_function: phony base/c-programming/ch17_advanced_pointer/07_pointer_to_function
+
+build 08_restrict_pointer: phony base/c-programming/ch17_advanced_pointer/08_restrict_pointer
 
 build access_char_in_string: phony base/c-programming/ch13_string/access_char_in_string
 
@@ -6752,6 +6995,8 @@ build string_usages: phony base/c-programming/ch13_string/string_usages
 
 build string_variable: phony base/c-programming/ch13_string/string_variable
 
+build tabulate: phony base/c-programming/ch17_advanced_pointer/tabulate
+
 build tprintf: phony base/c-programming/ch03_format_io/tprintf
 
 build tscanf: phony base/c-programming/ch03_format_io/tscanf
@@ -7050,7 +7295,7 @@ build base/c-programming/ch16_struct_union_enum/exercise/exercise_04_inventory_s
 #############################################
 # Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch17_advanced_pointer
 
-build base/c-programming/ch17_advanced_pointer/all: phony base/c-programming/ch17_advanced_pointer/01_dynamic_memory_allocation base/c-programming/ch17_advanced_pointer/reminder_improved_version base/c-programming/ch17_advanced_pointer/02_dynamic_array_allocation
+build base/c-programming/ch17_advanced_pointer/all: phony base/c-programming/ch17_advanced_pointer/01_dynamic_memory_allocation base/c-programming/ch17_advanced_pointer/reminder_improved_version base/c-programming/ch17_advanced_pointer/02_dynamic_array_allocation base/c-programming/ch17_advanced_pointer/03_free_memory base/c-programming/ch17_advanced_pointer/04_linked_list base/c-programming/ch17_advanced_pointer/05_ordered_linked_list base/c-programming/ch17_advanced_pointer/06_pointer_to_pointer base/c-programming/ch17_advanced_pointer/07_pointer_to_function base/c-programming/ch17_advanced_pointer/tabulate base/c-programming/ch17_advanced_pointer/08_restrict_pointer
 
 # =============================================================================
 # Built-in targets

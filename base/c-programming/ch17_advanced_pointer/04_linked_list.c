@@ -26,14 +26,27 @@ struct node* add_to_list(struct node *list, int n);
 struct node* read_number(struct node *list);
 void print_list(struct node *list);
 struct node* search_list(struct node *list, int n);
+struct node * delete_node_from_list(struct node *list, int n);
 
 
 int main(void) {
+
+    int searched_node, delete_node;
 
     struct node *first = NULL;
 
     first = read_number(first);
 
+    print_list(first);
+
+    printf("Enter node to search : ");
+    scanf(" %d", &searched_node);
+    struct node *n = search_list(first, searched_node);
+    printf("%d\n", n->value);
+
+    printf("Enter node to delete : ");
+    scanf(" %d", &delete_node);
+    delete_node_from_list(first, delete_node);
     print_list(first);
 
     return 0;
@@ -131,6 +144,8 @@ void print_list(struct node *list) {
     do {
         printf("%d ", list->value);
     } while ((list = list->next) != NULL);
+
+    puts("");
 }
 
 /**
@@ -146,4 +161,36 @@ struct node* search_list(struct node *list, int n) {
         if (p->value == n)
             return p;
     return NULL;
+}
+
+/**
+ * 从链表中删除节点
+ * @param list 链表
+ * @param n 存储在节点中的数据
+ * @return 被删除的节点
+ * 1、定位要删除的节点
+ * 2、改变前一个节点，从而使它绕过删除节点
+ * 3、调用 free 函数回收删除节点占用的内存空间
+ */
+struct node * delete_node_from_list(struct node *list, int n) {
+    struct node *prev, *cur;
+    /* 使用追踪指针的方法定位要删除的节点以及前一个节点 */
+    for (prev = NULL, cur = list;       /* 两个指针，一个指向当前的节点，一个指向前一个节点 */
+        cur != NULL && cur->value != n; /* 当前指针不为 NULL 并且当前指针指向的数据不匹配n则继续*/
+        prev = cur, cur = cur->next);   /* prev 指向当前节点，当前指针指向下一个节点 */
+    /* 找不到要删除的节点，直接返回原list */
+    if (cur == NULL)
+        return list;
+    /* 如果前一个指针为空指针，说明 n 对应链表中第一个节点
+     * 将链表指针后移一位 */
+    if (prev == NULL)
+        list = list->next;
+    /* 如果 prev 不为空
+     * n 对应链表中的其它节点
+     * 将 prev next 指向 cur next 节点 */
+    else
+        prev->next = cur->next;
+    /* 释放 cur 节点，返回链表 */
+    free(cur);
+    return list;
 }
