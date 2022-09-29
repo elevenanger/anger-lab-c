@@ -246,5 +246,11 @@
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch17_advanced_pointer/CMakeFiles/07_pointer_to_function.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch17_advanced_pointer/CMakeFiles/tabulate.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch17_advanced_pointer/CMakeFiles/08_restrict_pointer.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch17_advanced_pointer/CMakeFiles/09_vstring.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch17_advanced_pointer/CMakeFiles/edit_cache.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch17_advanced_pointer/CMakeFiles/rebuild_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch17_advanced_pointer/exercise/CMakeFiles/edit_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch17_advanced_pointer/exercise/CMakeFiles/rebuild_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch17_advanced_pointer/exercise/exercise_01_inventory_src/CMakeFiles/exercise_01_inventory.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch17_advanced_pointer/exercise/exercise_01_inventory_src/CMakeFiles/edit_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch17_advanced_pointer/exercise/exercise_01_inventory_src/CMakeFiles/rebuild_cache.dir

@@ -1,3 +1,5 @@
+ADD_SUBDIRECTORY(exercise)
+
 add_executable(01_dynamic_memory_allocation 01_dynamic_memory_allocation.c)
 add_executable(reminder_improved_version reminder_improved_version.c)
 add_executable(02_dynamic_array_allocation 02_dynamic_array_allocation.c)
@@ -8,3 +10,4 @@ add_executable(06_pointer_to_pointer 06_pointer_to_pointer.c)
 add_executable(07_pointer_to_function 07_pointer_to_function.c)
 add_executable(tabulate tabulate.c)
 add_executable(08_restrict_pointer 08_restrict_pointer.c)
+add_executable(09_vstring 09_vstring.c)
