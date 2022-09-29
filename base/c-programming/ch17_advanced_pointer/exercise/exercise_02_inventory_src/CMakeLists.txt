@@ -1,0 +1,1 @@
+add_executable(exercise_2_inventory.c exercise_2_inventory.c read_line.c)

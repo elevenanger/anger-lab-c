@@ -1,0 +1,1 @@
+add_executable(04_justify justify.c line.c word.c)

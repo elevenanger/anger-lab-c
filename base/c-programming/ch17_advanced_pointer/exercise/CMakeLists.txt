@@ -1,1 +1,5 @@
 ADD_SUBDIRECTORY(exercise_01_inventory_src)
+ADD_SUBDIRECTORY(exercise_02_inventory_src)
+ADD_SUBDIRECTORY(exercise_03_inventory)
+ADD_SUBDIRECTORY(exercise_04_justify)
+ADD_SUBDIRECTORY(exercise_05_words_storage)

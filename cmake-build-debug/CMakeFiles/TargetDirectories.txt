@@ -254,3 +254,15 @@
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch17_advanced_pointer/exercise/exercise_01_inventory_src/CMakeFiles/exercise_01_inventory.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch17_advanced_pointer/exercise/exercise_01_inventory_src/CMakeFiles/edit_cache.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch17_advanced_pointer/exercise/exercise_01_inventory_src/CMakeFiles/rebuild_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch17_advanced_pointer/exercise/exercise_02_inventory_src/CMakeFiles/exercise_2_inventory.c.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch17_advanced_pointer/exercise/exercise_02_inventory_src/CMakeFiles/edit_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch17_advanced_pointer/exercise/exercise_02_inventory_src/CMakeFiles/rebuild_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch17_advanced_pointer/exercise/exercise_03_inventory/CMakeFiles/exercise_3_inventory.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch17_advanced_pointer/exercise/exercise_03_inventory/CMakeFiles/edit_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch17_advanced_pointer/exercise/exercise_03_inventory/CMakeFiles/rebuild_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch17_advanced_pointer/exercise/exercise_04_justify/CMakeFiles/04_justify.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch17_advanced_pointer/exercise/exercise_04_justify/CMakeFiles/edit_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch17_advanced_pointer/exercise/exercise_04_justify/CMakeFiles/rebuild_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch17_advanced_pointer/exercise/exercise_05_words_storage/CMakeFiles/words_storage.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch17_advanced_pointer/exercise/exercise_05_words_storage/CMakeFiles/edit_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch17_advanced_pointer/exercise/exercise_05_words_storage/CMakeFiles/rebuild_cache.dir
