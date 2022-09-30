@@ -27,5 +27,4 @@ int main(void) {
         }
         add_word(word);
     }
-
 }

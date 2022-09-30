@@ -1,0 +1,1 @@
+add_executable(06_words_storage words_storage.c read_line.c)

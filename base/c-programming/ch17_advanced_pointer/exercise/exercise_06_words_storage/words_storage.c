@@ -6,6 +6,8 @@
 #define WORD_LEN 20
 #define WORD_NUM 20
 
+int word_sort(const void *w1, const void *w2);
+
 int main(void) {
 
     char *word, *words[WORD_NUM];
@@ -19,19 +21,14 @@ int main(void) {
         words[i++] = word;
     }
 
-    char *temp;
-    for (int j = 0; j < i; ++j) {
-        for (int k = 0; k < i - 1; ++k) {
-            if (strcmp(words[k], words[k + 1]) > 0) {
-                temp = words[k];
-                words[k] = words[k + 1];
-                words[k + 1] = temp;
-            }
-        }
-    }
+    qsort(words, i, sizeof(words[0]), word_sort);
 
     for (int j = 0; j < i; ++j)
         printf("%s ", words[j]);
 
     return 0;
+}
+
+int word_sort(const void *w1, const void *w2) {
+    return strcmp(*(char **)w1, *(char **)w2);
 }
