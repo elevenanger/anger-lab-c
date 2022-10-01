@@ -7181,6 +7181,70 @@ build base/c-programming/ch17_advanced_pointer/exercise/exercise_06_words_storag
 # /Users/liuanglin/Projects/anger-lab-c/base/c-programming/CMakeLists.txt
 # =============================================================================
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 01_syntax_of_declaration
+
+
+#############################################
+# Order-only phony target for 01_syntax_of_declaration
+
+build cmake_object_order_depends_target_01_syntax_of_declaration: phony || base/c-programming/ch18_declare/CMakeFiles/01_syntax_of_declaration.dir
+
+build base/c-programming/ch18_declare/CMakeFiles/01_syntax_of_declaration.dir/01_syntax_of_declaration.c.o: C_COMPILER__01_syntax_of_declaration_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch18_declare/01_syntax_of_declaration.c || cmake_object_order_depends_target_01_syntax_of_declaration
+  DEP_FILE = base/c-programming/ch18_declare/CMakeFiles/01_syntax_of_declaration.dir/01_syntax_of_declaration.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch18_declare/CMakeFiles/01_syntax_of_declaration.dir
+  OBJECT_FILE_DIR = base/c-programming/ch18_declare/CMakeFiles/01_syntax_of_declaration.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01_syntax_of_declaration
+
+
+#############################################
+# Link the executable base/c-programming/ch18_declare/01_syntax_of_declaration
+
+build base/c-programming/ch18_declare/01_syntax_of_declaration: C_EXECUTABLE_LINKER__01_syntax_of_declaration_Debug base/c-programming/ch18_declare/CMakeFiles/01_syntax_of_declaration.dir/01_syntax_of_declaration.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch18_declare/CMakeFiles/01_syntax_of_declaration.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch18_declare/01_syntax_of_declaration
+  TARGET_PDB = 01_syntax_of_declaration.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02_storage_type
+
+
+#############################################
+# Order-only phony target for 02_storage_type
+
+build cmake_object_order_depends_target_02_storage_type: phony || base/c-programming/ch18_declare/CMakeFiles/02_storage_type.dir
+
+build base/c-programming/ch18_declare/CMakeFiles/02_storage_type.dir/02_storage_type.c.o: C_COMPILER__02_storage_type_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch18_declare/02_storage_type.c || cmake_object_order_depends_target_02_storage_type
+  DEP_FILE = base/c-programming/ch18_declare/CMakeFiles/02_storage_type.dir/02_storage_type.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch18_declare/CMakeFiles/02_storage_type.dir
+  OBJECT_FILE_DIR = base/c-programming/ch18_declare/CMakeFiles/02_storage_type.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02_storage_type
+
+
+#############################################
+# Link the executable base/c-programming/ch18_declare/02_storage_type
+
+build base/c-programming/ch18_declare/02_storage_type: C_EXECUTABLE_LINKER__02_storage_type_Debug base/c-programming/ch18_declare/CMakeFiles/02_storage_type.dir/02_storage_type.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch18_declare/CMakeFiles/02_storage_type.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch18_declare/02_storage_type
+  TARGET_PDB = 02_storage_type.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -7211,9 +7275,13 @@ build 01_dynamic_memory_allocation: phony base/c-programming/ch17_advanced_point
 
 build 01_struct_variable: phony base/c-programming/ch16_struct_union_enum/01_struct_variable
 
+build 01_syntax_of_declaration: phony base/c-programming/ch18_declare/01_syntax_of_declaration
+
 build 02_dynamic_array_allocation: phony base/c-programming/ch17_advanced_pointer/02_dynamic_array_allocation
 
 build 02_nested_structure: phony base/c-programming/ch16_struct_union_enum/02_nested_structure
+
+build 02_storage_type: phony base/c-programming/ch18_declare/02_storage_type
 
 build 03_free_memory: phony base/c-programming/ch17_advanced_pointer/03_free_memory
 
@@ -7903,7 +7971,7 @@ build base/c-programming/ch17_advanced_pointer/exercise/exercise_06_words_storag
 #############################################
 # Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch18_declare
 
-build base/c-programming/ch18_declare/all: phony
+build base/c-programming/ch18_declare/all: phony base/c-programming/ch18_declare/01_syntax_of_declaration base/c-programming/ch18_declare/02_storage_type
 
 # =============================================================================
 # Built-in targets

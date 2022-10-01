@@ -270,5 +270,7 @@
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch17_advanced_pointer/exercise/exercise_06_words_storage/CMakeFiles/06_words_storage.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch17_advanced_pointer/exercise/exercise_06_words_storage/CMakeFiles/edit_cache.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch17_advanced_pointer/exercise/exercise_06_words_storage/CMakeFiles/rebuild_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch18_declare/CMakeFiles/01_syntax_of_declaration.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch18_declare/CMakeFiles/02_storage_type.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch18_declare/CMakeFiles/edit_cache.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch18_declare/CMakeFiles/rebuild_cache.dir
