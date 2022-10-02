@@ -1,2 +1,3 @@
 add_executable(01_syntax_of_declaration 01_syntax_of_declaration.c)
 add_executable(02_storage_type 02_storage_type.c)
+add_executable(03_type_qualifier 03_type_qualifier.c)

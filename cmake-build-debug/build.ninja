@@ -7245,6 +7245,38 @@ build base/c-programming/ch18_declare/02_storage_type: C_EXECUTABLE_LINKER__02_s
   TARGET_FILE = base/c-programming/ch18_declare/02_storage_type
   TARGET_PDB = 02_storage_type.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 03_type_qualifier
+
+
+#############################################
+# Order-only phony target for 03_type_qualifier
+
+build cmake_object_order_depends_target_03_type_qualifier: phony || base/c-programming/ch18_declare/CMakeFiles/03_type_qualifier.dir
+
+build base/c-programming/ch18_declare/CMakeFiles/03_type_qualifier.dir/03_type_qualifier.c.o: C_COMPILER__03_type_qualifier_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch18_declare/03_type_qualifier.c || cmake_object_order_depends_target_03_type_qualifier
+  DEP_FILE = base/c-programming/ch18_declare/CMakeFiles/03_type_qualifier.dir/03_type_qualifier.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch18_declare/CMakeFiles/03_type_qualifier.dir
+  OBJECT_FILE_DIR = base/c-programming/ch18_declare/CMakeFiles/03_type_qualifier.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03_type_qualifier
+
+
+#############################################
+# Link the executable base/c-programming/ch18_declare/03_type_qualifier
+
+build base/c-programming/ch18_declare/03_type_qualifier: C_EXECUTABLE_LINKER__03_type_qualifier_Debug base/c-programming/ch18_declare/CMakeFiles/03_type_qualifier.dir/03_type_qualifier.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch18_declare/CMakeFiles/03_type_qualifier.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch18_declare/03_type_qualifier
+  TARGET_PDB = 03_type_qualifier.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -7284,6 +7316,8 @@ build 02_nested_structure: phony base/c-programming/ch16_struct_union_enum/02_ne
 build 02_storage_type: phony base/c-programming/ch18_declare/02_storage_type
 
 build 03_free_memory: phony base/c-programming/ch17_advanced_pointer/03_free_memory
+
+build 03_type_qualifier: phony base/c-programming/ch18_declare/03_type_qualifier
 
 build 03_union: phony base/c-programming/ch16_struct_union_enum/03_union
 
@@ -7971,7 +8005,7 @@ build base/c-programming/ch17_advanced_pointer/exercise/exercise_06_words_storag
 #############################################
 # Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch18_declare
 
-build base/c-programming/ch18_declare/all: phony base/c-programming/ch18_declare/01_syntax_of_declaration base/c-programming/ch18_declare/02_storage_type
+build base/c-programming/ch18_declare/all: phony base/c-programming/ch18_declare/01_syntax_of_declaration base/c-programming/ch18_declare/02_storage_type base/c-programming/ch18_declare/03_type_qualifier
 
 # =============================================================================
 # Built-in targets
