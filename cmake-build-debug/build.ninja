@@ -7277,6 +7277,38 @@ build base/c-programming/ch18_declare/03_type_qualifier: C_EXECUTABLE_LINKER__03
   TARGET_FILE = base/c-programming/ch18_declare/03_type_qualifier
   TARGET_PDB = 03_type_qualifier.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 04_declarator
+
+
+#############################################
+# Order-only phony target for 04_declarator
+
+build cmake_object_order_depends_target_04_declarator: phony || base/c-programming/ch18_declare/CMakeFiles/04_declarator.dir
+
+build base/c-programming/ch18_declare/CMakeFiles/04_declarator.dir/04_declarator.c.o: C_COMPILER__04_declarator_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch18_declare/04_declarator.c || cmake_object_order_depends_target_04_declarator
+  DEP_FILE = base/c-programming/ch18_declare/CMakeFiles/04_declarator.dir/04_declarator.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch18_declare/CMakeFiles/04_declarator.dir
+  OBJECT_FILE_DIR = base/c-programming/ch18_declare/CMakeFiles/04_declarator.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 04_declarator
+
+
+#############################################
+# Link the executable base/c-programming/ch18_declare/04_declarator
+
+build base/c-programming/ch18_declare/04_declarator: C_EXECUTABLE_LINKER__04_declarator_Debug base/c-programming/ch18_declare/CMakeFiles/04_declarator.dir/04_declarator.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch18_declare/CMakeFiles/04_declarator.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch18_declare/04_declarator
+  TARGET_PDB = 04_declarator.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -7320,6 +7352,8 @@ build 03_free_memory: phony base/c-programming/ch17_advanced_pointer/03_free_mem
 build 03_type_qualifier: phony base/c-programming/ch18_declare/03_type_qualifier
 
 build 03_union: phony base/c-programming/ch16_struct_union_enum/03_union
+
+build 04_declarator: phony base/c-programming/ch18_declare/04_declarator
 
 build 04_enum: phony base/c-programming/ch16_struct_union_enum/04_enum
 
@@ -8005,7 +8039,7 @@ build base/c-programming/ch17_advanced_pointer/exercise/exercise_06_words_storag
 #############################################
 # Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch18_declare
 
-build base/c-programming/ch18_declare/all: phony base/c-programming/ch18_declare/01_syntax_of_declaration base/c-programming/ch18_declare/02_storage_type base/c-programming/ch18_declare/03_type_qualifier
+build base/c-programming/ch18_declare/all: phony base/c-programming/ch18_declare/01_syntax_of_declaration base/c-programming/ch18_declare/02_storage_type base/c-programming/ch18_declare/03_type_qualifier base/c-programming/ch18_declare/04_declarator
 
 # =============================================================================
 # Built-in targets
