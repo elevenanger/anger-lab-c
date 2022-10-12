@@ -1,0 +1,1 @@
+add_executable(abstract_stack_client stack_ADT.c abstract_stack.h abstract_stack_client.c)
