@@ -1,0 +1,1 @@
+add_executable(brackets_stack_client brackets_stack.c brackets_stack.h brackets_stack_client.c)

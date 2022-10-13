@@ -6,7 +6,7 @@
  */
 #include <stdio.h>
 #include <stdlib.h>
-#include "abstract_stack.h"
+#include "fixed_length_arr_stack.h"
 
 #define STACK_SIZE 100
 

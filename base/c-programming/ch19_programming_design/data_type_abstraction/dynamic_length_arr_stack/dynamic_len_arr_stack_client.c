@@ -5,15 +5,15 @@
  * 创建两个 Stack 并执行各种操作
  */
 #include <stdio.h>
-#include "abstract_stack.h"
+#include "dynamic_len_arr_stack.h"
 
 int main(void) {
 
     Stack s1, s2;
-    int n;
+    int n, stack_size = 10;
 
-    s1 = create();
-    s2 = create();
+    s1 = create(stack_size);
+    s2 = create(stack_size);
 
     push(s1, 1);
     push(s1, 2);

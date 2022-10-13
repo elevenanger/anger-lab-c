@@ -7585,45 +7585,6 @@ build base/c-programming/ch19_programming_design/stack_module/rebuild_cache: pho
 # /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/CMakeLists.txt
 # =============================================================================
 
-# =============================================================================
-# Object build statements for EXECUTABLE target abstract_stack_client
-
-
-#############################################
-# Order-only phony target for abstract_stack_client
-
-build cmake_object_order_depends_target_abstract_stack_client: phony || base/c-programming/ch19_programming_design/data_type_abstraction/CMakeFiles/abstract_stack_client.dir
-
-build base/c-programming/ch19_programming_design/data_type_abstraction/CMakeFiles/abstract_stack_client.dir/stack_ADT.c.o: C_COMPILER__abstract_stack_client_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/data_type_abstraction/stack_ADT.c || cmake_object_order_depends_target_abstract_stack_client
-  DEP_FILE = base/c-programming/ch19_programming_design/data_type_abstraction/CMakeFiles/abstract_stack_client.dir/stack_ADT.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
-  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
-  OBJECT_DIR = base/c-programming/ch19_programming_design/data_type_abstraction/CMakeFiles/abstract_stack_client.dir
-  OBJECT_FILE_DIR = base/c-programming/ch19_programming_design/data_type_abstraction/CMakeFiles/abstract_stack_client.dir
-
-build base/c-programming/ch19_programming_design/data_type_abstraction/CMakeFiles/abstract_stack_client.dir/abstract_stack_client.c.o: C_COMPILER__abstract_stack_client_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/data_type_abstraction/abstract_stack_client.c || cmake_object_order_depends_target_abstract_stack_client
-  DEP_FILE = base/c-programming/ch19_programming_design/data_type_abstraction/CMakeFiles/abstract_stack_client.dir/abstract_stack_client.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
-  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
-  OBJECT_DIR = base/c-programming/ch19_programming_design/data_type_abstraction/CMakeFiles/abstract_stack_client.dir
-  OBJECT_FILE_DIR = base/c-programming/ch19_programming_design/data_type_abstraction/CMakeFiles/abstract_stack_client.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target abstract_stack_client
-
-
-#############################################
-# Link the executable base/c-programming/ch19_programming_design/data_type_abstraction/abstract_stack_client
-
-build base/c-programming/ch19_programming_design/data_type_abstraction/abstract_stack_client: C_EXECUTABLE_LINKER__abstract_stack_client_Debug base/c-programming/ch19_programming_design/data_type_abstraction/CMakeFiles/abstract_stack_client.dir/stack_ADT.c.o base/c-programming/ch19_programming_design/data_type_abstraction/CMakeFiles/abstract_stack_client.dir/abstract_stack_client.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
-  OBJECT_DIR = base/c-programming/ch19_programming_design/data_type_abstraction/CMakeFiles/abstract_stack_client.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = base/c-programming/ch19_programming_design/data_type_abstraction/abstract_stack_client
-  TARGET_PDB = abstract_stack_client.dbg
-
 
 #############################################
 # Utility command for edit_cache
@@ -7646,6 +7607,302 @@ build base/c-programming/ch19_programming_design/data_type_abstraction/CMakeFile
   restat = 1
 
 build base/c-programming/ch19_programming_design/data_type_abstraction/rebuild_cache: phony base/c-programming/ch19_programming_design/data_type_abstraction/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/data_type_abstraction/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target fixed_length_arr_stack_client
+
+
+#############################################
+# Order-only phony target for fixed_length_arr_stack_client
+
+build cmake_object_order_depends_target_fixed_length_arr_stack_client: phony || base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/CMakeFiles/fixed_length_arr_stack_client.dir
+
+build base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/CMakeFiles/fixed_length_arr_stack_client.dir/fixed_length_arr_stack_client.c.o: C_COMPILER__fixed_length_arr_stack_client_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/fixed_length_arr_stack_client.c || cmake_object_order_depends_target_fixed_length_arr_stack_client
+  DEP_FILE = base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/CMakeFiles/fixed_length_arr_stack_client.dir/fixed_length_arr_stack_client.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/CMakeFiles/fixed_length_arr_stack_client.dir
+  OBJECT_FILE_DIR = base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/CMakeFiles/fixed_length_arr_stack_client.dir
+
+build base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/CMakeFiles/fixed_length_arr_stack_client.dir/fixed_length_arr_stack_ADT.c.o: C_COMPILER__fixed_length_arr_stack_client_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/fixed_length_arr_stack_ADT.c || cmake_object_order_depends_target_fixed_length_arr_stack_client
+  DEP_FILE = base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/CMakeFiles/fixed_length_arr_stack_client.dir/fixed_length_arr_stack_ADT.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/CMakeFiles/fixed_length_arr_stack_client.dir
+  OBJECT_FILE_DIR = base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/CMakeFiles/fixed_length_arr_stack_client.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target fixed_length_arr_stack_client
+
+
+#############################################
+# Link the executable base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/fixed_length_arr_stack_client
+
+build base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/fixed_length_arr_stack_client: C_EXECUTABLE_LINKER__fixed_length_arr_stack_client_Debug base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/CMakeFiles/fixed_length_arr_stack_client.dir/fixed_length_arr_stack_client.c.o base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/CMakeFiles/fixed_length_arr_stack_client.dir/fixed_length_arr_stack_ADT.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/CMakeFiles/fixed_length_arr_stack_client.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/fixed_length_arr_stack_client
+  TARGET_PDB = fixed_length_arr_stack_client.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/edit_cache: phony base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/liuanglin/Projects/anger-lab-c -B/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/rebuild_cache: phony base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/data_type_abstraction/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target dynamic_len_arr_stack_client
+
+
+#############################################
+# Order-only phony target for dynamic_len_arr_stack_client
+
+build cmake_object_order_depends_target_dynamic_len_arr_stack_client: phony || base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/CMakeFiles/dynamic_len_arr_stack_client.dir
+
+build base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/CMakeFiles/dynamic_len_arr_stack_client.dir/dynamic_arr_stack_ADT.c.o: C_COMPILER__dynamic_len_arr_stack_client_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/dynamic_arr_stack_ADT.c || cmake_object_order_depends_target_dynamic_len_arr_stack_client
+  DEP_FILE = base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/CMakeFiles/dynamic_len_arr_stack_client.dir/dynamic_arr_stack_ADT.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/CMakeFiles/dynamic_len_arr_stack_client.dir
+  OBJECT_FILE_DIR = base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/CMakeFiles/dynamic_len_arr_stack_client.dir
+
+build base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/CMakeFiles/dynamic_len_arr_stack_client.dir/dynamic_len_arr_stack_client.c.o: C_COMPILER__dynamic_len_arr_stack_client_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/dynamic_len_arr_stack_client.c || cmake_object_order_depends_target_dynamic_len_arr_stack_client
+  DEP_FILE = base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/CMakeFiles/dynamic_len_arr_stack_client.dir/dynamic_len_arr_stack_client.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/CMakeFiles/dynamic_len_arr_stack_client.dir
+  OBJECT_FILE_DIR = base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/CMakeFiles/dynamic_len_arr_stack_client.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target dynamic_len_arr_stack_client
+
+
+#############################################
+# Link the executable base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/dynamic_len_arr_stack_client
+
+build base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/dynamic_len_arr_stack_client: C_EXECUTABLE_LINKER__dynamic_len_arr_stack_client_Debug base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/CMakeFiles/dynamic_len_arr_stack_client.dir/dynamic_arr_stack_ADT.c.o base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/CMakeFiles/dynamic_len_arr_stack_client.dir/dynamic_len_arr_stack_client.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/CMakeFiles/dynamic_len_arr_stack_client.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/dynamic_len_arr_stack_client
+  TARGET_PDB = dynamic_len_arr_stack_client.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/edit_cache: phony base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/liuanglin/Projects/anger-lab-c -B/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/rebuild_cache: phony base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/data_type_abstraction/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target linked_list_stack_client
+
+
+#############################################
+# Order-only phony target for linked_list_stack_client
+
+build cmake_object_order_depends_target_linked_list_stack_client: phony || base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/CMakeFiles/linked_list_stack_client.dir
+
+build base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/CMakeFiles/linked_list_stack_client.dir/linked_list_stack_client.c.o: C_COMPILER__linked_list_stack_client_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/linked_list_stack_client.c || cmake_object_order_depends_target_linked_list_stack_client
+  DEP_FILE = base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/CMakeFiles/linked_list_stack_client.dir/linked_list_stack_client.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/CMakeFiles/linked_list_stack_client.dir
+  OBJECT_FILE_DIR = base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/CMakeFiles/linked_list_stack_client.dir
+
+build base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/CMakeFiles/linked_list_stack_client.dir/linked_list_stack_ADT.c.o: C_COMPILER__linked_list_stack_client_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/linked_list_stack_ADT.c || cmake_object_order_depends_target_linked_list_stack_client
+  DEP_FILE = base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/CMakeFiles/linked_list_stack_client.dir/linked_list_stack_ADT.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/CMakeFiles/linked_list_stack_client.dir
+  OBJECT_FILE_DIR = base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/CMakeFiles/linked_list_stack_client.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target linked_list_stack_client
+
+
+#############################################
+# Link the executable base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/linked_list_stack_client
+
+build base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/linked_list_stack_client: C_EXECUTABLE_LINKER__linked_list_stack_client_Debug base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/CMakeFiles/linked_list_stack_client.dir/linked_list_stack_client.c.o base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/CMakeFiles/linked_list_stack_client.dir/linked_list_stack_ADT.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/CMakeFiles/linked_list_stack_client.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/linked_list_stack_client
+  TARGET_PDB = linked_list_stack_client.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/edit_cache: phony base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/liuanglin/Projects/anger-lab-c -B/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/rebuild_cache: phony base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build base/c-programming/ch19_programming_design/exercise/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch19_programming_design/exercise && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build base/c-programming/ch19_programming_design/exercise/edit_cache: phony base/c-programming/ch19_programming_design/exercise/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build base/c-programming/ch19_programming_design/exercise/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch19_programming_design/exercise && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/liuanglin/Projects/anger-lab-c -B/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build base/c-programming/ch19_programming_design/exercise/rebuild_cache: phony base/c-programming/ch19_programming_design/exercise/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/exercise/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target brackets_stack_client
+
+
+#############################################
+# Order-only phony target for brackets_stack_client
+
+build cmake_object_order_depends_target_brackets_stack_client: phony || base/c-programming/ch19_programming_design/exercise/01_check_brackets/CMakeFiles/brackets_stack_client.dir
+
+build base/c-programming/ch19_programming_design/exercise/01_check_brackets/CMakeFiles/brackets_stack_client.dir/brackets_stack.c.o: C_COMPILER__brackets_stack_client_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/exercise/01_check_brackets/brackets_stack.c || cmake_object_order_depends_target_brackets_stack_client
+  DEP_FILE = base/c-programming/ch19_programming_design/exercise/01_check_brackets/CMakeFiles/brackets_stack_client.dir/brackets_stack.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch19_programming_design/exercise/01_check_brackets/CMakeFiles/brackets_stack_client.dir
+  OBJECT_FILE_DIR = base/c-programming/ch19_programming_design/exercise/01_check_brackets/CMakeFiles/brackets_stack_client.dir
+
+build base/c-programming/ch19_programming_design/exercise/01_check_brackets/CMakeFiles/brackets_stack_client.dir/brackets_stack_client.c.o: C_COMPILER__brackets_stack_client_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/exercise/01_check_brackets/brackets_stack_client.c || cmake_object_order_depends_target_brackets_stack_client
+  DEP_FILE = base/c-programming/ch19_programming_design/exercise/01_check_brackets/CMakeFiles/brackets_stack_client.dir/brackets_stack_client.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch19_programming_design/exercise/01_check_brackets/CMakeFiles/brackets_stack_client.dir
+  OBJECT_FILE_DIR = base/c-programming/ch19_programming_design/exercise/01_check_brackets/CMakeFiles/brackets_stack_client.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target brackets_stack_client
+
+
+#############################################
+# Link the executable base/c-programming/ch19_programming_design/exercise/01_check_brackets/brackets_stack_client
+
+build base/c-programming/ch19_programming_design/exercise/01_check_brackets/brackets_stack_client: C_EXECUTABLE_LINKER__brackets_stack_client_Debug base/c-programming/ch19_programming_design/exercise/01_check_brackets/CMakeFiles/brackets_stack_client.dir/brackets_stack.c.o base/c-programming/ch19_programming_design/exercise/01_check_brackets/CMakeFiles/brackets_stack_client.dir/brackets_stack_client.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch19_programming_design/exercise/01_check_brackets/CMakeFiles/brackets_stack_client.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch19_programming_design/exercise/01_check_brackets/brackets_stack_client
+  TARGET_PDB = brackets_stack_client.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build base/c-programming/ch19_programming_design/exercise/01_check_brackets/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch19_programming_design/exercise/01_check_brackets && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build base/c-programming/ch19_programming_design/exercise/01_check_brackets/edit_cache: phony base/c-programming/ch19_programming_design/exercise/01_check_brackets/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build base/c-programming/ch19_programming_design/exercise/01_check_brackets/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch19_programming_design/exercise/01_check_brackets && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/liuanglin/Projects/anger-lab-c -B/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build base/c-programming/ch19_programming_design/exercise/01_check_brackets/rebuild_cache: phony base/c-programming/ch19_programming_design/exercise/01_check_brackets/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
@@ -7696,8 +7953,6 @@ build 08_static_assertions: phony base/c-programming/ch18_declare/08_static_asse
 
 build 09_vstring: phony base/c-programming/ch17_advanced_pointer/09_vstring
 
-build abstract_stack_client: phony base/c-programming/ch19_programming_design/data_type_abstraction/abstract_stack_client
-
 build access_char_in_string: phony base/c-programming/ch13_string/access_char_in_string
 
 build analysis_isbn: phony base/c-programming/ch03_format_io/exercise/analysis_isbn
@@ -7709,6 +7964,8 @@ build arithmatic_operator: phony base/c-programming/ch04_expression/arithmatic_o
 build array_name_as_pointer: phony base/c-programming/ch12_pointer_and_array/array_name_as_pointer
 
 build assignment_operator: phony base/c-programming/ch04_expression/assignment_operator
+
+build brackets_stack_client: phony base/c-programming/ch19_programming_design/exercise/01_check_brackets/brackets_stack_client
 
 build cal: phony base/c-programming/ch15_large_program/exercise/exercise_05_stack/cal
 
@@ -7729,6 +7986,8 @@ build cube_number_summation: phony base/c-programming/ch03_format_io/exercise/cu
 build draw_hook: phony base/c-programming/ch02-language-foundation/exercise/draw_hook
 
 build dweight: phony base/c-programming/ch02-language-foundation/dweight
+
+build dynamic_len_arr_stack_client: phony base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/dynamic_len_arr_stack_client
 
 build ean_check_digit: phony base/c-programming/ch04_expression/exercise/ean_check_digit
 
@@ -7916,6 +8175,8 @@ build external_variable: phony base/c-programming/ch10_program_structure/externa
 
 build find_the_minium_number: phony base/c-programming/ch05_select_statement/exercise/find_the_minium_number
 
+build fixed_length_arr_stack_client: phony base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/fixed_length_arr_stack_client
+
 build float_format: phony base/c-programming/ch03_format_io/exercise/float_format
 
 build float_type: phony base/c-programming/ch07_base_type/float_type
@@ -7939,6 +8200,8 @@ build integer_type: phony base/c-programming/ch07_base_type/integer_type
 build inventory: phony base/c-programming/ch16_struct_union_enum/inventory
 
 build justify: phony base/c-programming/ch15_large_program/justify/justify
+
+build linked_list_stack_client: phony base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/linked_list_stack_client
 
 build loan_calculator: phony base/c-programming/ch02-language-foundation/exercise/loan_calculator
 
@@ -8375,14 +8638,49 @@ build base/c-programming/ch18_declare/all: phony base/c-programming/ch18_declare
 #############################################
 # Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch19_programming_design
 
-build base/c-programming/ch19_programming_design/all: phony base/c-programming/ch19_programming_design/stack_module/all base/c-programming/ch19_programming_design/data_type_abstraction/all
+build base/c-programming/ch19_programming_design/all: phony base/c-programming/ch19_programming_design/stack_module/all base/c-programming/ch19_programming_design/data_type_abstraction/all base/c-programming/ch19_programming_design/exercise/all
 
 # =============================================================================
 
 #############################################
 # Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch19_programming_design/data_type_abstraction
 
-build base/c-programming/ch19_programming_design/data_type_abstraction/all: phony base/c-programming/ch19_programming_design/data_type_abstraction/abstract_stack_client
+build base/c-programming/ch19_programming_design/data_type_abstraction/all: phony base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/all base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/all base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/all
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack
+
+build base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/all: phony base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/dynamic_len_arr_stack_client
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack
+
+build base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/all: phony base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/fixed_length_arr_stack_client
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack
+
+build base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/all: phony base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/linked_list_stack_client
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch19_programming_design/exercise
+
+build base/c-programming/ch19_programming_design/exercise/all: phony base/c-programming/ch19_programming_design/exercise/01_check_brackets/all
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch19_programming_design/exercise/01_check_brackets
+
+build base/c-programming/ch19_programming_design/exercise/01_check_brackets/all: phony base/c-programming/ch19_programming_design/exercise/01_check_brackets/brackets_stack_client
 
 # =============================================================================
 
@@ -8398,14 +8696,14 @@ build base/c-programming/ch19_programming_design/stack_module/all: phony base/c-
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../base/CMakeLists.txt ../base/c-programming/CMakeLists.txt ../base/c-programming/ch02-language-foundation/CMakeLists.txt ../base/c-programming/ch02-language-foundation/exercise/CMakeLists.txt ../base/c-programming/ch03_format_io/CMakeLists.txt ../base/c-programming/ch03_format_io/exercise/CMakeLists.txt ../base/c-programming/ch04_expression/CMakeLists.txt ../base/c-programming/ch04_expression/exercise/CMakeLists.txt ../base/c-programming/ch05_select_statement/CMakeLists.txt ../base/c-programming/ch05_select_statement/exercise/CMakeLists.txt ../base/c-programming/ch06_loop/CMakeLists.txt ../base/c-programming/ch06_loop/exercise/CMakeLists.txt ../base/c-programming/ch07_base_type/CMakeLists.txt ../base/c-programming/ch07_base_type/exercise/CMakeLists.txt ../base/c-programming/ch08_array/CMakeLists.txt ../base/c-programming/ch08_array/exercise/CMakeLists.txt ../base/c-programming/ch09_function/CMakeLists.txt ../base/c-programming/ch09_function/exercise/CMakeLists.txt ../base/c-programming/ch10_program_structure/CMakeLists.txt ../base/c-programming/ch10_program_structure/exercise/CMakeLists.txt ../base/c-programming/ch11_pointer/CMakeLists.txt ../base/c-programming/ch11_pointer/exercise/CMakeLists.txt ../base/c-programming/ch12_pointer_and_array/CMakeLists.txt ../base/c-programming/ch12_pointer_and_array/exercise/CMakeLists.txt ../base/c-programming/ch13_string/CMakeLists.txt ../base/c-programming/ch13_string/exercise/CMakeLists.txt ../base/c-programming/ch14_preprocessor/CMakeLists.txt ../base/c-programming/ch15_large_program/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/exercise_01_02_justify/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/exercise_03_quicksort/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/exercise_04_reminder/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/exercise_05_stack/CMakeLists.txt ../base/c-programming/ch15_large_program/justify/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/exercise/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/exercise/exercise_02_inventory_src/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/exercise/exercise_03_inventory_src/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/exercise/exercise_04_inventory_src/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_01_inventory_src/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_02_inventory_src/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_03_inventory/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_04_justify/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_05_words_storage/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_06_words_storage/CMakeLists.txt ../base/c-programming/ch18_declare/CMakeLists.txt ../base/c-programming/ch19_programming_design/CMakeLists.txt ../base/c-programming/ch19_programming_design/data_type_abstraction/CMakeLists.txt ../base/c-programming/ch19_programming_design/stack_module/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../base/CMakeLists.txt ../base/c-programming/CMakeLists.txt ../base/c-programming/ch02-language-foundation/CMakeLists.txt ../base/c-programming/ch02-language-foundation/exercise/CMakeLists.txt ../base/c-programming/ch03_format_io/CMakeLists.txt ../base/c-programming/ch03_format_io/exercise/CMakeLists.txt ../base/c-programming/ch04_expression/CMakeLists.txt ../base/c-programming/ch04_expression/exercise/CMakeLists.txt ../base/c-programming/ch05_select_statement/CMakeLists.txt ../base/c-programming/ch05_select_statement/exercise/CMakeLists.txt ../base/c-programming/ch06_loop/CMakeLists.txt ../base/c-programming/ch06_loop/exercise/CMakeLists.txt ../base/c-programming/ch07_base_type/CMakeLists.txt ../base/c-programming/ch07_base_type/exercise/CMakeLists.txt ../base/c-programming/ch08_array/CMakeLists.txt ../base/c-programming/ch08_array/exercise/CMakeLists.txt ../base/c-programming/ch09_function/CMakeLists.txt ../base/c-programming/ch09_function/exercise/CMakeLists.txt ../base/c-programming/ch10_program_structure/CMakeLists.txt ../base/c-programming/ch10_program_structure/exercise/CMakeLists.txt ../base/c-programming/ch11_pointer/CMakeLists.txt ../base/c-programming/ch11_pointer/exercise/CMakeLists.txt ../base/c-programming/ch12_pointer_and_array/CMakeLists.txt ../base/c-programming/ch12_pointer_and_array/exercise/CMakeLists.txt ../base/c-programming/ch13_string/CMakeLists.txt ../base/c-programming/ch13_string/exercise/CMakeLists.txt ../base/c-programming/ch14_preprocessor/CMakeLists.txt ../base/c-programming/ch15_large_program/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/exercise_01_02_justify/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/exercise_03_quicksort/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/exercise_04_reminder/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/exercise_05_stack/CMakeLists.txt ../base/c-programming/ch15_large_program/justify/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/exercise/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/exercise/exercise_02_inventory_src/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/exercise/exercise_03_inventory_src/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/exercise/exercise_04_inventory_src/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_01_inventory_src/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_02_inventory_src/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_03_inventory/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_04_justify/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_05_words_storage/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_06_words_storage/CMakeLists.txt ../base/c-programming/ch18_declare/CMakeLists.txt ../base/c-programming/ch19_programming_design/CMakeLists.txt ../base/c-programming/ch19_programming_design/data_type_abstraction/CMakeLists.txt ../base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/CMakeLists.txt ../base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/CMakeLists.txt ../base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/CMakeLists.txt ../base/c-programming/ch19_programming_design/exercise/01_check_brackets/CMakeLists.txt ../base/c-programming/ch19_programming_design/exercise/CMakeLists.txt ../base/c-programming/ch19_programming_design/stack_module/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt ../base/CMakeLists.txt ../base/c-programming/CMakeLists.txt ../base/c-programming/ch02-language-foundation/CMakeLists.txt ../base/c-programming/ch02-language-foundation/exercise/CMakeLists.txt ../base/c-programming/ch03_format_io/CMakeLists.txt ../base/c-programming/ch03_format_io/exercise/CMakeLists.txt ../base/c-programming/ch04_expression/CMakeLists.txt ../base/c-programming/ch04_expression/exercise/CMakeLists.txt ../base/c-programming/ch05_select_statement/CMakeLists.txt ../base/c-programming/ch05_select_statement/exercise/CMakeLists.txt ../base/c-programming/ch06_loop/CMakeLists.txt ../base/c-programming/ch06_loop/exercise/CMakeLists.txt ../base/c-programming/ch07_base_type/CMakeLists.txt ../base/c-programming/ch07_base_type/exercise/CMakeLists.txt ../base/c-programming/ch08_array/CMakeLists.txt ../base/c-programming/ch08_array/exercise/CMakeLists.txt ../base/c-programming/ch09_function/CMakeLists.txt ../base/c-programming/ch09_function/exercise/CMakeLists.txt ../base/c-programming/ch10_program_structure/CMakeLists.txt ../base/c-programming/ch10_program_structure/exercise/CMakeLists.txt ../base/c-programming/ch11_pointer/CMakeLists.txt ../base/c-programming/ch11_pointer/exercise/CMakeLists.txt ../base/c-programming/ch12_pointer_and_array/CMakeLists.txt ../base/c-programming/ch12_pointer_and_array/exercise/CMakeLists.txt ../base/c-programming/ch13_string/CMakeLists.txt ../base/c-programming/ch13_string/exercise/CMakeLists.txt ../base/c-programming/ch14_preprocessor/CMakeLists.txt ../base/c-programming/ch15_large_program/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/exercise_01_02_justify/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/exercise_03_quicksort/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/exercise_04_reminder/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/exercise_05_stack/CMakeLists.txt ../base/c-programming/ch15_large_program/justify/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/exercise/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/exercise/exercise_02_inventory_src/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/exercise/exercise_03_inventory_src/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/exercise/exercise_04_inventory_src/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_01_inventory_src/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_02_inventory_src/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_03_inventory/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_04_justify/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_05_words_storage/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_06_words_storage/CMakeLists.txt ../base/c-programming/ch18_declare/CMakeLists.txt ../base/c-programming/ch19_programming_design/CMakeLists.txt ../base/c-programming/ch19_programming_design/data_type_abstraction/CMakeLists.txt ../base/c-programming/ch19_programming_design/stack_module/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+build ../CMakeLists.txt ../base/CMakeLists.txt ../base/c-programming/CMakeLists.txt ../base/c-programming/ch02-language-foundation/CMakeLists.txt ../base/c-programming/ch02-language-foundation/exercise/CMakeLists.txt ../base/c-programming/ch03_format_io/CMakeLists.txt ../base/c-programming/ch03_format_io/exercise/CMakeLists.txt ../base/c-programming/ch04_expression/CMakeLists.txt ../base/c-programming/ch04_expression/exercise/CMakeLists.txt ../base/c-programming/ch05_select_statement/CMakeLists.txt ../base/c-programming/ch05_select_statement/exercise/CMakeLists.txt ../base/c-programming/ch06_loop/CMakeLists.txt ../base/c-programming/ch06_loop/exercise/CMakeLists.txt ../base/c-programming/ch07_base_type/CMakeLists.txt ../base/c-programming/ch07_base_type/exercise/CMakeLists.txt ../base/c-programming/ch08_array/CMakeLists.txt ../base/c-programming/ch08_array/exercise/CMakeLists.txt ../base/c-programming/ch09_function/CMakeLists.txt ../base/c-programming/ch09_function/exercise/CMakeLists.txt ../base/c-programming/ch10_program_structure/CMakeLists.txt ../base/c-programming/ch10_program_structure/exercise/CMakeLists.txt ../base/c-programming/ch11_pointer/CMakeLists.txt ../base/c-programming/ch11_pointer/exercise/CMakeLists.txt ../base/c-programming/ch12_pointer_and_array/CMakeLists.txt ../base/c-programming/ch12_pointer_and_array/exercise/CMakeLists.txt ../base/c-programming/ch13_string/CMakeLists.txt ../base/c-programming/ch13_string/exercise/CMakeLists.txt ../base/c-programming/ch14_preprocessor/CMakeLists.txt ../base/c-programming/ch15_large_program/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/exercise_01_02_justify/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/exercise_03_quicksort/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/exercise_04_reminder/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/exercise_05_stack/CMakeLists.txt ../base/c-programming/ch15_large_program/justify/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/exercise/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/exercise/exercise_02_inventory_src/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/exercise/exercise_03_inventory_src/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/exercise/exercise_04_inventory_src/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_01_inventory_src/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_02_inventory_src/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_03_inventory/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_04_justify/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_05_words_storage/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_06_words_storage/CMakeLists.txt ../base/c-programming/ch18_declare/CMakeLists.txt ../base/c-programming/ch19_programming_design/CMakeLists.txt ../base/c-programming/ch19_programming_design/data_type_abstraction/CMakeLists.txt ../base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/CMakeLists.txt ../base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/CMakeLists.txt ../base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/CMakeLists.txt ../base/c-programming/ch19_programming_design/exercise/01_check_brackets/CMakeLists.txt ../base/c-programming/ch19_programming_design/exercise/CMakeLists.txt ../base/c-programming/ch19_programming_design/stack_module/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
 
 
 #############################################

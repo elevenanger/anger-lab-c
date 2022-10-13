@@ -1,2 +1,3 @@
 ADD_SUBDIRECTORY(stack_module)
 ADD_SUBDIRECTORY(data_type_abstraction)
+ADD_SUBDIRECTORY(exercise)

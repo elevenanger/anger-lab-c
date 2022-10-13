@@ -1,1 +1,3 @@
-add_executable(abstract_stack_client stack_ADT.c abstract_stack.h abstract_stack_client.c)
+ADD_SUBDIRECTORY(fixed_length_arr_stack)
+ADD_SUBDIRECTORY(dynamic_length_arr_stack)
+ADD_SUBDIRECTORY(linked_list_stack)

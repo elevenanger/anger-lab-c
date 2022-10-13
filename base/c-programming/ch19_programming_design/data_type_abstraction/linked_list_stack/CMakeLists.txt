@@ -1,0 +1,1 @@
+add_executable(linked_list_stack_client linked_list_stack_client.c linked_list_stack_ADT.c linked_list_stack.h)

@@ -1,0 +1,1 @@
+add_executable(dynamic_len_arr_stack_client dynamic_arr_stack_ADT.c dynamic_len_arr_stack.h dynamic_len_arr_stack_client.c)
