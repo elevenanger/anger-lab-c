@@ -10,14 +10,12 @@
 
 typedef struct stack_type *Stack;
 
-typedef int Item;
-
 Stack create(void);
 void destroy(Stack stack);
 void make_empty(Stack stack);
 bool is_empty(Stack stack);
 bool is_full(Stack stack);
-void push(Stack stack, Item i);
-Item pop(Stack stack);
+void push(Stack stack, void *item);
+void* pop(Stack stack);
 
 #endif //ANGER_LAB_C_TACK_H

@@ -19,5 +19,6 @@ bool is_empty(Stack stack);
 bool is_full(Stack stack);
 void push(Stack stack, Item i);
 Item pop(Stack stack);
+int length(Stack stack);
 
 #endif //ANGER_LAB_C_TACK_H

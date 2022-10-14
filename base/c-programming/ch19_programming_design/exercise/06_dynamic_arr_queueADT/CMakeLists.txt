@@ -1,0 +1,1 @@
+add_executable(dynamic_arr_queue dynamic_arr_queueADT.c dynamic_arr_queue.h dynamic_arr_queueADT_client.c)

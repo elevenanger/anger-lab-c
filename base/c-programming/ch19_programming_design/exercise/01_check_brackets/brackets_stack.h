@@ -12,7 +12,7 @@
 
 typedef char Bracket;
 
-typedef struct brackets_stack {
+typedef struct brackets_stackADT {
     int top;
     Bracket bracket_contents[BRACKETS_SIZE];
 } Brackets;
