@@ -13,7 +13,7 @@ void bit_or_operator(void);
 void bit_xor_operator(void);
 void access_bit_by_bit_operator(void);
 void access_bit_field_by_bit_operator(void);
-void xor_encrypt(char *orig_str, const char xor_char);
+void xor_encrypt(char *orig_str, char xor_char);
 
 int main(void) {
 
@@ -178,7 +178,7 @@ void access_bit_field_by_bit_operator(void) {
            (i >> 4) & 0x000f);
 }
 
-void xor_encrypt(char *orig_str, const char xor_char) {
+void xor_encrypt(char *orig_str, char xor_char) {
     for (char *p = orig_str; *p != '\0'; p++) {
         if (isprint(*p) && isprint(*p ^ xor_char))
             putchar(*p ^ xor_char);

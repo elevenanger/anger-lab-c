@@ -1,1 +1,6 @@
 add_executable(01_bit_operator 01_bit_operator.c)
+add_executable(02_bit_field_in_struct 02_bit_field_in_struct.c)
+add_executable(03_other_underlying_techniques 03_other_underlying_techniques.c)
+add_executable(04_object_align 04_object_align.c)
+
+ADD_SUBDIRECTORY(exercise)

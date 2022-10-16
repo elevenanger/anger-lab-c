@@ -1,0 +1,3 @@
+add_executable(04_common_definition 04_common_definition.c)
+
+ADD_SUBDIRECTORY(exercise)

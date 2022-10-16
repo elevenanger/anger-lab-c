@@ -1,0 +1,1 @@
+add_executable(01_multi_perspective_object_by_union 01_multi_perspective_object_by_union.c)

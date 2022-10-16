@@ -1,0 +1,1 @@
+add_executable(01_struct_member_offset 01_struct_member_offset.c)
