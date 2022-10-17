@@ -8686,6 +8686,38 @@ build base/c-programming/ch22_io/01_stream: C_EXECUTABLE_LINKER__01_stream_Debug
   TARGET_FILE = base/c-programming/ch22_io/01_stream
   TARGET_PDB = 01_stream.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 02_file_operation
+
+
+#############################################
+# Order-only phony target for 02_file_operation
+
+build cmake_object_order_depends_target_02_file_operation: phony || base/c-programming/ch22_io/CMakeFiles/02_file_operation.dir
+
+build base/c-programming/ch22_io/CMakeFiles/02_file_operation.dir/02_file_operation.c.o: C_COMPILER__02_file_operation_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/02_file_operation.c || cmake_object_order_depends_target_02_file_operation
+  DEP_FILE = base/c-programming/ch22_io/CMakeFiles/02_file_operation.dir/02_file_operation.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch22_io/CMakeFiles/02_file_operation.dir
+  OBJECT_FILE_DIR = base/c-programming/ch22_io/CMakeFiles/02_file_operation.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02_file_operation
+
+
+#############################################
+# Link the executable base/c-programming/ch22_io/02_file_operation
+
+build base/c-programming/ch22_io/02_file_operation: C_EXECUTABLE_LINKER__02_file_operation_Debug base/c-programming/ch22_io/CMakeFiles/02_file_operation.dir/02_file_operation.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch22_io/CMakeFiles/02_file_operation.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch22_io/02_file_operation
+  TARGET_PDB = 02_file_operation.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -8729,6 +8761,8 @@ build 01_syntax_of_declaration: phony base/c-programming/ch18_declare/01_syntax_
 build 02_bit_field_in_struct: phony base/c-programming/ch20_underlying_programming/02_bit_field_in_struct
 
 build 02_dynamic_array_allocation: phony base/c-programming/ch17_advanced_pointer/02_dynamic_array_allocation
+
+build 02_file_operation: phony base/c-programming/ch22_io/02_file_operation
 
 build 02_nested_structure: phony base/c-programming/ch16_struct_union_enum/02_nested_structure
 
@@ -9597,7 +9631,7 @@ build base/c-programming/ch21_standard_lib/exercise/all: phony base/c-programmin
 #############################################
 # Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io
 
-build base/c-programming/ch22_io/all: phony base/c-programming/ch22_io/01_stream
+build base/c-programming/ch22_io/all: phony base/c-programming/ch22_io/01_stream base/c-programming/ch22_io/02_file_operation
 
 # =============================================================================
 # Built-in targets

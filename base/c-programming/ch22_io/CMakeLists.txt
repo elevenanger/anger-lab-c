@@ -1,1 +1,2 @@
 add_executable(01_stream 01_stream.c)
+add_executable(02_file_operation 02_file_operation.c)

@@ -336,5 +336,6 @@
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch21_standard_lib/exercise/CMakeFiles/edit_cache.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch21_standard_lib/exercise/CMakeFiles/rebuild_cache.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/CMakeFiles/01_stream.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/CMakeFiles/02_file_operation.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/CMakeFiles/edit_cache.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/CMakeFiles/rebuild_cache.dir
