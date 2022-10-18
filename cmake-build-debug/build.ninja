@@ -8718,6 +8718,294 @@ build base/c-programming/ch22_io/02_file_operation: C_EXECUTABLE_LINKER__02_file
   TARGET_FILE = base/c-programming/ch22_io/02_file_operation
   TARGET_PDB = 02_file_operation.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 02_05_can_open
+
+
+#############################################
+# Order-only phony target for 02_05_can_open
+
+build cmake_object_order_depends_target_02_05_can_open: phony || base/c-programming/ch22_io/CMakeFiles/02_05_can_open.dir
+
+build base/c-programming/ch22_io/CMakeFiles/02_05_can_open.dir/02_05_can_open.c.o: C_COMPILER__02_05_can_open_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/02_05_can_open.c || cmake_object_order_depends_target_02_05_can_open
+  DEP_FILE = base/c-programming/ch22_io/CMakeFiles/02_05_can_open.dir/02_05_can_open.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch22_io/CMakeFiles/02_05_can_open.dir
+  OBJECT_FILE_DIR = base/c-programming/ch22_io/CMakeFiles/02_05_can_open.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02_05_can_open
+
+
+#############################################
+# Link the executable base/c-programming/ch22_io/02_05_can_open
+
+build base/c-programming/ch22_io/02_05_can_open: C_EXECUTABLE_LINKER__02_05_can_open_Debug base/c-programming/ch22_io/CMakeFiles/02_05_can_open.dir/02_05_can_open.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch22_io/CMakeFiles/02_05_can_open.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch22_io/02_05_can_open
+  TARGET_PDB = 02_05_can_open.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 03_format_io
+
+
+#############################################
+# Order-only phony target for 03_format_io
+
+build cmake_object_order_depends_target_03_format_io: phony || base/c-programming/ch22_io/CMakeFiles/03_format_io.dir
+
+build base/c-programming/ch22_io/CMakeFiles/03_format_io.dir/03_format_io.c.o: C_COMPILER__03_format_io_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/03_format_io.c || cmake_object_order_depends_target_03_format_io
+  DEP_FILE = base/c-programming/ch22_io/CMakeFiles/03_format_io.dir/03_format_io.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch22_io/CMakeFiles/03_format_io.dir
+  OBJECT_FILE_DIR = base/c-programming/ch22_io/CMakeFiles/03_format_io.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03_format_io
+
+
+#############################################
+# Link the executable base/c-programming/ch22_io/03_format_io
+
+build base/c-programming/ch22_io/03_format_io: C_EXECUTABLE_LINKER__03_format_io_Debug base/c-programming/ch22_io/CMakeFiles/03_format_io.dir/03_format_io.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch22_io/CMakeFiles/03_format_io.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch22_io/03_format_io
+  TARGET_PDB = 03_format_io.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 04_char_io
+
+
+#############################################
+# Order-only phony target for 04_char_io
+
+build cmake_object_order_depends_target_04_char_io: phony || base/c-programming/ch22_io/CMakeFiles/04_char_io.dir
+
+build base/c-programming/ch22_io/CMakeFiles/04_char_io.dir/04_char_io.c.o: C_COMPILER__04_char_io_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/04_char_io.c || cmake_object_order_depends_target_04_char_io
+  DEP_FILE = base/c-programming/ch22_io/CMakeFiles/04_char_io.dir/04_char_io.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch22_io/CMakeFiles/04_char_io.dir
+  OBJECT_FILE_DIR = base/c-programming/ch22_io/CMakeFiles/04_char_io.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 04_char_io
+
+
+#############################################
+# Link the executable base/c-programming/ch22_io/04_char_io
+
+build base/c-programming/ch22_io/04_char_io: C_EXECUTABLE_LINKER__04_char_io_Debug base/c-programming/ch22_io/CMakeFiles/04_char_io.dir/04_char_io.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch22_io/CMakeFiles/04_char_io.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch22_io/04_char_io
+  TARGET_PDB = 04_char_io.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 04_fcopy
+
+
+#############################################
+# Order-only phony target for 04_fcopy
+
+build cmake_object_order_depends_target_04_fcopy: phony || base/c-programming/ch22_io/CMakeFiles/04_fcopy.dir
+
+build base/c-programming/ch22_io/CMakeFiles/04_fcopy.dir/04_fcopy.c.o: C_COMPILER__04_fcopy_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/04_fcopy.c || cmake_object_order_depends_target_04_fcopy
+  DEP_FILE = base/c-programming/ch22_io/CMakeFiles/04_fcopy.dir/04_fcopy.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch22_io/CMakeFiles/04_fcopy.dir
+  OBJECT_FILE_DIR = base/c-programming/ch22_io/CMakeFiles/04_fcopy.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 04_fcopy
+
+
+#############################################
+# Link the executable base/c-programming/ch22_io/04_fcopy
+
+build base/c-programming/ch22_io/04_fcopy: C_EXECUTABLE_LINKER__04_fcopy_Debug base/c-programming/ch22_io/CMakeFiles/04_fcopy.dir/04_fcopy.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch22_io/CMakeFiles/04_fcopy.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch22_io/04_fcopy
+  TARGET_PDB = 04_fcopy.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 05_line_io
+
+
+#############################################
+# Order-only phony target for 05_line_io
+
+build cmake_object_order_depends_target_05_line_io: phony || base/c-programming/ch22_io/CMakeFiles/05_line_io.dir
+
+build base/c-programming/ch22_io/CMakeFiles/05_line_io.dir/05_line_io.c.o: C_COMPILER__05_line_io_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/05_line_io.c || cmake_object_order_depends_target_05_line_io
+  DEP_FILE = base/c-programming/ch22_io/CMakeFiles/05_line_io.dir/05_line_io.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch22_io/CMakeFiles/05_line_io.dir
+  OBJECT_FILE_DIR = base/c-programming/ch22_io/CMakeFiles/05_line_io.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 05_line_io
+
+
+#############################################
+# Link the executable base/c-programming/ch22_io/05_line_io
+
+build base/c-programming/ch22_io/05_line_io: C_EXECUTABLE_LINKER__05_line_io_Debug base/c-programming/ch22_io/CMakeFiles/05_line_io.dir/05_line_io.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch22_io/CMakeFiles/05_line_io.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch22_io/05_line_io
+  TARGET_PDB = 05_line_io.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 06_block_io
+
+
+#############################################
+# Order-only phony target for 06_block_io
+
+build cmake_object_order_depends_target_06_block_io: phony || base/c-programming/ch22_io/CMakeFiles/06_block_io.dir
+
+build base/c-programming/ch22_io/CMakeFiles/06_block_io.dir/06_block_io.c.o: C_COMPILER__06_block_io_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/06_block_io.c || cmake_object_order_depends_target_06_block_io
+  DEP_FILE = base/c-programming/ch22_io/CMakeFiles/06_block_io.dir/06_block_io.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch22_io/CMakeFiles/06_block_io.dir
+  OBJECT_FILE_DIR = base/c-programming/ch22_io/CMakeFiles/06_block_io.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 06_block_io
+
+
+#############################################
+# Link the executable base/c-programming/ch22_io/06_block_io
+
+build base/c-programming/ch22_io/06_block_io: C_EXECUTABLE_LINKER__06_block_io_Debug base/c-programming/ch22_io/CMakeFiles/06_block_io.dir/06_block_io.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch22_io/CMakeFiles/06_block_io.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch22_io/06_block_io
+  TARGET_PDB = 06_block_io.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 07_file_location
+
+
+#############################################
+# Order-only phony target for 07_file_location
+
+build cmake_object_order_depends_target_07_file_location: phony || base/c-programming/ch22_io/CMakeFiles/07_file_location.dir
+
+build base/c-programming/ch22_io/CMakeFiles/07_file_location.dir/07_file_location.c.o: C_COMPILER__07_file_location_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/07_file_location.c || cmake_object_order_depends_target_07_file_location
+  DEP_FILE = base/c-programming/ch22_io/CMakeFiles/07_file_location.dir/07_file_location.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch22_io/CMakeFiles/07_file_location.dir
+  OBJECT_FILE_DIR = base/c-programming/ch22_io/CMakeFiles/07_file_location.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 07_file_location
+
+
+#############################################
+# Link the executable base/c-programming/ch22_io/07_file_location
+
+build base/c-programming/ch22_io/07_file_location: C_EXECUTABLE_LINKER__07_file_location_Debug base/c-programming/ch22_io/CMakeFiles/07_file_location.dir/07_file_location.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch22_io/CMakeFiles/07_file_location.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch22_io/07_file_location
+  TARGET_PDB = 07_file_location.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 07_01_invclear
+
+
+#############################################
+# Order-only phony target for 07_01_invclear
+
+build cmake_object_order_depends_target_07_01_invclear: phony || base/c-programming/ch22_io/CMakeFiles/07_01_invclear.dir
+
+build base/c-programming/ch22_io/CMakeFiles/07_01_invclear.dir/07_01_invclear.c.o: C_COMPILER__07_01_invclear_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/07_01_invclear.c || cmake_object_order_depends_target_07_01_invclear
+  DEP_FILE = base/c-programming/ch22_io/CMakeFiles/07_01_invclear.dir/07_01_invclear.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch22_io/CMakeFiles/07_01_invclear.dir
+  OBJECT_FILE_DIR = base/c-programming/ch22_io/CMakeFiles/07_01_invclear.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 07_01_invclear
+
+
+#############################################
+# Link the executable base/c-programming/ch22_io/07_01_invclear
+
+build base/c-programming/ch22_io/07_01_invclear: C_EXECUTABLE_LINKER__07_01_invclear_Debug base/c-programming/ch22_io/CMakeFiles/07_01_invclear.dir/07_01_invclear.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch22_io/CMakeFiles/07_01_invclear.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch22_io/07_01_invclear
+  TARGET_PDB = 07_01_invclear.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 08_string_io
+
+
+#############################################
+# Order-only phony target for 08_string_io
+
+build cmake_object_order_depends_target_08_string_io: phony || base/c-programming/ch22_io/CMakeFiles/08_string_io.dir
+
+build base/c-programming/ch22_io/CMakeFiles/08_string_io.dir/08_string_io.c.o: C_COMPILER__08_string_io_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/08_string_io.c || cmake_object_order_depends_target_08_string_io
+  DEP_FILE = base/c-programming/ch22_io/CMakeFiles/08_string_io.dir/08_string_io.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch22_io/CMakeFiles/08_string_io.dir
+  OBJECT_FILE_DIR = base/c-programming/ch22_io/CMakeFiles/08_string_io.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 08_string_io
+
+
+#############################################
+# Link the executable base/c-programming/ch22_io/08_string_io
+
+build base/c-programming/ch22_io/08_string_io: C_EXECUTABLE_LINKER__08_string_io_Debug base/c-programming/ch22_io/CMakeFiles/08_string_io.dir/08_string_io.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch22_io/CMakeFiles/08_string_io.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch22_io/08_string_io
+  TARGET_PDB = 08_string_io.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -8758,6 +9046,8 @@ build 01_struct_variable: phony base/c-programming/ch16_struct_union_enum/01_str
 
 build 01_syntax_of_declaration: phony base/c-programming/ch18_declare/01_syntax_of_declaration
 
+build 02_05_can_open: phony base/c-programming/ch22_io/02_05_can_open
+
 build 02_bit_field_in_struct: phony base/c-programming/ch20_underlying_programming/02_bit_field_in_struct
 
 build 02_dynamic_array_allocation: phony base/c-programming/ch17_advanced_pointer/02_dynamic_array_allocation
@@ -8767,6 +9057,8 @@ build 02_file_operation: phony base/c-programming/ch22_io/02_file_operation
 build 02_nested_structure: phony base/c-programming/ch16_struct_union_enum/02_nested_structure
 
 build 02_storage_type: phony base/c-programming/ch18_declare/02_storage_type
+
+build 03_format_io: phony base/c-programming/ch22_io/03_format_io
 
 build 03_free_memory: phony base/c-programming/ch17_advanced_pointer/03_free_memory
 
@@ -8778,11 +9070,15 @@ build 03_type_qualifier: phony base/c-programming/ch18_declare/03_type_qualifier
 
 build 03_union: phony base/c-programming/ch16_struct_union_enum/03_union
 
+build 04_char_io: phony base/c-programming/ch22_io/04_char_io
+
 build 04_common_definition: phony base/c-programming/ch21_standard_lib/04_common_definition
 
 build 04_declarator: phony base/c-programming/ch18_declare/04_declarator
 
 build 04_enum: phony base/c-programming/ch16_struct_union_enum/04_enum
+
+build 04_fcopy: phony base/c-programming/ch22_io/04_fcopy
 
 build 04_justify: phony base/c-programming/ch17_advanced_pointer/exercise/exercise_04_justify/04_justify
 
@@ -8794,13 +9090,21 @@ build 04_stack_ADT: phony base/c-programming/ch19_programming_design/exercise/04
 
 build 05_initializer: phony base/c-programming/ch18_declare/05_initializer
 
+build 05_line_io: phony base/c-programming/ch22_io/05_line_io
+
 build 05_ordered_linked_list: phony base/c-programming/ch17_advanced_pointer/05_ordered_linked_list
+
+build 06_block_io: phony base/c-programming/ch22_io/06_block_io
 
 build 06_inline_definition: phony base/c-programming/ch18_declare/06_inline_definition
 
 build 06_pointer_to_pointer: phony base/c-programming/ch17_advanced_pointer/06_pointer_to_pointer
 
 build 06_words_storage: phony base/c-programming/ch17_advanced_pointer/exercise/exercise_06_words_storage/06_words_storage
+
+build 07_01_invclear: phony base/c-programming/ch22_io/07_01_invclear
+
+build 07_file_location: phony base/c-programming/ch22_io/07_file_location
 
 build 07_no_return: phony base/c-programming/ch18_declare/07_no_return
 
@@ -8809,6 +9113,8 @@ build 07_pointer_to_function: phony base/c-programming/ch17_advanced_pointer/07_
 build 08_restrict_pointer: phony base/c-programming/ch17_advanced_pointer/08_restrict_pointer
 
 build 08_static_assertions: phony base/c-programming/ch18_declare/08_static_assertions
+
+build 08_string_io: phony base/c-programming/ch22_io/08_string_io
 
 build 09_vstring: phony base/c-programming/ch17_advanced_pointer/09_vstring
 
@@ -9631,7 +9937,7 @@ build base/c-programming/ch21_standard_lib/exercise/all: phony base/c-programmin
 #############################################
 # Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io
 
-build base/c-programming/ch22_io/all: phony base/c-programming/ch22_io/01_stream base/c-programming/ch22_io/02_file_operation
+build base/c-programming/ch22_io/all: phony base/c-programming/ch22_io/01_stream base/c-programming/ch22_io/02_file_operation base/c-programming/ch22_io/02_05_can_open base/c-programming/ch22_io/03_format_io base/c-programming/ch22_io/04_char_io base/c-programming/ch22_io/04_fcopy base/c-programming/ch22_io/05_line_io base/c-programming/ch22_io/06_block_io base/c-programming/ch22_io/07_file_location base/c-programming/ch22_io/07_01_invclear base/c-programming/ch22_io/08_string_io
 
 # =============================================================================
 # Built-in targets
