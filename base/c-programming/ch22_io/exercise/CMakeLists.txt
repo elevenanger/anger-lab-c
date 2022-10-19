@@ -1,0 +1,5 @@
+add_executable(01_can_open 01_can_open.c)
+add_executable(02_to_upper 02_to_upper.c)
+add_executable(03_fcat 03_fcat.c)
+add_executable(04_01_count_char 04_01_count_char.c)
+add_executable(04_02_count_words 04_02_count_words.c)
