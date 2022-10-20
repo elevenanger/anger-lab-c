@@ -348,3 +348,15 @@
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/CMakeFiles/08_string_io.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/CMakeFiles/edit_cache.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/CMakeFiles/rebuild_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/exercise/CMakeFiles/01_can_open.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/exercise/CMakeFiles/02_to_upper.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/exercise/CMakeFiles/03_fcat.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/exercise/CMakeFiles/04_01_count_char.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/exercise/CMakeFiles/04_02_count_words.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/exercise/CMakeFiles/04_03_count_line.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/exercise/CMakeFiles/05_xor.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/exercise/CMakeFiles/06_byte_and_characters.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/exercise/CMakeFiles/07_01_compress_file.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/exercise/CMakeFiles/07_02_uncompress.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/exercise/CMakeFiles/edit_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/exercise/CMakeFiles/rebuild_cache.dir

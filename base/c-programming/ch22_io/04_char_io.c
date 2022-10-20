@@ -35,6 +35,7 @@ void output_func(void) {
      * 否则返回写入的字符 */
     putc(c, fp);
     fputc(c, fp);
+    fclose(fp);
 }
 
 void input_func(void) {
@@ -49,4 +50,5 @@ void input_func(void) {
     printf("c => %d\n", c);
     c = ungetc(c, fp);
     printf("c => %d\n", c);
+    fclose(fp);
 }

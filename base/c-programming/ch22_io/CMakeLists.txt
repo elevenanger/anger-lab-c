@@ -9,3 +9,5 @@ add_executable(06_block_io 06_block_io.c)
 add_executable(07_file_location 07_file_location.c)
 add_executable(07_01_invclear 07_01_invclear.c)
 add_executable(08_string_io 08_string_io.c)
+
+ADD_SUBDIRECTORY(exercise)
