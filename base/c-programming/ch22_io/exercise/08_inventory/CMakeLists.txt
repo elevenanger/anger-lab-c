@@ -1,0 +1,1 @@
+add_executable(22_08_inventory inventory.c read_line.h read_line.c)

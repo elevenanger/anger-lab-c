@@ -8,3 +8,7 @@ add_executable(05_xor 05_xor.c)
 add_executable(06_byte_and_characters 06_byte_and_characters.c)
 add_executable(07_01_compress_file 07_01_compress_file.c)
 add_executable(07_02_uncompress 07_02_uncompress.c)
+
+ADD_SUBDIRECTORY(08_inventory)
+ADD_SUBDIRECTORY(09_inventory)
+ADD_SUBDIRECTORY(10_inventory)
