@@ -1,0 +1,2 @@
+add_executable(19_01_win_to_unix 19_01_win_to_unix.c)
+add_executable(19_02_unix_to_win 19_02_unix_to_win.c)

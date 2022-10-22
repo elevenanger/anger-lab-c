@@ -1,5 +1,5 @@
 /*
- * @author 刘昂林 
+ * @author Anger
  * @date 2022/8/30
  * @brief 格式化用户输入的产品信息
  */

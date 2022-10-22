@@ -358,6 +358,13 @@
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/exercise/CMakeFiles/06_byte_and_characters.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/exercise/CMakeFiles/07_01_compress_file.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/exercise/CMakeFiles/07_02_uncompress.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/exercise/CMakeFiles/11_format_date.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/exercise/CMakeFiles/12_format_product_info.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/exercise/CMakeFiles/13_flights.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/exercise/CMakeFiles/14_caesar.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/exercise/CMakeFiles/16_fcopy.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/exercise/CMakeFiles/17_format_phone_number.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/exercise/CMakeFiles/18_sort_integer.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/exercise/CMakeFiles/edit_cache.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/exercise/CMakeFiles/rebuild_cache.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/exercise/08_inventory/CMakeFiles/22_08_inventory.dir
@@ -369,3 +376,10 @@
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/exercise/10_inventory/CMakeFiles/ch22_10_inventory.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/exercise/10_inventory/CMakeFiles/edit_cache.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/exercise/10_inventory/CMakeFiles/rebuild_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/exercise/15_justify/CMakeFiles/ch22_15_justify.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/exercise/15_justify/CMakeFiles/edit_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/exercise/15_justify/CMakeFiles/rebuild_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/exercise/19_unix_and_windows_file/CMakeFiles/19_01_win_to_unix.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/exercise/19_unix_and_windows_file/CMakeFiles/19_02_unix_to_win.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/exercise/19_unix_and_windows_file/CMakeFiles/edit_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch22_io/exercise/19_unix_and_windows_file/CMakeFiles/rebuild_cache.dir

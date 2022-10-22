@@ -12,3 +12,16 @@ add_executable(07_02_uncompress 07_02_uncompress.c)
 ADD_SUBDIRECTORY(08_inventory)
 ADD_SUBDIRECTORY(09_inventory)
 ADD_SUBDIRECTORY(10_inventory)
+
+add_executable(11_format_date 11_format_date.c)
+add_executable(12_format_product_info 12_format_product_info.c)
+add_executable(13_flights 13_flights.c)
+add_executable(14_caesar 14_caesar.c)
+
+ADD_SUBDIRECTORY(15_justify)
+
+add_executable(16_fcopy 16_fcopy.c)
+add_executable(17_format_phone_number 17_format_phone_number.c)
+add_executable(18_sort_integer 18_sort_integer.c)
+
+ADD_SUBDIRECTORY(19_unix_and_windows_file)

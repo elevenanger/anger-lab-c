@@ -1,0 +1,1 @@
+add_executable(ch22_15_justify justify.c line.c word.c)
