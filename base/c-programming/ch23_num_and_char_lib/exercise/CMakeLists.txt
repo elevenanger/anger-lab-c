@@ -1,0 +1,7 @@
+add_executable(01_equation_eval 01_equation_eval.c)
+add_executable(02_copy_text 02_copy_text.c)
+add_executable(03_copy_text 03_copy_text.c)
+add_executable(04_reverse_word 04_reverse_word.c)
+add_executable(05_compound_interest_cal 05_compound_interest_cal.c)
+add_executable(06_replace_str 06_replace_str.c)
+add_executable(07_count_sentence 07_count_sentence.c)

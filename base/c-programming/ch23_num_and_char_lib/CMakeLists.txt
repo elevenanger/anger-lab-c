@@ -1,0 +1,6 @@
+add_executable(01_floating_type_features 01_floating_type_features.c)
+add_executable(02_int_type_val_range 02_int_type_val_range.c)
+add_executable(03_c89_math_cal 03_c89_math_cal.c)
+add_executable(04_c99_math_cal 04_c99_math_cal.c)
+
+ADD_SUBDIRECTORY(exercise)
