@@ -1,0 +1,2 @@
+add_executable(01_localization 01_localization.c)
+add_executable(02_multibyte_and_wide_char 02_multibyte_and_wide_char.c)

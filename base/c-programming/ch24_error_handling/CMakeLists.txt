@@ -1,0 +1,5 @@
+add_executable(01_assert 01_assert.c)
+add_executable(02_error 02_error.c)
+add_executable(03_signal 03_signal.c)
+add_executable(03_04_tsignal 03_04_tsignal.c)
+add_executable(04_setjump 04_setjump.c)

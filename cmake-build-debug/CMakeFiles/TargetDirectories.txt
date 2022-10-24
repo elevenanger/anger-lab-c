@@ -398,3 +398,14 @@
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch23_num_and_char_lib/exercise/CMakeFiles/07_count_sentence.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch23_num_and_char_lib/exercise/CMakeFiles/edit_cache.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch23_num_and_char_lib/exercise/CMakeFiles/rebuild_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch24_error_handling/CMakeFiles/01_assert.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch24_error_handling/CMakeFiles/02_error.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch24_error_handling/CMakeFiles/03_signal.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch24_error_handling/CMakeFiles/03_04_tsignal.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch24_error_handling/CMakeFiles/04_setjump.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch24_error_handling/CMakeFiles/edit_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch24_error_handling/CMakeFiles/rebuild_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch25_internationalization_features/CMakeFiles/01_localization.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch25_internationalization_features/CMakeFiles/02_multibyte_and_wide_char.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch25_internationalization_features/CMakeFiles/edit_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch25_internationalization_features/CMakeFiles/rebuild_cache.dir
