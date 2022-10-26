@@ -406,6 +406,12 @@
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch24_error_handling/CMakeFiles/edit_cache.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch24_error_handling/CMakeFiles/rebuild_cache.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch25_internationalization_features/CMakeFiles/01_localization.dir
-/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch25_internationalization_features/CMakeFiles/02_multibyte_and_wide_char.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch25_internationalization_features/CMakeFiles/edit_cache.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch25_internationalization_features/CMakeFiles/rebuild_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch25_internationalization_features/exercise/CMakeFiles/01_test_locale.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch25_internationalization_features/exercise/CMakeFiles/02_lconv_info.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch25_internationalization_features/exercise/CMakeFiles/edit_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch25_internationalization_features/exercise/CMakeFiles/rebuild_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch26_other_lib/CMakeFiles/01_stdarg.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch26_other_lib/CMakeFiles/edit_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch26_other_lib/CMakeFiles/rebuild_cache.dir

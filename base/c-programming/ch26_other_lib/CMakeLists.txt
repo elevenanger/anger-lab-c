@@ -1,0 +1,1 @@
+add_executable(01_stdarg 01_stdarg.c)

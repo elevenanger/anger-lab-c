@@ -10594,38 +10594,6 @@ build base/c-programming/ch25_internationalization_features/01_localization: C_E
   TARGET_FILE = base/c-programming/ch25_internationalization_features/01_localization
   TARGET_PDB = 01_localization.dbg
 
-# =============================================================================
-# Object build statements for EXECUTABLE target 02_multibyte_and_wide_char
-
-
-#############################################
-# Order-only phony target for 02_multibyte_and_wide_char
-
-build cmake_object_order_depends_target_02_multibyte_and_wide_char: phony || base/c-programming/ch25_internationalization_features/CMakeFiles/02_multibyte_and_wide_char.dir
-
-build base/c-programming/ch25_internationalization_features/CMakeFiles/02_multibyte_and_wide_char.dir/02_multibyte_and_wide_char.c.o: C_COMPILER__02_multibyte_and_wide_char_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch25_internationalization_features/02_multibyte_and_wide_char.c || cmake_object_order_depends_target_02_multibyte_and_wide_char
-  DEP_FILE = base/c-programming/ch25_internationalization_features/CMakeFiles/02_multibyte_and_wide_char.dir/02_multibyte_and_wide_char.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
-  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
-  OBJECT_DIR = base/c-programming/ch25_internationalization_features/CMakeFiles/02_multibyte_and_wide_char.dir
-  OBJECT_FILE_DIR = base/c-programming/ch25_internationalization_features/CMakeFiles/02_multibyte_and_wide_char.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 02_multibyte_and_wide_char
-
-
-#############################################
-# Link the executable base/c-programming/ch25_internationalization_features/02_multibyte_and_wide_char
-
-build base/c-programming/ch25_internationalization_features/02_multibyte_and_wide_char: C_EXECUTABLE_LINKER__02_multibyte_and_wide_char_Debug base/c-programming/ch25_internationalization_features/CMakeFiles/02_multibyte_and_wide_char.dir/02_multibyte_and_wide_char.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
-  OBJECT_DIR = base/c-programming/ch25_internationalization_features/CMakeFiles/02_multibyte_and_wide_char.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = base/c-programming/ch25_internationalization_features/02_multibyte_and_wide_char
-  TARGET_PDB = 02_multibyte_and_wide_char.dbg
-
 
 #############################################
 # Utility command for edit_cache
@@ -10650,6 +10618,158 @@ build base/c-programming/ch25_internationalization_features/CMakeFiles/rebuild_c
 build base/c-programming/ch25_internationalization_features/rebuild_cache: phony base/c-programming/ch25_internationalization_features/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch25_internationalization_features/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 01_test_locale
+
+
+#############################################
+# Order-only phony target for 01_test_locale
+
+build cmake_object_order_depends_target_01_test_locale: phony || base/c-programming/ch25_internationalization_features/exercise/CMakeFiles/01_test_locale.dir
+
+build base/c-programming/ch25_internationalization_features/exercise/CMakeFiles/01_test_locale.dir/01_test_locale.c.o: C_COMPILER__01_test_locale_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch25_internationalization_features/exercise/01_test_locale.c || cmake_object_order_depends_target_01_test_locale
+  DEP_FILE = base/c-programming/ch25_internationalization_features/exercise/CMakeFiles/01_test_locale.dir/01_test_locale.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch25_internationalization_features/exercise/CMakeFiles/01_test_locale.dir
+  OBJECT_FILE_DIR = base/c-programming/ch25_internationalization_features/exercise/CMakeFiles/01_test_locale.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01_test_locale
+
+
+#############################################
+# Link the executable base/c-programming/ch25_internationalization_features/exercise/01_test_locale
+
+build base/c-programming/ch25_internationalization_features/exercise/01_test_locale: C_EXECUTABLE_LINKER__01_test_locale_Debug base/c-programming/ch25_internationalization_features/exercise/CMakeFiles/01_test_locale.dir/01_test_locale.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch25_internationalization_features/exercise/CMakeFiles/01_test_locale.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch25_internationalization_features/exercise/01_test_locale
+  TARGET_PDB = 01_test_locale.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02_lconv_info
+
+
+#############################################
+# Order-only phony target for 02_lconv_info
+
+build cmake_object_order_depends_target_02_lconv_info: phony || base/c-programming/ch25_internationalization_features/exercise/CMakeFiles/02_lconv_info.dir
+
+build base/c-programming/ch25_internationalization_features/exercise/CMakeFiles/02_lconv_info.dir/02_lconv_info.c.o: C_COMPILER__02_lconv_info_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch25_internationalization_features/exercise/02_lconv_info.c || cmake_object_order_depends_target_02_lconv_info
+  DEP_FILE = base/c-programming/ch25_internationalization_features/exercise/CMakeFiles/02_lconv_info.dir/02_lconv_info.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch25_internationalization_features/exercise/CMakeFiles/02_lconv_info.dir
+  OBJECT_FILE_DIR = base/c-programming/ch25_internationalization_features/exercise/CMakeFiles/02_lconv_info.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02_lconv_info
+
+
+#############################################
+# Link the executable base/c-programming/ch25_internationalization_features/exercise/02_lconv_info
+
+build base/c-programming/ch25_internationalization_features/exercise/02_lconv_info: C_EXECUTABLE_LINKER__02_lconv_info_Debug base/c-programming/ch25_internationalization_features/exercise/CMakeFiles/02_lconv_info.dir/02_lconv_info.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch25_internationalization_features/exercise/CMakeFiles/02_lconv_info.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch25_internationalization_features/exercise/02_lconv_info
+  TARGET_PDB = 02_lconv_info.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build base/c-programming/ch25_internationalization_features/exercise/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch25_internationalization_features/exercise && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build base/c-programming/ch25_internationalization_features/exercise/edit_cache: phony base/c-programming/ch25_internationalization_features/exercise/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build base/c-programming/ch25_internationalization_features/exercise/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch25_internationalization_features/exercise && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/liuanglin/Projects/anger-lab-c -B/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build base/c-programming/ch25_internationalization_features/exercise/rebuild_cache: phony base/c-programming/ch25_internationalization_features/exercise/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/liuanglin/Projects/anger-lab-c/base/c-programming/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 01_stdarg
+
+
+#############################################
+# Order-only phony target for 01_stdarg
+
+build cmake_object_order_depends_target_01_stdarg: phony || base/c-programming/ch26_other_lib/CMakeFiles/01_stdarg.dir
+
+build base/c-programming/ch26_other_lib/CMakeFiles/01_stdarg.dir/01_stdarg.c.o: C_COMPILER__01_stdarg_Debug /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch26_other_lib/01_stdarg.c || cmake_object_order_depends_target_01_stdarg
+  DEP_FILE = base/c-programming/ch26_other_lib/CMakeFiles/01_stdarg.dir/01_stdarg.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base
+  OBJECT_DIR = base/c-programming/ch26_other_lib/CMakeFiles/01_stdarg.dir
+  OBJECT_FILE_DIR = base/c-programming/ch26_other_lib/CMakeFiles/01_stdarg.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01_stdarg
+
+
+#############################################
+# Link the executable base/c-programming/ch26_other_lib/01_stdarg
+
+build base/c-programming/ch26_other_lib/01_stdarg: C_EXECUTABLE_LINKER__01_stdarg_Debug base/c-programming/ch26_other_lib/CMakeFiles/01_stdarg.dir/01_stdarg.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = base/c-programming/ch26_other_lib/CMakeFiles/01_stdarg.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = base/c-programming/ch26_other_lib/01_stdarg
+  TARGET_PDB = 01_stdarg.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build base/c-programming/ch26_other_lib/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch26_other_lib && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build base/c-programming/ch26_other_lib/edit_cache: phony base/c-programming/ch26_other_lib/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build base/c-programming/ch26_other_lib/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch26_other_lib && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/liuanglin/Projects/anger-lab-c -B/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build base/c-programming/ch26_other_lib/rebuild_cache: phony base/c-programming/ch26_other_lib/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build 01_assert: phony base/c-programming/ch24_error_handling/01_assert
@@ -10668,6 +10788,8 @@ build 01_localization: phony base/c-programming/ch25_internationalization_featur
 
 build 01_multi_perspective_object_by_union: phony base/c-programming/ch20_underlying_programming/exercise/01_multi_perspective_object_by_union
 
+build 01_stdarg: phony base/c-programming/ch26_other_lib/01_stdarg
+
 build 01_stream: phony base/c-programming/ch22_io/01_stream
 
 build 01_struct_member_offset: phony base/c-programming/ch21_standard_lib/exercise/01_struct_member_offset
@@ -10675,6 +10797,8 @@ build 01_struct_member_offset: phony base/c-programming/ch21_standard_lib/exerci
 build 01_struct_variable: phony base/c-programming/ch16_struct_union_enum/01_struct_variable
 
 build 01_syntax_of_declaration: phony base/c-programming/ch18_declare/01_syntax_of_declaration
+
+build 01_test_locale: phony base/c-programming/ch25_internationalization_features/exercise/01_test_locale
 
 build 02_05_can_open: phony base/c-programming/ch22_io/02_05_can_open
 
@@ -10690,7 +10814,7 @@ build 02_file_operation: phony base/c-programming/ch22_io/02_file_operation
 
 build 02_int_type_val_range: phony base/c-programming/ch23_num_and_char_lib/02_int_type_val_range
 
-build 02_multibyte_and_wide_char: phony base/c-programming/ch25_internationalization_features/02_multibyte_and_wide_char
+build 02_lconv_info: phony base/c-programming/ch25_internationalization_features/exercise/02_lconv_info
 
 build 02_nested_structure: phony base/c-programming/ch16_struct_union_enum/02_nested_structure
 
@@ -11184,7 +11308,7 @@ build base/all: phony base/c-programming/all
 #############################################
 # Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming
 
-build base/c-programming/all: phony base/c-programming/ch02-language-foundation/all base/c-programming/ch03_format_io/all base/c-programming/ch04_expression/all base/c-programming/ch05_select_statement/all base/c-programming/ch06_loop/all base/c-programming/ch07_base_type/all base/c-programming/ch08_array/all base/c-programming/ch09_function/all base/c-programming/ch10_program_structure/all base/c-programming/ch11_pointer/all base/c-programming/ch12_pointer_and_array/all base/c-programming/ch13_string/all base/c-programming/ch14_preprocessor/all base/c-programming/ch15_large_program/all base/c-programming/ch16_struct_union_enum/all base/c-programming/ch17_advanced_pointer/all base/c-programming/ch18_declare/all base/c-programming/ch19_programming_design/all base/c-programming/ch20_underlying_programming/all base/c-programming/ch21_standard_lib/all base/c-programming/ch22_io/all base/c-programming/ch23_num_and_char_lib/all base/c-programming/ch24_error_handling/all base/c-programming/ch25_internationalization_features/all
+build base/c-programming/all: phony base/c-programming/ch02-language-foundation/all base/c-programming/ch03_format_io/all base/c-programming/ch04_expression/all base/c-programming/ch05_select_statement/all base/c-programming/ch06_loop/all base/c-programming/ch07_base_type/all base/c-programming/ch08_array/all base/c-programming/ch09_function/all base/c-programming/ch10_program_structure/all base/c-programming/ch11_pointer/all base/c-programming/ch12_pointer_and_array/all base/c-programming/ch13_string/all base/c-programming/ch14_preprocessor/all base/c-programming/ch15_large_program/all base/c-programming/ch16_struct_union_enum/all base/c-programming/ch17_advanced_pointer/all base/c-programming/ch18_declare/all base/c-programming/ch19_programming_design/all base/c-programming/ch20_underlying_programming/all base/c-programming/ch21_standard_lib/all base/c-programming/ch22_io/all base/c-programming/ch23_num_and_char_lib/all base/c-programming/ch24_error_handling/all base/c-programming/ch25_internationalization_features/all base/c-programming/ch26_other_lib/all
 
 # =============================================================================
 
@@ -11709,7 +11833,21 @@ build base/c-programming/ch24_error_handling/all: phony base/c-programming/ch24_
 #############################################
 # Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch25_internationalization_features
 
-build base/c-programming/ch25_internationalization_features/all: phony base/c-programming/ch25_internationalization_features/01_localization base/c-programming/ch25_internationalization_features/02_multibyte_and_wide_char
+build base/c-programming/ch25_internationalization_features/all: phony base/c-programming/ch25_internationalization_features/01_localization base/c-programming/ch25_internationalization_features/exercise/all
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch25_internationalization_features/exercise
+
+build base/c-programming/ch25_internationalization_features/exercise/all: phony base/c-programming/ch25_internationalization_features/exercise/01_test_locale base/c-programming/ch25_internationalization_features/exercise/02_lconv_info
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch26_other_lib
+
+build base/c-programming/ch26_other_lib/all: phony base/c-programming/ch26_other_lib/01_stdarg
 
 # =============================================================================
 # Built-in targets
@@ -11718,14 +11856,14 @@ build base/c-programming/ch25_internationalization_features/all: phony base/c-pr
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../base/CMakeLists.txt ../base/c-programming/CMakeLists.txt ../base/c-programming/ch02-language-foundation/CMakeLists.txt ../base/c-programming/ch02-language-foundation/exercise/CMakeLists.txt ../base/c-programming/ch03_format_io/CMakeLists.txt ../base/c-programming/ch03_format_io/exercise/CMakeLists.txt ../base/c-programming/ch04_expression/CMakeLists.txt ../base/c-programming/ch04_expression/exercise/CMakeLists.txt ../base/c-programming/ch05_select_statement/CMakeLists.txt ../base/c-programming/ch05_select_statement/exercise/CMakeLists.txt ../base/c-programming/ch06_loop/CMakeLists.txt ../base/c-programming/ch06_loop/exercise/CMakeLists.txt ../base/c-programming/ch07_base_type/CMakeLists.txt ../base/c-programming/ch07_base_type/exercise/CMakeLists.txt ../base/c-programming/ch08_array/CMakeLists.txt ../base/c-programming/ch08_array/exercise/CMakeLists.txt ../base/c-programming/ch09_function/CMakeLists.txt ../base/c-programming/ch09_function/exercise/CMakeLists.txt ../base/c-programming/ch10_program_structure/CMakeLists.txt ../base/c-programming/ch10_program_structure/exercise/CMakeLists.txt ../base/c-programming/ch11_pointer/CMakeLists.txt ../base/c-programming/ch11_pointer/exercise/CMakeLists.txt ../base/c-programming/ch12_pointer_and_array/CMakeLists.txt ../base/c-programming/ch12_pointer_and_array/exercise/CMakeLists.txt ../base/c-programming/ch13_string/CMakeLists.txt ../base/c-programming/ch13_string/exercise/CMakeLists.txt ../base/c-programming/ch14_preprocessor/CMakeLists.txt ../base/c-programming/ch15_large_program/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/exercise_01_02_justify/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/exercise_03_quicksort/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/exercise_04_reminder/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/exercise_05_stack/CMakeLists.txt ../base/c-programming/ch15_large_program/justify/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/exercise/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/exercise/exercise_02_inventory_src/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/exercise/exercise_03_inventory_src/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/exercise/exercise_04_inventory_src/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_01_inventory_src/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_02_inventory_src/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_03_inventory/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_04_justify/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_05_words_storage/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_06_words_storage/CMakeLists.txt ../base/c-programming/ch18_declare/CMakeLists.txt ../base/c-programming/ch19_programming_design/CMakeLists.txt ../base/c-programming/ch19_programming_design/data_type_abstraction/CMakeLists.txt ../base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/CMakeLists.txt ../base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/CMakeLists.txt ../base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/CMakeLists.txt ../base/c-programming/ch19_programming_design/exercise/01_check_brackets/CMakeLists.txt ../base/c-programming/ch19_programming_design/exercise/02_rpn/CMakeLists.txt ../base/c-programming/ch19_programming_design/exercise/03_stack_ADT/CMakeLists.txt ../base/c-programming/ch19_programming_design/exercise/04_stackADT/CMakeLists.txt ../base/c-programming/ch19_programming_design/exercise/05_queueADT/CMakeLists.txt ../base/c-programming/ch19_programming_design/exercise/06_dynamic_arr_queueADT/CMakeLists.txt ../base/c-programming/ch19_programming_design/exercise/07_linked_list_queueADT/CMakeLists.txt ../base/c-programming/ch19_programming_design/exercise/CMakeLists.txt ../base/c-programming/ch19_programming_design/stack_module/CMakeLists.txt ../base/c-programming/ch20_underlying_programming/CMakeLists.txt ../base/c-programming/ch20_underlying_programming/exercise/CMakeLists.txt ../base/c-programming/ch21_standard_lib/CMakeLists.txt ../base/c-programming/ch21_standard_lib/exercise/CMakeLists.txt ../base/c-programming/ch22_io/CMakeLists.txt ../base/c-programming/ch22_io/exercise/08_inventory/CMakeLists.txt ../base/c-programming/ch22_io/exercise/09_inventory/CMakeLists.txt ../base/c-programming/ch22_io/exercise/10_inventory/CMakeLists.txt ../base/c-programming/ch22_io/exercise/15_justify/CMakeLists.txt ../base/c-programming/ch22_io/exercise/19_unix_and_windows_file/CMakeLists.txt ../base/c-programming/ch22_io/exercise/CMakeLists.txt ../base/c-programming/ch23_num_and_char_lib/CMakeLists.txt ../base/c-programming/ch23_num_and_char_lib/exercise/CMakeLists.txt ../base/c-programming/ch24_error_handling/CMakeLists.txt ../base/c-programming/ch25_internationalization_features/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../base/CMakeLists.txt ../base/c-programming/CMakeLists.txt ../base/c-programming/ch02-language-foundation/CMakeLists.txt ../base/c-programming/ch02-language-foundation/exercise/CMakeLists.txt ../base/c-programming/ch03_format_io/CMakeLists.txt ../base/c-programming/ch03_format_io/exercise/CMakeLists.txt ../base/c-programming/ch04_expression/CMakeLists.txt ../base/c-programming/ch04_expression/exercise/CMakeLists.txt ../base/c-programming/ch05_select_statement/CMakeLists.txt ../base/c-programming/ch05_select_statement/exercise/CMakeLists.txt ../base/c-programming/ch06_loop/CMakeLists.txt ../base/c-programming/ch06_loop/exercise/CMakeLists.txt ../base/c-programming/ch07_base_type/CMakeLists.txt ../base/c-programming/ch07_base_type/exercise/CMakeLists.txt ../base/c-programming/ch08_array/CMakeLists.txt ../base/c-programming/ch08_array/exercise/CMakeLists.txt ../base/c-programming/ch09_function/CMakeLists.txt ../base/c-programming/ch09_function/exercise/CMakeLists.txt ../base/c-programming/ch10_program_structure/CMakeLists.txt ../base/c-programming/ch10_program_structure/exercise/CMakeLists.txt ../base/c-programming/ch11_pointer/CMakeLists.txt ../base/c-programming/ch11_pointer/exercise/CMakeLists.txt ../base/c-programming/ch12_pointer_and_array/CMakeLists.txt ../base/c-programming/ch12_pointer_and_array/exercise/CMakeLists.txt ../base/c-programming/ch13_string/CMakeLists.txt ../base/c-programming/ch13_string/exercise/CMakeLists.txt ../base/c-programming/ch14_preprocessor/CMakeLists.txt ../base/c-programming/ch15_large_program/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/exercise_01_02_justify/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/exercise_03_quicksort/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/exercise_04_reminder/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/exercise_05_stack/CMakeLists.txt ../base/c-programming/ch15_large_program/justify/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/exercise/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/exercise/exercise_02_inventory_src/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/exercise/exercise_03_inventory_src/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/exercise/exercise_04_inventory_src/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_01_inventory_src/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_02_inventory_src/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_03_inventory/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_04_justify/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_05_words_storage/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_06_words_storage/CMakeLists.txt ../base/c-programming/ch18_declare/CMakeLists.txt ../base/c-programming/ch19_programming_design/CMakeLists.txt ../base/c-programming/ch19_programming_design/data_type_abstraction/CMakeLists.txt ../base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/CMakeLists.txt ../base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/CMakeLists.txt ../base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/CMakeLists.txt ../base/c-programming/ch19_programming_design/exercise/01_check_brackets/CMakeLists.txt ../base/c-programming/ch19_programming_design/exercise/02_rpn/CMakeLists.txt ../base/c-programming/ch19_programming_design/exercise/03_stack_ADT/CMakeLists.txt ../base/c-programming/ch19_programming_design/exercise/04_stackADT/CMakeLists.txt ../base/c-programming/ch19_programming_design/exercise/05_queueADT/CMakeLists.txt ../base/c-programming/ch19_programming_design/exercise/06_dynamic_arr_queueADT/CMakeLists.txt ../base/c-programming/ch19_programming_design/exercise/07_linked_list_queueADT/CMakeLists.txt ../base/c-programming/ch19_programming_design/exercise/CMakeLists.txt ../base/c-programming/ch19_programming_design/stack_module/CMakeLists.txt ../base/c-programming/ch20_underlying_programming/CMakeLists.txt ../base/c-programming/ch20_underlying_programming/exercise/CMakeLists.txt ../base/c-programming/ch21_standard_lib/CMakeLists.txt ../base/c-programming/ch21_standard_lib/exercise/CMakeLists.txt ../base/c-programming/ch22_io/CMakeLists.txt ../base/c-programming/ch22_io/exercise/08_inventory/CMakeLists.txt ../base/c-programming/ch22_io/exercise/09_inventory/CMakeLists.txt ../base/c-programming/ch22_io/exercise/10_inventory/CMakeLists.txt ../base/c-programming/ch22_io/exercise/15_justify/CMakeLists.txt ../base/c-programming/ch22_io/exercise/19_unix_and_windows_file/CMakeLists.txt ../base/c-programming/ch22_io/exercise/CMakeLists.txt ../base/c-programming/ch23_num_and_char_lib/CMakeLists.txt ../base/c-programming/ch23_num_and_char_lib/exercise/CMakeLists.txt ../base/c-programming/ch24_error_handling/CMakeLists.txt ../base/c-programming/ch25_internationalization_features/CMakeLists.txt ../base/c-programming/ch25_internationalization_features/exercise/CMakeLists.txt ../base/c-programming/ch26_other_lib/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt ../base/CMakeLists.txt ../base/c-programming/CMakeLists.txt ../base/c-programming/ch02-language-foundation/CMakeLists.txt ../base/c-programming/ch02-language-foundation/exercise/CMakeLists.txt ../base/c-programming/ch03_format_io/CMakeLists.txt ../base/c-programming/ch03_format_io/exercise/CMakeLists.txt ../base/c-programming/ch04_expression/CMakeLists.txt ../base/c-programming/ch04_expression/exercise/CMakeLists.txt ../base/c-programming/ch05_select_statement/CMakeLists.txt ../base/c-programming/ch05_select_statement/exercise/CMakeLists.txt ../base/c-programming/ch06_loop/CMakeLists.txt ../base/c-programming/ch06_loop/exercise/CMakeLists.txt ../base/c-programming/ch07_base_type/CMakeLists.txt ../base/c-programming/ch07_base_type/exercise/CMakeLists.txt ../base/c-programming/ch08_array/CMakeLists.txt ../base/c-programming/ch08_array/exercise/CMakeLists.txt ../base/c-programming/ch09_function/CMakeLists.txt ../base/c-programming/ch09_function/exercise/CMakeLists.txt ../base/c-programming/ch10_program_structure/CMakeLists.txt ../base/c-programming/ch10_program_structure/exercise/CMakeLists.txt ../base/c-programming/ch11_pointer/CMakeLists.txt ../base/c-programming/ch11_pointer/exercise/CMakeLists.txt ../base/c-programming/ch12_pointer_and_array/CMakeLists.txt ../base/c-programming/ch12_pointer_and_array/exercise/CMakeLists.txt ../base/c-programming/ch13_string/CMakeLists.txt ../base/c-programming/ch13_string/exercise/CMakeLists.txt ../base/c-programming/ch14_preprocessor/CMakeLists.txt ../base/c-programming/ch15_large_program/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/exercise_01_02_justify/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/exercise_03_quicksort/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/exercise_04_reminder/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/exercise_05_stack/CMakeLists.txt ../base/c-programming/ch15_large_program/justify/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/exercise/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/exercise/exercise_02_inventory_src/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/exercise/exercise_03_inventory_src/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/exercise/exercise_04_inventory_src/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_01_inventory_src/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_02_inventory_src/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_03_inventory/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_04_justify/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_05_words_storage/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_06_words_storage/CMakeLists.txt ../base/c-programming/ch18_declare/CMakeLists.txt ../base/c-programming/ch19_programming_design/CMakeLists.txt ../base/c-programming/ch19_programming_design/data_type_abstraction/CMakeLists.txt ../base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/CMakeLists.txt ../base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/CMakeLists.txt ../base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/CMakeLists.txt ../base/c-programming/ch19_programming_design/exercise/01_check_brackets/CMakeLists.txt ../base/c-programming/ch19_programming_design/exercise/02_rpn/CMakeLists.txt ../base/c-programming/ch19_programming_design/exercise/03_stack_ADT/CMakeLists.txt ../base/c-programming/ch19_programming_design/exercise/04_stackADT/CMakeLists.txt ../base/c-programming/ch19_programming_design/exercise/05_queueADT/CMakeLists.txt ../base/c-programming/ch19_programming_design/exercise/06_dynamic_arr_queueADT/CMakeLists.txt ../base/c-programming/ch19_programming_design/exercise/07_linked_list_queueADT/CMakeLists.txt ../base/c-programming/ch19_programming_design/exercise/CMakeLists.txt ../base/c-programming/ch19_programming_design/stack_module/CMakeLists.txt ../base/c-programming/ch20_underlying_programming/CMakeLists.txt ../base/c-programming/ch20_underlying_programming/exercise/CMakeLists.txt ../base/c-programming/ch21_standard_lib/CMakeLists.txt ../base/c-programming/ch21_standard_lib/exercise/CMakeLists.txt ../base/c-programming/ch22_io/CMakeLists.txt ../base/c-programming/ch22_io/exercise/08_inventory/CMakeLists.txt ../base/c-programming/ch22_io/exercise/09_inventory/CMakeLists.txt ../base/c-programming/ch22_io/exercise/10_inventory/CMakeLists.txt ../base/c-programming/ch22_io/exercise/15_justify/CMakeLists.txt ../base/c-programming/ch22_io/exercise/19_unix_and_windows_file/CMakeLists.txt ../base/c-programming/ch22_io/exercise/CMakeLists.txt ../base/c-programming/ch23_num_and_char_lib/CMakeLists.txt ../base/c-programming/ch23_num_and_char_lib/exercise/CMakeLists.txt ../base/c-programming/ch24_error_handling/CMakeLists.txt ../base/c-programming/ch25_internationalization_features/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+build ../CMakeLists.txt ../base/CMakeLists.txt ../base/c-programming/CMakeLists.txt ../base/c-programming/ch02-language-foundation/CMakeLists.txt ../base/c-programming/ch02-language-foundation/exercise/CMakeLists.txt ../base/c-programming/ch03_format_io/CMakeLists.txt ../base/c-programming/ch03_format_io/exercise/CMakeLists.txt ../base/c-programming/ch04_expression/CMakeLists.txt ../base/c-programming/ch04_expression/exercise/CMakeLists.txt ../base/c-programming/ch05_select_statement/CMakeLists.txt ../base/c-programming/ch05_select_statement/exercise/CMakeLists.txt ../base/c-programming/ch06_loop/CMakeLists.txt ../base/c-programming/ch06_loop/exercise/CMakeLists.txt ../base/c-programming/ch07_base_type/CMakeLists.txt ../base/c-programming/ch07_base_type/exercise/CMakeLists.txt ../base/c-programming/ch08_array/CMakeLists.txt ../base/c-programming/ch08_array/exercise/CMakeLists.txt ../base/c-programming/ch09_function/CMakeLists.txt ../base/c-programming/ch09_function/exercise/CMakeLists.txt ../base/c-programming/ch10_program_structure/CMakeLists.txt ../base/c-programming/ch10_program_structure/exercise/CMakeLists.txt ../base/c-programming/ch11_pointer/CMakeLists.txt ../base/c-programming/ch11_pointer/exercise/CMakeLists.txt ../base/c-programming/ch12_pointer_and_array/CMakeLists.txt ../base/c-programming/ch12_pointer_and_array/exercise/CMakeLists.txt ../base/c-programming/ch13_string/CMakeLists.txt ../base/c-programming/ch13_string/exercise/CMakeLists.txt ../base/c-programming/ch14_preprocessor/CMakeLists.txt ../base/c-programming/ch15_large_program/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/exercise_01_02_justify/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/exercise_03_quicksort/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/exercise_04_reminder/CMakeLists.txt ../base/c-programming/ch15_large_program/exercise/exercise_05_stack/CMakeLists.txt ../base/c-programming/ch15_large_program/justify/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/exercise/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/exercise/exercise_02_inventory_src/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/exercise/exercise_03_inventory_src/CMakeLists.txt ../base/c-programming/ch16_struct_union_enum/exercise/exercise_04_inventory_src/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_01_inventory_src/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_02_inventory_src/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_03_inventory/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_04_justify/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_05_words_storage/CMakeLists.txt ../base/c-programming/ch17_advanced_pointer/exercise/exercise_06_words_storage/CMakeLists.txt ../base/c-programming/ch18_declare/CMakeLists.txt ../base/c-programming/ch19_programming_design/CMakeLists.txt ../base/c-programming/ch19_programming_design/data_type_abstraction/CMakeLists.txt ../base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/CMakeLists.txt ../base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/CMakeLists.txt ../base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/CMakeLists.txt ../base/c-programming/ch19_programming_design/exercise/01_check_brackets/CMakeLists.txt ../base/c-programming/ch19_programming_design/exercise/02_rpn/CMakeLists.txt ../base/c-programming/ch19_programming_design/exercise/03_stack_ADT/CMakeLists.txt ../base/c-programming/ch19_programming_design/exercise/04_stackADT/CMakeLists.txt ../base/c-programming/ch19_programming_design/exercise/05_queueADT/CMakeLists.txt ../base/c-programming/ch19_programming_design/exercise/06_dynamic_arr_queueADT/CMakeLists.txt ../base/c-programming/ch19_programming_design/exercise/07_linked_list_queueADT/CMakeLists.txt ../base/c-programming/ch19_programming_design/exercise/CMakeLists.txt ../base/c-programming/ch19_programming_design/stack_module/CMakeLists.txt ../base/c-programming/ch20_underlying_programming/CMakeLists.txt ../base/c-programming/ch20_underlying_programming/exercise/CMakeLists.txt ../base/c-programming/ch21_standard_lib/CMakeLists.txt ../base/c-programming/ch21_standard_lib/exercise/CMakeLists.txt ../base/c-programming/ch22_io/CMakeLists.txt ../base/c-programming/ch22_io/exercise/08_inventory/CMakeLists.txt ../base/c-programming/ch22_io/exercise/09_inventory/CMakeLists.txt ../base/c-programming/ch22_io/exercise/10_inventory/CMakeLists.txt ../base/c-programming/ch22_io/exercise/15_justify/CMakeLists.txt ../base/c-programming/ch22_io/exercise/19_unix_and_windows_file/CMakeLists.txt ../base/c-programming/ch22_io/exercise/CMakeLists.txt ../base/c-programming/ch23_num_and_char_lib/CMakeLists.txt ../base/c-programming/ch23_num_and_char_lib/exercise/CMakeLists.txt ../base/c-programming/ch24_error_handling/CMakeLists.txt ../base/c-programming/ch25_internationalization_features/CMakeLists.txt ../base/c-programming/ch25_internationalization_features/exercise/CMakeLists.txt ../base/c-programming/ch26_other_lib/CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
 
 
 #############################################

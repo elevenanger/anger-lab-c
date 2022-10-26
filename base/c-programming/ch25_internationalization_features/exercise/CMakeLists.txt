@@ -1,0 +1,2 @@
+add_executable(01_test_locale 01_test_locale.c)
+add_executable(02_lconv_info 02_lconv_info.c)
