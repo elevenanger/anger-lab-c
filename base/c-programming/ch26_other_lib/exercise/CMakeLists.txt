@@ -1,0 +1,6 @@
+add_executable(01_01_rand 01_01_rand.c)
+add_executable(02_atexit 02_atexit.c)
+add_executable(03_clock 03_clock.c)
+add_executable(04_date_cal 04_date_cal.c)
+add_executable(05_date_compare 05_date_compare.c)
+add_executable(06_format_date 06_format_date.c)

@@ -8,10 +8,14 @@
 
 /* 传入一系列的整数，返回其中的最大值 */
 int max_int(int n, ...);
+/* 格式化错误信息显示 */
+int errorf(const char *format, ...);
 
 int main(void) {
 
     printf("max number => %d\n", max_int(6, 1, 2, 3, 10, 5, 6));
+
+    errorf("错误信息: %s %s", "错误信息1", "错误信息2");
 
     return 0;
 }
@@ -42,4 +46,17 @@ int max_int(int n, ...) {
     /* 函数返回之前，需要使用 va_end(ap) 进行清理 */
     va_end(ap);
     return largest;
+}
+
+int errorf(const char *format, ...) {
+    static int num_errors = 0;
+    int n;
+    va_list ap;
+    num_errors++;
+    fprintf(stderr, "Error %d: ", num_errors);
+    va_start(ap, format);
+    n = vfprintf(stderr, format, ap);
+    va_end(ap);
+    fprintf(stderr, "\n");
+    return n;
 }
