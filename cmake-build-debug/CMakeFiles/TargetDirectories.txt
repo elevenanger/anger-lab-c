@@ -428,5 +428,9 @@
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch26_other_lib/exercise/CMakeFiles/06_format_date.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch26_other_lib/exercise/CMakeFiles/edit_cache.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch26_other_lib/exercise/CMakeFiles/rebuild_cache.dir
-/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch28_multi_threads_and_atomic_operation/CMakeFiles/edit_cache.dir
-/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/base/c-programming/ch28_multi_threads_and_atomic_operation/CMakeFiles/rebuild_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/csapp/CMakeFiles/edit_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/csapp/CMakeFiles/rebuild_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_hello.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_read_file_to_ascii.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/csapp/ch01_a_tour_of_computer_system/CMakeFiles/edit_cache.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/csapp/ch01_a_tour_of_computer_system/CMakeFiles/rebuild_cache.dir

@@ -27,7 +27,7 @@ int main(void) {
 }
 
 void printf_func(void) {
-    FILE *fp = fopen(FILE_PATH,"a");
+    FILE *fp = fopen(FILE_PATH, "a");
     int total = 100;
 
     /* printf 和 fprintf 唯一的区别是 printf 始终指向 stdout

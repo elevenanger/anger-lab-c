@@ -10,7 +10,7 @@
 #define MAX_LEN 255
 #define MAX_TIMES 100
 
-int read_line(char str[], int n, FILE *fp);
+int read_str(char str[], int n, FILE *file);
 
 int compare(const void *v1, const void *v2);
 
@@ -29,7 +29,7 @@ int main() {
 
     i = 0;
 
-    while (read_line(line, MAX_LEN, fp) != 0) {
+    while (read_str(line, MAX_LEN, fp) != 0) {
         sscanf(line, "%d:%d %d:%d", &dep_hr, &dep_min, &arr_hr, &arr_min);
         departures[i] = dep_hr * 60 + dep_min;
         arrivals[i] = arr_hr * 60 + arr_min;
@@ -63,15 +63,15 @@ int main() {
     exit(EXIT_SUCCESS);
 }
 
-int read_line(char str[], int n, FILE *fp) {
+int read_str(char str[], int n, FILE *file) {
     int ch, i = 0;
-    while (isspace(ch = getc(fp)));
+    while (isspace(ch = getc(file)));
 
     while (ch != '\n' && ch != EOF) {
         if (i < n){
             str[i++] = ch;
         }
-        ch = getc(fp);
+        ch = getc(file);
     }
 
     str[i] = '\0';

@@ -5,5 +5,7 @@ set(CMAKE_C_STANDARD 11)
 
 include_directories(.)
 include_directories(base)
+include_directories(csapp)
 
 ADD_SUBDIRECTORY(base)
+ADD_SUBDIRECTORY(csapp)

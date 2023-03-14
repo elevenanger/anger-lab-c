@@ -9,7 +9,7 @@
 
 #define LINE_LEN 50
 
-int read_line(char str[], int n, FILE *fp);
+int read_str(char str[], int n, FILE *file);
 
 int main(int argc, char *argv[]) {
     FILE *fp;
@@ -29,7 +29,7 @@ int main(int argc, char *argv[]) {
 
     printf("Item      \tUnit      \tPurchase  \n"
            "          \tPrice     \tDate      \n");
-    while (read_line(line, LINE_LEN, fp) > 0) {
+    while (read_str(line, LINE_LEN, fp) > 0) {
         sscanf(line, "%d,%f,%d/%d/%d",
                &item_number, &price, &month, &day, &year);
         printf("%-10d\t$%9.2f\t%02d/%2d/%4d\n",
@@ -39,15 +39,15 @@ int main(int argc, char *argv[]) {
     exit(EXIT_SUCCESS);
 }
 
-int read_line(char str[], int n, FILE *fp) {
+int read_str(char str[], int n, FILE *file) {
     int ch, i = 0;
-    while (isspace(ch = getc(fp)));
+    while (isspace(ch = getc(file)));
 
     while (ch != '\n' && ch != EOF) {
-        if (i < n){
+        if (i < n) {
             str[i++] = ch;
         }
-        ch = getc(fp);
+        ch = getc(file);
     }
 
     str[i] = '\0';
