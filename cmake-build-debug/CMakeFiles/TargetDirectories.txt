@@ -432,5 +432,6 @@
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/csapp/CMakeFiles/rebuild_cache.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_hello.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_read_file_to_ascii.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_amdahl.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/csapp/ch01_a_tour_of_computer_system/CMakeFiles/edit_cache.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/csapp/ch01_a_tour_of_computer_system/CMakeFiles/rebuild_cache.dir

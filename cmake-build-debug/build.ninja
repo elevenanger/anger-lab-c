@@ -11246,6 +11246,38 @@ build csapp/ch01_a_tour_of_computer_system/csapp_01_read_file_to_ascii: C_EXECUT
   TARGET_FILE = csapp/ch01_a_tour_of_computer_system/csapp_01_read_file_to_ascii
   TARGET_PDB = csapp_01_read_file_to_ascii.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target csapp_01_amdahl
+
+
+#############################################
+# Order-only phony target for csapp_01_amdahl
+
+build cmake_object_order_depends_target_csapp_01_amdahl: phony || csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_amdahl.dir
+
+build csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_amdahl.dir/amdahl.c.o: C_COMPILER__csapp_01_amdahl_Debug /Users/liuanglin/Projects/anger-lab-c/csapp/ch01_a_tour_of_computer_system/amdahl.c || cmake_object_order_depends_target_csapp_01_amdahl
+  DEP_FILE = csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_amdahl.dir/amdahl.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base -I/Users/liuanglin/Projects/anger-lab-c/csapp
+  OBJECT_DIR = csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_amdahl.dir
+  OBJECT_FILE_DIR = csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_amdahl.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target csapp_01_amdahl
+
+
+#############################################
+# Link the executable csapp/ch01_a_tour_of_computer_system/csapp_01_amdahl
+
+build csapp/ch01_a_tour_of_computer_system/csapp_01_amdahl: C_EXECUTABLE_LINKER__csapp_01_amdahl_Debug csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_amdahl.dir/amdahl.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_amdahl.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = csapp/ch01_a_tour_of_computer_system/csapp_01_amdahl
+  TARGET_PDB = csapp_01_amdahl.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -11493,6 +11525,8 @@ build command_line_args: phony base/c-programming/ch13_string/command_line_args
 build conditional_compilation: phony base/c-programming/ch14_preprocessor/conditional_compilation
 
 build constant_array: phony base/c-programming/ch08_array/constant_array
+
+build csapp_01_amdahl: phony csapp/ch01_a_tour_of_computer_system/csapp_01_amdahl
 
 build csapp_01_hello: phony csapp/ch01_a_tour_of_computer_system/csapp_01_hello
 
@@ -12394,7 +12428,7 @@ build csapp/all: phony csapp/ch01_a_tour_of_computer_system/all
 #############################################
 # Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/csapp/ch01_a_tour_of_computer_system
 
-build csapp/ch01_a_tour_of_computer_system/all: phony csapp/ch01_a_tour_of_computer_system/csapp_01_hello csapp/ch01_a_tour_of_computer_system/csapp_01_read_file_to_ascii
+build csapp/ch01_a_tour_of_computer_system/all: phony csapp/ch01_a_tour_of_computer_system/csapp_01_hello csapp/ch01_a_tour_of_computer_system/csapp_01_read_file_to_ascii csapp/ch01_a_tour_of_computer_system/csapp_01_amdahl
 
 # =============================================================================
 # Built-in targets
