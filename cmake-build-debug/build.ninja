@@ -11183,100 +11183,100 @@ build csapp/rebuild_cache: phony csapp/CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 # =============================================================================
-# Object build statements for EXECUTABLE target csapp_01_hello
+# Object build statements for EXECUTABLE target csapp_01_01_hello
 
 
 #############################################
-# Order-only phony target for csapp_01_hello
+# Order-only phony target for csapp_01_01_hello
 
-build cmake_object_order_depends_target_csapp_01_hello: phony || csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_hello.dir
+build cmake_object_order_depends_target_csapp_01_01_hello: phony || csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_01_hello.dir
 
-build csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_hello.dir/hello.c.o: C_COMPILER__csapp_01_hello_Debug /Users/liuanglin/Projects/anger-lab-c/csapp/ch01_a_tour_of_computer_system/hello.c || cmake_object_order_depends_target_csapp_01_hello
-  DEP_FILE = csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_hello.dir/hello.c.o.d
+build csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_01_hello.dir/hello.c.o: C_COMPILER__csapp_01_01_hello_Debug /Users/liuanglin/Projects/anger-lab-c/csapp/ch01_a_tour_of_computer_system/hello.c || cmake_object_order_depends_target_csapp_01_01_hello
+  DEP_FILE = csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_01_hello.dir/hello.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu11
   INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base -I/Users/liuanglin/Projects/anger-lab-c/csapp
-  OBJECT_DIR = csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_hello.dir
-  OBJECT_FILE_DIR = csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_hello.dir
+  OBJECT_DIR = csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_01_hello.dir
+  OBJECT_FILE_DIR = csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_01_hello.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target csapp_01_hello
+# Link build statements for EXECUTABLE target csapp_01_01_hello
 
 
 #############################################
-# Link the executable csapp/ch01_a_tour_of_computer_system/csapp_01_hello
+# Link the executable csapp/ch01_a_tour_of_computer_system/csapp_01_01_hello
 
-build csapp/ch01_a_tour_of_computer_system/csapp_01_hello: C_EXECUTABLE_LINKER__csapp_01_hello_Debug csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_hello.dir/hello.c.o
+build csapp/ch01_a_tour_of_computer_system/csapp_01_01_hello: C_EXECUTABLE_LINKER__csapp_01_01_hello_Debug csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_01_hello.dir/hello.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
-  OBJECT_DIR = csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_hello.dir
+  OBJECT_DIR = csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_01_hello.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = csapp/ch01_a_tour_of_computer_system/csapp_01_hello
-  TARGET_PDB = csapp_01_hello.dbg
+  TARGET_FILE = csapp/ch01_a_tour_of_computer_system/csapp_01_01_hello
+  TARGET_PDB = csapp_01_01_hello.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target csapp_01_read_file_to_ascii
+# Object build statements for EXECUTABLE target csapp_01_02_read_file_to_ascii
 
 
 #############################################
-# Order-only phony target for csapp_01_read_file_to_ascii
+# Order-only phony target for csapp_01_02_read_file_to_ascii
 
-build cmake_object_order_depends_target_csapp_01_read_file_to_ascii: phony || csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_read_file_to_ascii.dir
+build cmake_object_order_depends_target_csapp_01_02_read_file_to_ascii: phony || csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_02_read_file_to_ascii.dir
 
-build csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_read_file_to_ascii.dir/read_text_file_to_ascii.c.o: C_COMPILER__csapp_01_read_file_to_ascii_Debug /Users/liuanglin/Projects/anger-lab-c/csapp/ch01_a_tour_of_computer_system/read_text_file_to_ascii.c || cmake_object_order_depends_target_csapp_01_read_file_to_ascii
-  DEP_FILE = csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_read_file_to_ascii.dir/read_text_file_to_ascii.c.o.d
+build csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_02_read_file_to_ascii.dir/read_text_file_to_ascii.c.o: C_COMPILER__csapp_01_02_read_file_to_ascii_Debug /Users/liuanglin/Projects/anger-lab-c/csapp/ch01_a_tour_of_computer_system/read_text_file_to_ascii.c || cmake_object_order_depends_target_csapp_01_02_read_file_to_ascii
+  DEP_FILE = csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_02_read_file_to_ascii.dir/read_text_file_to_ascii.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu11
   INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base -I/Users/liuanglin/Projects/anger-lab-c/csapp
-  OBJECT_DIR = csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_read_file_to_ascii.dir
-  OBJECT_FILE_DIR = csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_read_file_to_ascii.dir
+  OBJECT_DIR = csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_02_read_file_to_ascii.dir
+  OBJECT_FILE_DIR = csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_02_read_file_to_ascii.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target csapp_01_read_file_to_ascii
+# Link build statements for EXECUTABLE target csapp_01_02_read_file_to_ascii
 
 
 #############################################
-# Link the executable csapp/ch01_a_tour_of_computer_system/csapp_01_read_file_to_ascii
+# Link the executable csapp/ch01_a_tour_of_computer_system/csapp_01_02_read_file_to_ascii
 
-build csapp/ch01_a_tour_of_computer_system/csapp_01_read_file_to_ascii: C_EXECUTABLE_LINKER__csapp_01_read_file_to_ascii_Debug csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_read_file_to_ascii.dir/read_text_file_to_ascii.c.o
+build csapp/ch01_a_tour_of_computer_system/csapp_01_02_read_file_to_ascii: C_EXECUTABLE_LINKER__csapp_01_02_read_file_to_ascii_Debug csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_02_read_file_to_ascii.dir/read_text_file_to_ascii.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
-  OBJECT_DIR = csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_read_file_to_ascii.dir
+  OBJECT_DIR = csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_02_read_file_to_ascii.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = csapp/ch01_a_tour_of_computer_system/csapp_01_read_file_to_ascii
-  TARGET_PDB = csapp_01_read_file_to_ascii.dbg
+  TARGET_FILE = csapp/ch01_a_tour_of_computer_system/csapp_01_02_read_file_to_ascii
+  TARGET_PDB = csapp_01_02_read_file_to_ascii.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target csapp_01_amdahl
+# Object build statements for EXECUTABLE target csapp_01_03_amdahl
 
 
 #############################################
-# Order-only phony target for csapp_01_amdahl
+# Order-only phony target for csapp_01_03_amdahl
 
-build cmake_object_order_depends_target_csapp_01_amdahl: phony || csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_amdahl.dir
+build cmake_object_order_depends_target_csapp_01_03_amdahl: phony || csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_03_amdahl.dir
 
-build csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_amdahl.dir/amdahl.c.o: C_COMPILER__csapp_01_amdahl_Debug /Users/liuanglin/Projects/anger-lab-c/csapp/ch01_a_tour_of_computer_system/amdahl.c || cmake_object_order_depends_target_csapp_01_amdahl
-  DEP_FILE = csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_amdahl.dir/amdahl.c.o.d
+build csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_03_amdahl.dir/amdahl.c.o: C_COMPILER__csapp_01_03_amdahl_Debug /Users/liuanglin/Projects/anger-lab-c/csapp/ch01_a_tour_of_computer_system/amdahl.c || cmake_object_order_depends_target_csapp_01_03_amdahl
+  DEP_FILE = csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_03_amdahl.dir/amdahl.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu11
   INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base -I/Users/liuanglin/Projects/anger-lab-c/csapp
-  OBJECT_DIR = csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_amdahl.dir
-  OBJECT_FILE_DIR = csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_amdahl.dir
+  OBJECT_DIR = csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_03_amdahl.dir
+  OBJECT_FILE_DIR = csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_03_amdahl.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target csapp_01_amdahl
+# Link build statements for EXECUTABLE target csapp_01_03_amdahl
 
 
 #############################################
-# Link the executable csapp/ch01_a_tour_of_computer_system/csapp_01_amdahl
+# Link the executable csapp/ch01_a_tour_of_computer_system/csapp_01_03_amdahl
 
-build csapp/ch01_a_tour_of_computer_system/csapp_01_amdahl: C_EXECUTABLE_LINKER__csapp_01_amdahl_Debug csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_amdahl.dir/amdahl.c.o
+build csapp/ch01_a_tour_of_computer_system/csapp_01_03_amdahl: C_EXECUTABLE_LINKER__csapp_01_03_amdahl_Debug csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_03_amdahl.dir/amdahl.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
-  OBJECT_DIR = csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_amdahl.dir
+  OBJECT_DIR = csapp/ch01_a_tour_of_computer_system/CMakeFiles/csapp_01_03_amdahl.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = csapp/ch01_a_tour_of_computer_system/csapp_01_amdahl
-  TARGET_PDB = csapp_01_amdahl.dbg
+  TARGET_FILE = csapp/ch01_a_tour_of_computer_system/csapp_01_03_amdahl
+  TARGET_PDB = csapp_01_03_amdahl.dbg
 
 
 #############################################
@@ -11300,6 +11300,130 @@ build csapp/ch01_a_tour_of_computer_system/CMakeFiles/rebuild_cache.util: CUSTOM
   restat = 1
 
 build csapp/ch01_a_tour_of_computer_system/rebuild_cache: phony csapp/ch01_a_tour_of_computer_system/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/liuanglin/Projects/anger-lab-c/csapp/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target csapp_02_01_overflow
+
+
+#############################################
+# Order-only phony target for csapp_02_01_overflow
+
+build cmake_object_order_depends_target_csapp_02_01_overflow: phony || csapp/ch02_representing_and_manipulating_information/CMakeFiles/csapp_02_01_overflow.dir
+
+build csapp/ch02_representing_and_manipulating_information/CMakeFiles/csapp_02_01_overflow.dir/overflow.c.o: C_COMPILER__csapp_02_01_overflow_Debug /Users/liuanglin/Projects/anger-lab-c/csapp/ch02_representing_and_manipulating_information/overflow.c || cmake_object_order_depends_target_csapp_02_01_overflow
+  DEP_FILE = csapp/ch02_representing_and_manipulating_information/CMakeFiles/csapp_02_01_overflow.dir/overflow.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base -I/Users/liuanglin/Projects/anger-lab-c/csapp
+  OBJECT_DIR = csapp/ch02_representing_and_manipulating_information/CMakeFiles/csapp_02_01_overflow.dir
+  OBJECT_FILE_DIR = csapp/ch02_representing_and_manipulating_information/CMakeFiles/csapp_02_01_overflow.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target csapp_02_01_overflow
+
+
+#############################################
+# Link the executable csapp/ch02_representing_and_manipulating_information/csapp_02_01_overflow
+
+build csapp/ch02_representing_and_manipulating_information/csapp_02_01_overflow: C_EXECUTABLE_LINKER__csapp_02_01_overflow_Debug csapp/ch02_representing_and_manipulating_information/CMakeFiles/csapp_02_01_overflow.dir/overflow.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = csapp/ch02_representing_and_manipulating_information/CMakeFiles/csapp_02_01_overflow.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = csapp/ch02_representing_and_manipulating_information/csapp_02_01_overflow
+  TARGET_PDB = csapp_02_01_overflow.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target csapp_02_02_base_conversion
+
+
+#############################################
+# Order-only phony target for csapp_02_02_base_conversion
+
+build cmake_object_order_depends_target_csapp_02_02_base_conversion: phony || csapp/ch02_representing_and_manipulating_information/CMakeFiles/csapp_02_02_base_conversion.dir
+
+build csapp/ch02_representing_and_manipulating_information/CMakeFiles/csapp_02_02_base_conversion.dir/base_conversion.c.o: C_COMPILER__csapp_02_02_base_conversion_Debug /Users/liuanglin/Projects/anger-lab-c/csapp/ch02_representing_and_manipulating_information/base_conversion.c || cmake_object_order_depends_target_csapp_02_02_base_conversion
+  DEP_FILE = csapp/ch02_representing_and_manipulating_information/CMakeFiles/csapp_02_02_base_conversion.dir/base_conversion.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base -I/Users/liuanglin/Projects/anger-lab-c/csapp
+  OBJECT_DIR = csapp/ch02_representing_and_manipulating_information/CMakeFiles/csapp_02_02_base_conversion.dir
+  OBJECT_FILE_DIR = csapp/ch02_representing_and_manipulating_information/CMakeFiles/csapp_02_02_base_conversion.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target csapp_02_02_base_conversion
+
+
+#############################################
+# Link the executable csapp/ch02_representing_and_manipulating_information/csapp_02_02_base_conversion
+
+build csapp/ch02_representing_and_manipulating_information/csapp_02_02_base_conversion: C_EXECUTABLE_LINKER__csapp_02_02_base_conversion_Debug csapp/ch02_representing_and_manipulating_information/CMakeFiles/csapp_02_02_base_conversion.dir/base_conversion.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = csapp/ch02_representing_and_manipulating_information/CMakeFiles/csapp_02_02_base_conversion.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = csapp/ch02_representing_and_manipulating_information/csapp_02_02_base_conversion
+  TARGET_PDB = csapp_02_02_base_conversion.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target csapp_02_03_show_by_bytes
+
+
+#############################################
+# Order-only phony target for csapp_02_03_show_by_bytes
+
+build cmake_object_order_depends_target_csapp_02_03_show_by_bytes: phony || csapp/ch02_representing_and_manipulating_information/CMakeFiles/csapp_02_03_show_by_bytes.dir
+
+build csapp/ch02_representing_and_manipulating_information/CMakeFiles/csapp_02_03_show_by_bytes.dir/show_by_bytes.c.o: C_COMPILER__csapp_02_03_show_by_bytes_Debug /Users/liuanglin/Projects/anger-lab-c/csapp/ch02_representing_and_manipulating_information/show_by_bytes.c || cmake_object_order_depends_target_csapp_02_03_show_by_bytes
+  DEP_FILE = csapp/ch02_representing_and_manipulating_information/CMakeFiles/csapp_02_03_show_by_bytes.dir/show_by_bytes.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base -I/Users/liuanglin/Projects/anger-lab-c/csapp
+  OBJECT_DIR = csapp/ch02_representing_and_manipulating_information/CMakeFiles/csapp_02_03_show_by_bytes.dir
+  OBJECT_FILE_DIR = csapp/ch02_representing_and_manipulating_information/CMakeFiles/csapp_02_03_show_by_bytes.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target csapp_02_03_show_by_bytes
+
+
+#############################################
+# Link the executable csapp/ch02_representing_and_manipulating_information/csapp_02_03_show_by_bytes
+
+build csapp/ch02_representing_and_manipulating_information/csapp_02_03_show_by_bytes: C_EXECUTABLE_LINKER__csapp_02_03_show_by_bytes_Debug csapp/ch02_representing_and_manipulating_information/CMakeFiles/csapp_02_03_show_by_bytes.dir/show_by_bytes.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = csapp/ch02_representing_and_manipulating_information/CMakeFiles/csapp_02_03_show_by_bytes.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = csapp/ch02_representing_and_manipulating_information/csapp_02_03_show_by_bytes
+  TARGET_PDB = csapp_02_03_show_by_bytes.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build csapp/ch02_representing_and_manipulating_information/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/csapp/ch02_representing_and_manipulating_information && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build csapp/ch02_representing_and_manipulating_information/edit_cache: phony csapp/ch02_representing_and_manipulating_information/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build csapp/ch02_representing_and_manipulating_information/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/csapp/ch02_representing_and_manipulating_information && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/liuanglin/Projects/anger-lab-c -B/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build csapp/ch02_representing_and_manipulating_information/rebuild_cache: phony csapp/ch02_representing_and_manipulating_information/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
@@ -11526,11 +11650,17 @@ build conditional_compilation: phony base/c-programming/ch14_preprocessor/condit
 
 build constant_array: phony base/c-programming/ch08_array/constant_array
 
-build csapp_01_amdahl: phony csapp/ch01_a_tour_of_computer_system/csapp_01_amdahl
+build csapp_01_01_hello: phony csapp/ch01_a_tour_of_computer_system/csapp_01_01_hello
 
-build csapp_01_hello: phony csapp/ch01_a_tour_of_computer_system/csapp_01_hello
+build csapp_01_02_read_file_to_ascii: phony csapp/ch01_a_tour_of_computer_system/csapp_01_02_read_file_to_ascii
 
-build csapp_01_read_file_to_ascii: phony csapp/ch01_a_tour_of_computer_system/csapp_01_read_file_to_ascii
+build csapp_01_03_amdahl: phony csapp/ch01_a_tour_of_computer_system/csapp_01_03_amdahl
+
+build csapp_02_01_overflow: phony csapp/ch02_representing_and_manipulating_information/csapp_02_01_overflow
+
+build csapp_02_02_base_conversion: phony csapp/ch02_representing_and_manipulating_information/csapp_02_02_base_conversion
+
+build csapp_02_03_show_by_bytes: phony csapp/ch02_representing_and_manipulating_information/csapp_02_03_show_by_bytes
 
 build cube_number_summation: phony base/c-programming/ch03_format_io/exercise/cube_number_summation
 
@@ -12421,14 +12551,21 @@ build base/c-programming/ch26_other_lib/exercise/all: phony base/c-programming/c
 #############################################
 # Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/csapp
 
-build csapp/all: phony csapp/ch01_a_tour_of_computer_system/all
+build csapp/all: phony csapp/ch01_a_tour_of_computer_system/all csapp/ch02_representing_and_manipulating_information/all
 
 # =============================================================================
 
 #############################################
 # Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/csapp/ch01_a_tour_of_computer_system
 
-build csapp/ch01_a_tour_of_computer_system/all: phony csapp/ch01_a_tour_of_computer_system/csapp_01_hello csapp/ch01_a_tour_of_computer_system/csapp_01_read_file_to_ascii csapp/ch01_a_tour_of_computer_system/csapp_01_amdahl
+build csapp/ch01_a_tour_of_computer_system/all: phony csapp/ch01_a_tour_of_computer_system/csapp_01_01_hello csapp/ch01_a_tour_of_computer_system/csapp_01_02_read_file_to_ascii csapp/ch01_a_tour_of_computer_system/csapp_01_03_amdahl
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/csapp/ch02_representing_and_manipulating_information
+
+build csapp/ch02_representing_and_manipulating_information/all: phony csapp/ch02_representing_and_manipulating_information/csapp_02_01_overflow csapp/ch02_representing_and_manipulating_information/csapp_02_02_base_conversion csapp/ch02_representing_and_manipulating_information/csapp_02_03_show_by_bytes
 
 # =============================================================================
 # Built-in targets
@@ -12437,14 +12574,14 @@ build csapp/ch01_a_tour_of_computer_system/all: phony csapp/ch01_a_tour_of_compu
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/liuanglin/Projects/anger-lab-c/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch02-language-foundation/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch02-language-foundation/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch03_format_io/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch03_format_io/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch04_expression/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch04_expression/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch05_select_statement/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch05_select_statement/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch06_loop/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch06_loop/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch07_base_type/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch07_base_type/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch08_array/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch08_array/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch09_function/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch09_function/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch10_program_structure/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch10_program_structure/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch11_pointer/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch11_pointer/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch12_pointer_and_array/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch12_pointer_and_array/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch13_string/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch13_string/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch14_preprocessor/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch15_large_program/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch15_large_program/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch15_large_program/exercise/exercise_01_02_justify/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch15_large_program/exercise/exercise_03_quicksort/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch15_large_program/exercise/exercise_04_reminder/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch15_large_program/exercise/exercise_05_stack/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch15_large_program/justify/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch16_struct_union_enum/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch16_struct_union_enum/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch16_struct_union_enum/exercise/exercise_02_inventory_src/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch16_struct_union_enum/exercise/exercise_03_inventory_src/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch16_struct_union_enum/exercise/exercise_04_inventory_src/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/exercise/exercise_01_inventory_src/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/exercise/exercise_02_inventory_src/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/exercise/exercise_03_inventory/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/exercise/exercise_04_justify/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/exercise/exercise_05_words_storage/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/exercise/exercise_06_words_storage/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch18_declare/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/data_type_abstraction/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/exercise/01_check_brackets/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/exercise/02_rpn/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/exercise/03_stack_ADT/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/exercise/04_stackADT/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/exercise/05_queueADT/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/exercise/06_dynamic_arr_queueADT/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/exercise/07_linked_list_queueADT/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/stack_module/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch20_underlying_programming/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch20_underlying_programming/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch21_standard_lib/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch21_standard_lib/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/exercise/08_inventory/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/exercise/09_inventory/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/exercise/10_inventory/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/exercise/15_justify/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/exercise/19_unix_and_windows_file/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch23_num_and_char_lib/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch23_num_and_char_lib/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch24_error_handling/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch25_internationalization_features/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch25_internationalization_features/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch26_other_lib/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch26_other_lib/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/csapp/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/csapp/ch01_a_tour_of_computer_system/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/liuanglin/Projects/anger-lab-c/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch02-language-foundation/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch02-language-foundation/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch03_format_io/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch03_format_io/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch04_expression/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch04_expression/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch05_select_statement/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch05_select_statement/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch06_loop/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch06_loop/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch07_base_type/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch07_base_type/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch08_array/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch08_array/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch09_function/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch09_function/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch10_program_structure/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch10_program_structure/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch11_pointer/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch11_pointer/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch12_pointer_and_array/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch12_pointer_and_array/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch13_string/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch13_string/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch14_preprocessor/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch15_large_program/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch15_large_program/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch15_large_program/exercise/exercise_01_02_justify/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch15_large_program/exercise/exercise_03_quicksort/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch15_large_program/exercise/exercise_04_reminder/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch15_large_program/exercise/exercise_05_stack/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch15_large_program/justify/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch16_struct_union_enum/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch16_struct_union_enum/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch16_struct_union_enum/exercise/exercise_02_inventory_src/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch16_struct_union_enum/exercise/exercise_03_inventory_src/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch16_struct_union_enum/exercise/exercise_04_inventory_src/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/exercise/exercise_01_inventory_src/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/exercise/exercise_02_inventory_src/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/exercise/exercise_03_inventory/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/exercise/exercise_04_justify/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/exercise/exercise_05_words_storage/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/exercise/exercise_06_words_storage/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch18_declare/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/data_type_abstraction/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/exercise/01_check_brackets/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/exercise/02_rpn/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/exercise/03_stack_ADT/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/exercise/04_stackADT/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/exercise/05_queueADT/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/exercise/06_dynamic_arr_queueADT/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/exercise/07_linked_list_queueADT/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/stack_module/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch20_underlying_programming/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch20_underlying_programming/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch21_standard_lib/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch21_standard_lib/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/exercise/08_inventory/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/exercise/09_inventory/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/exercise/10_inventory/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/exercise/15_justify/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/exercise/19_unix_and_windows_file/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch23_num_and_char_lib/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch23_num_and_char_lib/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch24_error_handling/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch25_internationalization_features/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch25_internationalization_features/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch26_other_lib/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch26_other_lib/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/csapp/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/csapp/ch01_a_tour_of_computer_system/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/csapp/ch02_representing_and_manipulating_information/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/liuanglin/Projects/anger-lab-c/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch02-language-foundation/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch02-language-foundation/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch03_format_io/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch03_format_io/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch04_expression/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch04_expression/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch05_select_statement/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch05_select_statement/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch06_loop/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch06_loop/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch07_base_type/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch07_base_type/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch08_array/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch08_array/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch09_function/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch09_function/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch10_program_structure/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch10_program_structure/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch11_pointer/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch11_pointer/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch12_pointer_and_array/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch12_pointer_and_array/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch13_string/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch13_string/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch14_preprocessor/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch15_large_program/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch15_large_program/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch15_large_program/exercise/exercise_01_02_justify/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch15_large_program/exercise/exercise_03_quicksort/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch15_large_program/exercise/exercise_04_reminder/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch15_large_program/exercise/exercise_05_stack/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch15_large_program/justify/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch16_struct_union_enum/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch16_struct_union_enum/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch16_struct_union_enum/exercise/exercise_02_inventory_src/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch16_struct_union_enum/exercise/exercise_03_inventory_src/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch16_struct_union_enum/exercise/exercise_04_inventory_src/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/exercise/exercise_01_inventory_src/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/exercise/exercise_02_inventory_src/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/exercise/exercise_03_inventory/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/exercise/exercise_04_justify/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/exercise/exercise_05_words_storage/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/exercise/exercise_06_words_storage/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch18_declare/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/data_type_abstraction/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/exercise/01_check_brackets/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/exercise/02_rpn/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/exercise/03_stack_ADT/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/exercise/04_stackADT/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/exercise/05_queueADT/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/exercise/06_dynamic_arr_queueADT/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/exercise/07_linked_list_queueADT/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/stack_module/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch20_underlying_programming/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch20_underlying_programming/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch21_standard_lib/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch21_standard_lib/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/exercise/08_inventory/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/exercise/09_inventory/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/exercise/10_inventory/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/exercise/15_justify/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/exercise/19_unix_and_windows_file/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch23_num_and_char_lib/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch23_num_and_char_lib/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch24_error_handling/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch25_internationalization_features/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch25_internationalization_features/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch26_other_lib/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch26_other_lib/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/csapp/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/csapp/ch01_a_tour_of_computer_system/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/liuanglin/Projects/anger-lab-c/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch02-language-foundation/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch02-language-foundation/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch03_format_io/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch03_format_io/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch04_expression/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch04_expression/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch05_select_statement/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch05_select_statement/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch06_loop/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch06_loop/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch07_base_type/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch07_base_type/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch08_array/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch08_array/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch09_function/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch09_function/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch10_program_structure/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch10_program_structure/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch11_pointer/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch11_pointer/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch12_pointer_and_array/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch12_pointer_and_array/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch13_string/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch13_string/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch14_preprocessor/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch15_large_program/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch15_large_program/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch15_large_program/exercise/exercise_01_02_justify/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch15_large_program/exercise/exercise_03_quicksort/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch15_large_program/exercise/exercise_04_reminder/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch15_large_program/exercise/exercise_05_stack/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch15_large_program/justify/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch16_struct_union_enum/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch16_struct_union_enum/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch16_struct_union_enum/exercise/exercise_02_inventory_src/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch16_struct_union_enum/exercise/exercise_03_inventory_src/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch16_struct_union_enum/exercise/exercise_04_inventory_src/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/exercise/exercise_01_inventory_src/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/exercise/exercise_02_inventory_src/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/exercise/exercise_03_inventory/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/exercise/exercise_04_justify/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/exercise/exercise_05_words_storage/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch17_advanced_pointer/exercise/exercise_06_words_storage/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch18_declare/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/data_type_abstraction/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/data_type_abstraction/dynamic_length_arr_stack/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/data_type_abstraction/fixed_length_arr_stack/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/data_type_abstraction/linked_list_stack/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/exercise/01_check_brackets/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/exercise/02_rpn/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/exercise/03_stack_ADT/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/exercise/04_stackADT/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/exercise/05_queueADT/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/exercise/06_dynamic_arr_queueADT/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/exercise/07_linked_list_queueADT/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch19_programming_design/stack_module/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch20_underlying_programming/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch20_underlying_programming/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch21_standard_lib/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch21_standard_lib/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/exercise/08_inventory/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/exercise/09_inventory/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/exercise/10_inventory/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/exercise/15_justify/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/exercise/19_unix_and_windows_file/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch22_io/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch23_num_and_char_lib/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch23_num_and_char_lib/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch24_error_handling/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch25_internationalization_features/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch25_internationalization_features/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch26_other_lib/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/base/c-programming/ch26_other_lib/exercise/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/csapp/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/csapp/ch01_a_tour_of_computer_system/CMakeLists.txt /Users/liuanglin/Projects/anger-lab-c/csapp/ch02_representing_and_manipulating_information/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
 
 
 #############################################

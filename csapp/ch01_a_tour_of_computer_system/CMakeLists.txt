@@ -1,3 +1,3 @@
-add_executable(csapp_01_hello hello.c)
-add_executable(csapp_01_read_file_to_ascii read_text_file_to_ascii.c)
-add_executable(csapp_01_amdahl amdahl.c)
+add_executable(csapp_01_01_hello hello.c)
+add_executable(csapp_01_02_read_file_to_ascii read_text_file_to_ascii.c)
+add_executable(csapp_01_03_amdahl amdahl.c)

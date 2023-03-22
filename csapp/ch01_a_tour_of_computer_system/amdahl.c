@@ -7,6 +7,7 @@
  * α 性能提升这一部分占总程序的比例
  * κ 这部分的性能提升
  */
+#include <stdlib.h>
 #include "stdio.h"
 #include "string.h"
 
@@ -17,22 +18,22 @@ int main(int argc, char *argv[]) {
 
     double first, second;
 
-    char *usage = "用法：csapp_01_amdahl --s alpha k\n"
-                  "      csapp_01_amdahl --k alpha s\n";
+    char *usage = "用法：\n"
+                    "\tcsapp_01_03_amdahl --s alpha k\n"
+                    "\tcsapp_01_03_amdahl --k alpha s\n";
 
     if (argc != 4) {
         fprintf(stderr, "%s", usage);
         return 1;
     }
 
-    sscanf(argv[2], "%lf", &first);
+    first = strtod(argv[2], NULL);
+    second = strtod(argv[3], NULL);
 
     if(first <= 0 || first > 1) {
         fprintf(stderr, "α 取值范围为 0~1");
         return 1;
     }
-
-    sscanf(argv[3], "%lf", &second);
 
     if (strcmp(argv[1], "--s") == 0) {
         printf("s = %.2lf", cal_s(first, second));

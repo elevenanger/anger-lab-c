@@ -1,1 +1,2 @@
 ADD_SUBDIRECTORY(ch01_a_tour_of_computer_system)
+ADD_SUBDIRECTORY(ch02_representing_and_manipulating_information)
