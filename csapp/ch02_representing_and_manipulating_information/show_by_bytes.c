@@ -4,6 +4,7 @@
  * @brief 按字节逐个字节表示数据
  */
 #include <stdio.h>
+#include <string.h>
 
 typedef unsigned char *byte_pointer;
 
@@ -29,6 +30,10 @@ int main() {
     show_bytes(ap, 1);
     show_bytes(ap, 2);
     show_bytes(ap, 3);
+
+    const char *m = "mnopqr";
+
+    show_bytes((byte_pointer) m, strlen(m));
 
     return 0;
 }

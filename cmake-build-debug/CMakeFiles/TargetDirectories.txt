@@ -438,5 +438,6 @@
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/csapp/ch02_representing_and_manipulating_information/CMakeFiles/csapp_02_01_overflow.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/csapp/ch02_representing_and_manipulating_information/CMakeFiles/csapp_02_02_base_conversion.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/csapp/ch02_representing_and_manipulating_information/CMakeFiles/csapp_02_03_show_by_bytes.dir
+/Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/csapp/ch02_representing_and_manipulating_information/CMakeFiles/csapp_02_04_inplace_swap.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/csapp/ch02_representing_and_manipulating_information/CMakeFiles/edit_cache.dir
 /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/csapp/ch02_representing_and_manipulating_information/CMakeFiles/rebuild_cache.dir

@@ -11402,6 +11402,38 @@ build csapp/ch02_representing_and_manipulating_information/csapp_02_03_show_by_b
   TARGET_FILE = csapp/ch02_representing_and_manipulating_information/csapp_02_03_show_by_bytes
   TARGET_PDB = csapp_02_03_show_by_bytes.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target csapp_02_04_inplace_swap
+
+
+#############################################
+# Order-only phony target for csapp_02_04_inplace_swap
+
+build cmake_object_order_depends_target_csapp_02_04_inplace_swap: phony || csapp/ch02_representing_and_manipulating_information/CMakeFiles/csapp_02_04_inplace_swap.dir
+
+build csapp/ch02_representing_and_manipulating_information/CMakeFiles/csapp_02_04_inplace_swap.dir/inplace_swap.c.o: C_COMPILER__csapp_02_04_inplace_swap_Debug /Users/liuanglin/Projects/anger-lab-c/csapp/ch02_representing_and_manipulating_information/inplace_swap.c || cmake_object_order_depends_target_csapp_02_04_inplace_swap
+  DEP_FILE = csapp/ch02_representing_and_manipulating_information/CMakeFiles/csapp_02_04_inplace_swap.dir/inplace_swap.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu11
+  INCLUDES = -I/Users/liuanglin/Projects/anger-lab-c/. -I/Users/liuanglin/Projects/anger-lab-c/base -I/Users/liuanglin/Projects/anger-lab-c/csapp
+  OBJECT_DIR = csapp/ch02_representing_and_manipulating_information/CMakeFiles/csapp_02_04_inplace_swap.dir
+  OBJECT_FILE_DIR = csapp/ch02_representing_and_manipulating_information/CMakeFiles/csapp_02_04_inplace_swap.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target csapp_02_04_inplace_swap
+
+
+#############################################
+# Link the executable csapp/ch02_representing_and_manipulating_information/csapp_02_04_inplace_swap
+
+build csapp/ch02_representing_and_manipulating_information/csapp_02_04_inplace_swap: C_EXECUTABLE_LINKER__csapp_02_04_inplace_swap_Debug csapp/ch02_representing_and_manipulating_information/CMakeFiles/csapp_02_04_inplace_swap.dir/inplace_swap.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = csapp/ch02_representing_and_manipulating_information/CMakeFiles/csapp_02_04_inplace_swap.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = csapp/ch02_representing_and_manipulating_information/csapp_02_04_inplace_swap
+  TARGET_PDB = csapp_02_04_inplace_swap.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -11661,6 +11693,8 @@ build csapp_02_01_overflow: phony csapp/ch02_representing_and_manipulating_infor
 build csapp_02_02_base_conversion: phony csapp/ch02_representing_and_manipulating_information/csapp_02_02_base_conversion
 
 build csapp_02_03_show_by_bytes: phony csapp/ch02_representing_and_manipulating_information/csapp_02_03_show_by_bytes
+
+build csapp_02_04_inplace_swap: phony csapp/ch02_representing_and_manipulating_information/csapp_02_04_inplace_swap
 
 build cube_number_summation: phony base/c-programming/ch03_format_io/exercise/cube_number_summation
 
@@ -12565,7 +12599,7 @@ build csapp/ch01_a_tour_of_computer_system/all: phony csapp/ch01_a_tour_of_compu
 #############################################
 # Folder: /Users/liuanglin/Projects/anger-lab-c/cmake-build-debug/csapp/ch02_representing_and_manipulating_information
 
-build csapp/ch02_representing_and_manipulating_information/all: phony csapp/ch02_representing_and_manipulating_information/csapp_02_01_overflow csapp/ch02_representing_and_manipulating_information/csapp_02_02_base_conversion csapp/ch02_representing_and_manipulating_information/csapp_02_03_show_by_bytes
+build csapp/ch02_representing_and_manipulating_information/all: phony csapp/ch02_representing_and_manipulating_information/csapp_02_01_overflow csapp/ch02_representing_and_manipulating_information/csapp_02_02_base_conversion csapp/ch02_representing_and_manipulating_information/csapp_02_03_show_by_bytes csapp/ch02_representing_and_manipulating_information/csapp_02_04_inplace_swap
 
 # =============================================================================
 # Built-in targets
